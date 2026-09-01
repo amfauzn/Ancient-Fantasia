@@ -1,0 +1,131 @@
+{
+	"useColorAsBaseTerrain": "false",
+	"fallbackTileSet": null,
+	"ruleVariants": {
+	
+		// Forest
+		"Grassland+Forest+Buffalo": ["Grassland","Buffalo","GrasslandForest"],
+		"Grassland+Forest+Niter": ["Grassland","Niter","GrasslandForest"],
+		"Grassland+Forest+Rune Stone": ["Grassland","Rune Stone","GrasslandForest"],
+		"Grassland+Forest+Amber": ["Grassland","Amber","GrasslandForest"],
+		"Grassland+Forest+Jade": ["Grassland","Jade","GrasslandForest"],
+		"Grassland+Forest+Obsidian": ["Grassland","Obsidian","GrasslandForest"],
+		
+		"Grassland+Hill+Forest+Buffalo": ["Grassland","Hill","Buffalo","Forest"],
+		"Grassland+Hill+Forest+Niter": ["Grassland","Hill","Niter","Forest"],
+		"Grassland+Hill+Forest+Rune Stone": ["Grassland","Hill","Rune Stone","Forest"],
+		"Grassland+Hill+Forest+Amber": ["Grassland","Hill","Amber","Forest"],
+		"Grassland+Hill+Forest+Jade": ["Grassland","Hill","Jade","Forest"],
+		"Grassland+Hill+Forest+Obsidian": ["Grassland","Hill","Obsidian","Forest"],
+		
+		"Plains+Forest+Buffalo": ["Plains","Buffalo","PlainsForest"],
+		"Plains+Forest+Niter": ["Plains","Niter","PlainsForest"],
+		"Plains+Forest+Rune Stone": ["Plains","Rune Stone","PlainsForest"],
+		"Plains+Forest+Amber": ["Plains","Amber","PlainsForest"],
+		"Plains+Forest+Jade": ["Plains","Jade","PlainsForest"],
+		"Plains+Forest+Obsidian": ["Plains","Obsidian","PlainsForest"],
+		
+		"Plains+Hill+Forest+Buffalo": ["Plains","Hill","Buffalo","Forest"],
+		"Plains+Hill+Forest+Niter": ["Plains","Hill","Niter","Forest"],
+		"Plains+Hill+Forest+Rune Stone": ["Plains","Hill","Rune Stone","Forest"],
+		"Plains+Hill+Forest+Amber": ["Plains","Hill","Amber","Forest"],
+		"Plains+Hill+Forest+Jade": ["Plains","Hill","Jade","Forest"],
+		"Plains+Hill+Forest+Obsidian": ["Plains","Hill","Obsidian","Forest"],
+		
+		"Tundra+Forest+Buffalo": ["Tundra","Buffalo","TundraForest"],
+		"Tundra+Forest+Niter": ["Tundra","Niter","TundraForest"],
+		"Tundra+Forest+Rune Stone": ["Tundra","Rune Stone","TundraForest"],
+		"Tundra+Forest+Amber": ["Tundra","Amber","TundraForest"],
+		"Tundra+Forest+Jade": ["Tundra","Jade","TundraForest"],
+		"Tundra+Forest+Obsidian": ["Tundra","Obsidian","TundraForest"],
+		
+		"Tundra+Hill+Forest+Buffalo": ["Tundra","Hill","Buffalo","TundraForest"],
+		"Tundra+Hill+Forest+Niter": ["Tundra","Hill","Niter","TundraForest"],
+		"Tundra+Hill+Forest+Rune Stone": ["Tundra","Hill","Rune Stone","TundraForest"],
+		"Tundra+Hill+Forest+Amber": ["Tundra","Hill","Amber","TundraForest"],
+		"Tundra+Hill+Forest+Jade": ["Tundra","Hill","Jade","TundraForest"],
+		"Tundra+Hill+Forest+Obsidian": ["Tundra","Hill","Obsidian","TundraForest"],
+		
+		// Jungle
+		"Grassland+Jungle+Niter": ["Grassland","Niter","Jungle"],
+		"Grassland+Jungle+Rune Stone": ["Grassland","Rune Stone","Jungle"],
+		"Grassland+Jungle+Amber": ["Grassland","Amber","Jungle"],
+		"Grassland+Jungle+Jade": ["Grassland","Jade","Jungle"],
+		"Grassland+Jungle+Obsidian": ["Grassland","Obsidian","Jungle"],
+		
+		"Grassland+Hill+Jungle+Niter": ["Grassland","Hill","Niter","Jungle"],
+		"Grassland+Hill+Jungle+Rune Stone": ["Grassland","Hill","Rune Stone","Jungle"],
+		"Grassland+Hill+Jungle+Amber": ["Grassland","Hill","Amber","Jungle"],
+		"Grassland+Hill+Jungle+Jade": ["Grassland","Hill","Jade","Jungle"],
+		"Grassland+Hill+Jungle+Obsidian": ["Grassland","Hill","Obsidian","Jungle"],
+		
+		"Plains+Jungle+Niter": ["Plains","Niter","PlainsJungle"],
+		"Plains+Jungle+Rune Stone": ["Plains","Rune Stone","PlainsJungle"],
+		"Plains+Jungle+Amber": ["Plains","Amber","PlainsJungle"],
+		"Plains+Jungle+Jade": ["Plains","Jade","PlainsJungle"],
+		"Plains+Jungle+Obsidian": ["Plains","Obsidian","PlainsJungle"],
+		
+		"Plains+Hill+Jungle+Niter": ["Plains","Hill","Niter","PlainsJungle"],
+		"Plains+Hill+Jungle+Rune Stone": ["Plains","Hill","Rune Stone","PlainsJungle"],
+		"Plains+Hill+Jungle+Amber": ["Plains","Hill","Amber","PlainsJungle"],
+		"Plains+Hill+Jungle+Jade": ["Plains","Hill","Jade","PlainsJungle"],
+		"Plains+Hill+Jungle+Obsidian": ["Plains","Hill","Obsidian","PlainsJungle"],
+		
+		// Farm
+		"Grassland+Buffalo+Farm": ["Grassland","Farm","Buffalo"],
+		"Grassland+Mythical Egg+Farm": ["Grassland","Farm","Mythical Egg"],
+		"Grassland+Coffee+Farm": ["Grassland","Farm","Coffee"],
+		"Grassland+Perfume+Farm": ["Grassland","Farm","Perfume"],
+		"Grassland+Tea+Farm": ["Grassland","Farm","Tea"],
+		
+		"Grassland+Hill+Buffalo+Farm": ["Grassland","Farm","Hill","Buffalo"],
+		"Grassland+Hill+Mythical Egg+Farm": ["Grassland","Farm","Hill","Mythical Egg"],
+		"Grassland+Hill+Coffee+Farm": ["Grassland","Farm","Hill","Coffee"],
+		"Grassland+Hill+Perfume+Farm": ["Grassland","Farm","Hill","Perfume"],
+		"Grassland+Hill+Tea+Farm": ["Grassland","Farm","Hill","Tea"],
+		
+		"Plains+Farm": ["Plains","FarmP"],
+		"Plains+Banana+Farm": ["Plains","FarmP","Banana"],
+		"Plains+Buffalo+Farm": ["Plains","FarmP","Buffalo"],
+		"Plains+Deer+Farm": ["Plains","FarmP","Deer"],
+		"Plains+Wheat+Farm": ["Plains","FarmP","Wheat"],
+		"Plains+Horses+Farm": ["Plains","FarmP","Horses"],
+		"Plains+Mythical Egg+Farm": ["Plains","FarmP","Mythical Egg"],
+		"Plains+Coffee+Farm": ["Plains","FarmP","Coffee"],
+		"Plains+Ivory+Farm": ["Plains","FarmP","Ivory"],
+		"Plains+Perfume+Farm": ["Plains","FarmP","Perfume"],
+		"Plains+Tea+Farm": ["Plains","FarmP","Tea"],
+		
+		"Plains+Hill+Farm": ["Plains","FarmP","Hill"],
+		"Plains+Hill+Sheep+Farm": ["Plains","FarmP","Hill","Sheep"],
+		"Plains+Hill+Horses+Farm": ["Plains","FarmP","Hill","Horses"],
+		"Plains+Hill+Mythical Egg+Farm": ["Plains","FarmP","Hill","Mythical Egg"],
+		"Plains+Hill+Coffee+Farm": ["Plains","FarmP","Hill","Coffee"],
+		"Plains+Hill+Perfume+Farm": ["Plains","FarmP","Hill","Perfume"],
+		"Plains+Hill+Tea+Farm": ["Plains","FarmP","Hill","Tea"],
+		
+		"Desert+Farm": ["Desert","FarmD"],
+		"Desert+Wheat+Farm": ["Desert","FarmD","Wheat"],
+		"Desert+Hill+Farm": ["Desert","FarmD","Hill"],
+		"Desert+Hill+Sheep+Farm": ["Desert","FarmD","Hill","Sheep"],
+		"Desert+Hill+Mythical Egg+Farm": ["Desert","FarmD","Hill","Mythical Egg"],
+		"Desert+Flood plains+Farm": ["Desert","Flood plains+Farm"],
+		"Desert+Flood plains+Wheat+Farm": ["Desert","Flood plains+Farm","Wheat"],
+		"Desert+Flood plains+Rainee Farm": ["Desert","Flood plains+Farm"],
+		"Desert+Flood plains+Wheat+Rainee Farm": ["Desert","Flood plains+Farm","Wheat"],
+		
+		"Tundra+Coffee+Farm": ["Tundra","Farm","Coffee"],
+		"Tundra+Hill+Farm": ["Tundra","Farm","Hill"],
+		"Tundra+Hill+Coffee+Farm": ["Tundra","Farm","Hill","Coffee"],
+		"Snow+Hill+Farm": ["Snow","Farm","Hill"],
+		"Snow+Hill+Rainee Farm": ["Snow","Farm","Hill"],
+		
+		// Forest Hamlet
+		"Grassland+Forest+Forest Hamlet": ["Grassland","Forest Hamlet","ForestGG"],
+		"Grassland+Hill+Forest+Forest Hamlet": ["Grassland","Hill","Forest Hamlet","ForestGG"],
+		"Plains+Forest+Forest Hamlet": ["Plains","Forest Hamlet","ForestPP"],
+		"Plains+Hill+Forest+Forest Hamlet": ["Plains","Hill","Forest Hamlet","ForestPP"],
+		"Tundra+Forest+Forest Hamlet": ["Tundra","Forest Hamlet","ForestTT"],
+		"Tundra+Hill+Forest+Forest Hamlet": ["Tundra","Hill","Forest Hamlet","ForestTT"],
+	}
+}

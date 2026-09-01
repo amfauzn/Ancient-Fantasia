@@ -1,0 +1,121 @@
+[
+	// Wonder Daysri
+	{
+		"name": "Choose Primary Element",
+		"text": "A growing consensus has emerged among advisors: focusing on a single elemental principle to solidify our identity. What element shall we declare as national alignment?",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Fire Element",
+				"uniques": ["Gain a free [Fire School] [in capital] <hidden from users>"]
+			},
+			{
+				"text": "Water Element",
+				"uniques": ["Gain a free [Water School] [in capital] <hidden from users>"]
+			},
+			{
+				"text": "Earth Element",
+				"uniques": ["Gain a free [Earth School] [in capital] <hidden from users>"]
+			},
+			{
+				"text": "Wind Element",
+				"uniques": ["Gain a free [Wind School] [in capital] <hidden from users>"]
+			}
+		]
+	},
+	
+	// Mages Elemental Awakening
+	{
+		"name": "Element Awakens",
+		"text": "After entering combat, next attacks inflict status ailment",
+		"presentation": "None", // A presentation of "None" will select at random.
+		"choices": [
+			{
+				"text": "Fireball",
+				"uniques": [
+					"[This Unit] gains the [Fireball] promotion",
+					"Only available <for units without [Fireball]>"
+				]
+			},
+			{
+				"text": "Water Whip",
+				"uniques": [
+					"[This Unit] gains the [Water Whip] promotion",
+					"Only available <for units without [Water Whip]>"
+				]
+			},
+			{
+				"text": "Geospike",
+				"uniques": [
+					"[This Unit] gains the [Geospike] promotion",
+					"Only available <for units without [Geospike]>"
+				]
+			},
+			{
+				"text": "Slashing Wind",
+				"uniques": [
+					"[This Unit] gains the [Slashing Wind] promotion",
+					"Only available <for units without [Slashing Wind]>"
+				]
+			}
+		]
+	},
+	
+	// The Red Elves
+	{
+		"name": "Choose Unique Ability",
+		"text": "Choose Unique Ability for your civilization",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Wisdom of Elves",
+				"uniques": [
+					"Only available <if [Ambition of Demons] is not constructed> <hidden from users>",
+					"Gain a free [Wisdom of Elves] [in capital] <hidden from users>",
+					"Comment [+10% Strength vs Demon Civilization]",
+					"Comment [+10% Great Person generation in all cities]",
+					"Comment [+1 [Science] from all [Science] buildings]"
+				]
+			},
+			{
+				"text": "Ambition of Demons",
+				"uniques": [
+					"Only available <if [Wisdom of Elves] is not constructed> <hidden from users>",
+					"Gain a free [Ambition of Demons] [in capital] <hidden from users>",
+					"Comment [+10% Strength vs Elves Civilization]",
+					"Comment [+10% Strength vs Major Civilization]",
+					"Comment [Upon capturing a city, receive [3] times its [Culture], [Science], and [Gold] production immediately]"
+				]
+			}
+		]
+	},
+	
+	// Too much works 
+	/*{
+		"name": "Choose Philosiphy",
+		"text": "King Raveael, what philosophy do you choose?",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "The Way of the Crown",
+				"uniques": [
+				]
+			},
+			{
+				"text": "The Way of the Sword",
+				"uniques": [
+				]
+			},
+			{
+				"text": "The Way of the Arcane",
+				"uniques": [
+				]
+			},
+			{
+				"text": "The Way of the Bloodline",
+				"uniques": [
+				]
+			}
+		]
+	},*/
+]

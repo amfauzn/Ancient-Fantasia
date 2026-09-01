@@ -1,0 +1,253 @@
+[
+	
+	// Ithriel of Landoruel
+	{
+		"name": "Warden of Harmony",
+		
+		"culture": 8,
+		"faith": 5,
+		"food": 4,
+		"gold": 3,
+		"happiness": 5,
+		"production": 6,
+		"science": 5,
+		
+		"military": 4,
+		"aggressive": 3,
+		"denounceWillingness": 4,
+		"declareWar": 3,
+		"commerce": 5,
+		"diplomacy": 6,
+		"loyal": 7,
+		"expansion": 7,
+		
+		"priorities": {
+			"Tradition": 8,
+			"Consolidation": 6,
+			"Honor": 5,
+			"Patronage": 5,
+			"Commerce": 5,
+			"Rationalism": 5
+		},
+		
+		"uniques": [
+			"[+10]% weight to [Monument] for AI decisions",
+			"[+10]% weight to [Workshop] for AI decisions"
+		]
+	},
+	
+	// Aelwen of Nirimar
+	{
+		"name": "Verdant Pioneer",
+		
+		"culture": 3,
+		"faith": 4,
+		"food": 5,
+		"gold": 5,
+		"happiness": 6,
+		"production": 5,
+		"science": 6,
+		
+		"military": 6,
+		"aggressive": 5,
+		"denounceWillingness": 3,
+		"declareWar": 6,
+		"commerce": 6,
+		"diplomacy": 7,
+		"loyal": 5,
+		"expansion": 8,
+		
+		"priorities": {
+			"Tradition": 3,
+			"Consolidation": 8,
+			"Honor": 6,
+			"Patronage": 5,
+			"Commerce": 6,
+			"Rationalism": 7
+		},
+		
+		"uniques": [
+			"[+10]% weight to [Paper Maker] for AI decisions",
+			"[+10]% weight to [Barracks] for AI decisions"
+		]
+	},
+	
+	// Barund Goldvein of Gaaril
+	{
+		"name": "Wealthy Protector",
+		
+		"culture": 6,
+		"faith": 3,
+		"food": 5,
+		"gold": 9,
+		"happiness": 7,
+		"production": 4,
+		"science": 6,
+		
+		"military": 4,
+		"aggressive": 4,
+		"denounceWillingness": 6,
+		"declareWar": 3,
+		"commerce": 9,
+		"diplomacy": 8,
+		"loyal": 5,
+		"expansion": 6,
+		
+		"priorities": {
+			"Tradition": 4,
+			"Consolidation": 6,
+			"Honor": 4,
+			"Patronage": 8,
+			"Commerce": 8,
+			"Rationalism": 5
+		},
+		
+		"uniques": [
+			"[+10]% weight to [Walls] for AI decisions",
+			"[+10]% weight to [Market] for AI decisions"
+		]
+	},
+	
+	// Gali Worldsmith of Asil
+	{
+		"name": "Ingenious Artisan",
+		
+		"culture": 3,
+		"faith": 3,
+		"food": 5,
+		"gold": 5,
+		"happiness": 4,
+		"production": 8,
+		"science": 7,
+		
+		"military": 6,
+		"aggressive": 4,
+		"denounceWillingness": 7,
+		"declareWar": 4,
+		"commerce": 7,
+		"diplomacy": 8,
+		"loyal": 6,
+		"expansion": 5,
+		
+		"priorities": {
+			"Tradition": 5,
+			"Consolidation": 6,
+			"Honor": 5,
+			"Patronage": 5,
+			"Commerce": 7,
+			"Rationalism": 7
+		},
+		
+		"uniques": [
+			"[+10]% weight to [Worker] for AI decisions",
+			"[+10]% weight to [Blast Furnace] for AI decisions"
+		]
+	},
+	
+	// Azgaroth of The Obtrar'ri
+	{
+		"name": "Crimson Conqueror",
+		
+		"culture": 3,
+		"faith": 3,
+		"food": 5,
+		"gold": 6,
+		"happiness": 5,
+		"production": 6,
+		"science": 6,
+		
+		"military": 8,
+		"aggressive": 8,
+		"denounceWillingness": 7,
+		"declareWar": 7,
+		"commerce": 4,
+		"diplomacy": 3,
+		"loyal": 3,
+		"expansion": 7,
+		
+		"priorities": {
+			"Tradition": 4,
+			"Consolidation": 6,
+			"Honor": 8,
+			"Patronage": 3,
+			"Commerce": 4,
+			"Rationalism": 6
+		},
+		
+		"uniques": [
+			"[+20]% weight to [Barracks] for AI decisions"
+		]
+	},
+	
+	// Raveael of The Red Elves
+	{
+		"name": "Passionate Emperor",
+		
+		"culture": 3,
+		"faith": 3,
+		"food": 4,
+		"gold": 5,
+		"happiness": 6,
+		"production": 7,
+		"science": 7,
+		
+		"military": 7,
+		"aggressive": 5,
+		"denounceWillingness": 5,
+		"declareWar": 5,
+		"commerce": 4,
+		"diplomacy": 5,
+		"loyal": 5,
+		"expansion": 6,
+		
+		"priorities": {
+			"Tradition": 5,
+			"Consolidation": 7,
+			"Honor": 6,
+			"Patronage": 3,
+			"Commerce": 5,
+			"Rationalism": 7
+		},
+		
+		"uniques": [
+			"[+15]% weight to [Paper Maker] for AI decisions",
+			"[+5]% weight to [Workshop] for AI decisions"
+		]
+	},
+	
+	// Nyxara of The Night Elves
+	{
+		"name": "Sanctuary Seeker",
+		
+		"culture": 6,
+		"faith": 5,
+		"food": 6,
+		"gold": 5,
+		"happiness": 7,
+		"production": 4,
+		"science": 5,
+		
+		"military": 4,
+		"aggressive": 3,
+		"denounceWillingness": 4,
+		"declareWar": 3,
+		"commerce": 5,
+		"diplomacy": 5,
+		"loyal": 7,
+		"expansion": 6,
+		
+		"priorities": {
+			"Tradition": 7,
+			"Consolidation": 6,
+			"Honor": 5,
+			"Patronage": 5,
+			"Commerce": 5,
+			"Rationalism": 6
+		},
+		
+		"uniques": [
+			"[+10]% weight to [Granary] for AI decisions",
+			"[+10]% weight to [Public Bath] for AI decisions"
+		]
+	},
+]

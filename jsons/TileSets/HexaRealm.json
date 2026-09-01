@@ -1,0 +1,379 @@
+{
+	"useColorAsBaseTerrain": "false",
+	"fallbackTileSet": "FantasyHex",
+	"ruleVariants": {
+	
+	// Buffalo
+	"Grassland+Forest+Buffalo": ["Grassland","ForestGUp","Buffalo","ForestGLow"],
+	"Plains+Forest+Buffalo": ["Plains","ForestPUp","Buffalo","ForestPLow"],
+	"Grassland+Marsh+Buffalo": ["Grassland","Marsh","Buffalo"],
+	
+	// Fish
+	"Coast+Atoll+Fish": ["Coast","Atoll","FishA"],
+	
+	// Mythical Egg
+	"Grassland+Jungle+Mythical Egg": ["Grassland","JungleGUp","Mythical Egg","JungleGLow"]
+	"Grassland+Hill+Jungle+Mythical Egg": ["Grassland+Hill","JungleGUp","Mythical Egg","JungleGLow"]
+	"Plains+Jungle+Mythical Egg": ["Plains","JunglePUp","Mythical Egg","JunglePLow"]
+	"Plains+Hill+Jungle+Mythical Egg": ["Plains+Hill","JunglePUp","Mythical Egg","JunglePLow"]
+	
+	"Grassland+Jungle+Mythical Egg+Taming": ["Grassland","JungleGUp","Mythical Egg+Taming","JungleGLow"]
+	"Grassland+Hill+Jungle+Mythical Egg+Taming": ["Grassland+Hill","JungleGUp","Mythical Egg+Taming","JungleGLow"]
+	"Plains+Jungle+Mythical Egg+Taming": ["Plains","JunglePUp","Mythical Egg+Taming","JunglePLow"],
+	"Plains+Hill+Jungle+Mythical Egg+Taming": ["Plains+Hill","JunglePUp","Mythical Egg+Taming","JunglePLow"],
+	"Tundra+Mythical Egg+Taming": ["Tundra","Mythical Egg+TamingT"],
+	"Snow+Mythical Egg+Taming": ["Snow","Mythical Egg+TamingT"],
+	"Snow+Hill+Mythical Egg+Taming": ["Snow+Hill","Mythical Egg+TamingT"],
+	
+	// Rune Stone
+	"Grassland+Forest+Rune Stone": ["Grassland","Rune Stone","ForestG"],
+	"Grassland+Jungle+Rune Stone": ["Grassland","Rune Stone","JungleG"],
+	"Grassland+Marsh+Rune Stone": ["Grassland","Rune Stone","Marsh"],
+	"Grassland+Hill+Forest+Rune Stone": ["Grassland+Hill","Rune Stone","ForestGH"],
+	"Grassland+Hill+Jungle+Rune Stone": ["Grassland+Hill","Rune Stone","JungleG"],
+	"Plains+Forest+Rune Stone": ["Plains","Rune Stone","ForestP"],
+	"Plains+Jungle+Rune Stone": ["Plains","Rune Stone","JungleP"],
+	"Plains+Hill+Forest+Rune Stone": ["Plains+Hill","Rune Stone","ForestPH"],
+	"Plains+Hill+Jungle+Rune Stone": ["Plains+Hill","Rune Stone","JungleP"],
+	"Tundra+Forest+Rune Stone": ["Tundra","Rune Stone", "ForestT"],
+	"Tundra+Hill+Forest+Rune Stone": ["Tundra+Hill","Rune Stone","ForestT"],
+	"Tundra+Rune Stone+Mine": ["Tundra","Amber","MineT"],
+	"Tundra+Hill+Rune Stone+Mine": ["Tundra+Hill","Amber","MineT"],
+	
+	// Amber
+	"Grassland+Forest+Amber": ["Grassland","Amber","ForestG"],
+	"Grassland+Jungle+Amber": ["Grassland","Amber","JungleG"],
+	"Plains+Forest+Amber": ["Plains","Amber","ForestP"],
+	"Plains+Jungle+Amber": ["Plains","Amber","JungleP"],
+	"Tundra+Forest+Amber": ["Tundra","Amber", "ForestT"],
+	"Grassland+Hill+Forest+Amber": ["Grassland+Hill","Amber","ForestGH"],
+	"Grassland+Hill+Jungle+Amber": ["Grassland+Hill","Amber","JungleG"],
+	"Plains+Hill+Forest+Amber": ["Plains+Hill","Amber","ForestPH"],
+	"Plains+Hill+Jungle+Amber": ["Plains+Hill","Amber","JungleP"],
+	"Tundra+Hill+Forest+Amber": ["Tundra+Hill","Amber","ForestT"],
+	"Tundra+Amber+Mine": ["Tundra","Amber","MineT"],
+	"Tundra+Hill+Amber+Mine": ["Tundra+Hill","Amber","MineT"],
+	
+	// Coffee
+	"Grassland+Forest+Coffee": ["Grassland","ForestGUp","Coffee", "ForestGLow"],
+	"Grassland+Jungle+Coffee": ["Grassland","JungleGUp","Coffee", "JungleGLow"],
+	"Plains+Forest+Coffee": ["Plains","ForestPUp","Coffee","ForestPLow"],
+	"Plains+Jungle+Coffee": ["Plains","JunglePUp","Coffee","JunglePLow"],
+	"Grassland+Hill+Forest+Coffee": ["Grassland+Hill","ForestGHUp","Coffee","ForestGHLow"],
+	"Grassland+Hill+Jungle+Coffee": ["Grassland+Hill","JungleGUp","Coffee","JungleGLow"],
+	"Plains+Hill+Forest+Coffee": ["Plains+Hill","ForestPHUp","Coffee","ForestPHLow"],
+	"Plains+Hill+Jungle+Coffee": ["Plains+Hill","JunglePUp","Coffee","JunglePLow"],
+	"Tundra+Hill+Forest+Coffee": ["Tundra+Hill","ForestTUp","Coffee","ForestTLow"],
+	"Tundra+Coffee+Plantation": ["Tundra","Coffee+Plantation","PlantationT"],
+	"Tundra+Hill+Coffee+Plantation": ["Tundra+Hill","Coffee+Plantation","PlantationT"],
+	
+	// Ivory
+	"Tundra+Forest+Ivory": ["Tundra","ForestTUp","IvoryT","ForestTLow"],
+	"Tundra+Hill+Ivory": ["Tundra+Hill","IvoryT"],
+	"Tundra+Hill+Forest+Ivory": ["Tundra+Hill","ForestTUp","IvoryT","ForestTLow"],
+	"Tundra+Ivory+Camp": ["Tundra","Ivory+CampT"],
+	"Tundra+Hill+Ivory+Camp": ["Tundra+Hill","Ivory+CampT"],
+	"Tundra+Hill+Forest+Ivory+Camp": ["Tundra+Hill","ForestTUp","Ivory+CampT","ForestTLow"],
+	
+	// Jade
+	"Grassland+Hill+Forest+Jade": ["Grassland+Hill","Jade","ForestGH"],
+	"Grassland+Hill+Jungle+Jade": ["Grassland+Hill","Jade","JungleG"],
+	"Plains+Hill+Forest+Jade": ["Plains+Hill","Jade","ForestPH"],
+	"Plains+Hill+Jungle+Jade": ["Plains+Hill","Jade","JungleP"],
+	"Tundra+Hill+Forest+Jade": ["Tundra+Hill","Jade","ForestT"],
+	"Tundra+Jade+Mine": ["Tundra","Jade","MineT"],
+	"Tundra+Hill+Jade+Mine": ["Tundra+Hill","Jade","MineT"],
+	
+	// Obsidian
+	"Grassland+Hill+Forest+Obsidian": ["Grassland+Hill","Obsidian","ForestGH"],
+	"Grassland+Hill+Jungle+Obsidian": ["Grassland+Hill","Obsidian","JungleG"],
+	"Plains+Hill+Forest+Obsidian": ["Plains+Hill","Obsidian","ForestPH"],
+	"Plains+Hill+Jungle+Obsidian": ["Plains+Hill","Obsidian","JungleP"],
+	"Tundra+Hill+Forest+Obsidian": ["Tundra+Hill","Obsidian","ForestTH"],
+	"Tundra+Hill+Obsidian+Quarry": ["Tundra+Hill","Obsidian+QuarryT"],
+	
+	// Perfume
+	"Grassland+Forest+Perfume": ["Grassland","ForestGUp","Perfume","ForestGLow"],
+	"Grassland+Jungle+Perfume": ["Grassland","JungleGUp","Perfume","JungleGLow"],
+	"Plains+Forest+Perfume": ["Plains","ForestPUp","Perfume","ForestPLow"],
+	"Plains+Jungle+Perfume": ["Plains","JunglePUp","Perfume","JunglePLow"],
+	"Grassland+Hill+Forest+Perfume": ["Grassland+Hill","ForestGHUp","Perfume","ForestGHLow"],
+	"Grassland+Hill+Jungle+Perfume": ["Grassland+Hill","JungleGUp","Perfume","JungleGLow"],
+	"Plains+Hill+Forest+Perfume": ["Plains+Hill","ForestPHUp","Perfume","ForestPHLow"],
+	"Plains+Hill+Jungle+Perfume": ["Plains+Hill","JunglePUp","Perfume","JunglePLow"],
+	
+	// Tea
+	"Grassland+Forest+Tea": ["Grassland","ForestGUp","Tea","ForestGLow"],
+	"Grassland+Jungle+Tea": ["Grassland","JungleGUp","Tea","JungleGLow"],
+	"Plains+Forest+Tea": ["Plains","ForestPUp","Tea","ForestPLow"],
+	"Plains+Jungle+Tea": ["Plains","JunglePUp","Tea","JunglePLow"],
+	"Grassland+Hill+Forest+Tea": ["Grassland+Hill","ForestGHUp","Tea","ForestGHLow"],
+	"Grassland+Hill+Jungle+Tea": ["Grassland+Hill","JungleGUp","Tea","JungleGLow"],
+	"Plains+Hill+Forest+Tea": ["Plains+Hill","ForestPHUp","Tea","ForestPHLow"],
+	"Plains+Hill+Jungle+Tea": ["Plains+Hill","JunglePUp","Tea","JunglePLow"],
+	
+	// Farm
+	"Grassland+Farm": ["Grassland","FarmG","HutFarm"],
+	"Grassland+Buffalo+Farm": ["Grassland","FarmG","Buffalo"],
+	"Grassland+Mythical Egg+Farm": ["Grassland","FarmG","Mythical Egg"],
+	"Grassland+Rune Stone+Farm": ["Grassland","Rune Stone","FarmG"],
+	"Grassland+Amber+Farm": ["Grassland","Amber","FarmG"],
+	"Grassland+Coffee+Farm": ["Grassland","FarmG","Coffee"],
+	"Grassland+Ivory+Farm": ["Plains","FarmG","Ivory"],
+	"Grassland+Jade+Farm": ["Grassland","Jade","FarmG"],
+	"Grassland+Perfume+Farm": ["Grassland","FarmG","Perfume"],
+	"Grassland+Tea+Farm": ["Grassland","FarmG","Tea"],
+	
+	"Grassland+Hill+Farm": ["Grassland+Hill","FarmGH","HutFarm"],
+	"Grassland+Hill+Rune Stone+Farm": ["Grassland+Hill","Rune Stone","FarmGH"],
+	"Grassland+Hill+Amber+Farm": ["Grassland+Hill","Amber","FarmGH"],
+	"Grassland+Hill+Coffee+Farm": ["Grassland+Hill","FarmGH","Coffee"],
+	"Grassland+Hill+Jade+Farm": ["Grassland+Hill","Jade","FarmGH"],
+	"Grassland+Hill+Obsidian+Farm": ["Grassland+Hill","FarmGH","Obsidian"],
+	"Grassland+Hill+Tea+Farm": ["Grassland+Hill","FarmGH","Tea"],
+	
+	"Plains+Farm": ["Plains","FarmP","HutFarm"],
+	"Plains+Buffalo+Farm": ["Plains","FarmP","Buffalo"],
+	"Plains+Mythical Egg+Farm": ["Plains","FarmP","Mythical Egg"],
+	"Plains+Rune Stone+Farm": ["Plains","Rune Stone","FarmP"],
+	"Plains+Amber+Farm": ["Plains","Amber","FarmP"],
+	"Plains+Coffee+Farm": ["Plains","FarmP","Coffee"],
+	"Plains+Ivory+Farm": ["Plains","FarmP","Ivory"],
+	"Plains+Jade+Farm": ["Plains","Jade","FarmP"],
+	"Plains+Obsidian+Farm": ["Plains","FarmP","Obsidian"],
+	"Plains+Perfume+Farm": ["Plains","FarmP","Perfume"],
+	"Plains+Tea+Farm": ["Plains","FarmP","Tea"],
+	
+	"Plains+Hill+Farm": ["Plains+Hill","FarmPH","HutFarm"],
+	"Plains+Hill+Mythical Egg+Farm": ["Plains+Hill","FarmPH","Mythical Egg"],
+	"Plains+Hill+Rune Stone+Farm": ["Plains+Hill","Rune Stone","FarmPH"],
+	"Plains+Hill+Amber+Farm": ["Plains+Hill","Amber","FarmPH"],
+	"Plains+Hill+Coffee+Farm": ["Plains+Hill","FarmPH","Coffee"],
+	"Plains+Hill+Jade+Farm": ["Plains+Hill","Jade","FarmPH"],
+	"Plains+Hill+Obsidian+Farm": ["Plains+Hill","FarmPH","Obsidian"],
+	"Plains+Hill+Tea+Farm": ["Plains+Hill","FarmPH","Tea"],
+	
+	"Desert+Farm": ["Desert","FarmD","HutFarm"],
+	"Plains+Rune Stone+Farm": ["Plains","Rune Stone","FarmD"],
+	"Desert+Jade+Farm": ["Desert","Jade","FarmD"],
+	
+	"Desert+Hill+Farm": ["Desert+Hill","FarmDH","HutFarm"],
+	"Desert+Hill+Mythical Egg+Farm": ["Desert+Hill","FarmDH","Mythical Egg"],
+	"Desert+Hill+Rune Stone+Farm": ["Desert+Hill","Rune Stone","FarmDH"],
+	"Desert+Hill+Amber+Farm": ["Desert+Hill","Amber","FarmDH"],
+	"Desert+Hill+Jade+Farm": ["Desert+Hill","Jade","FarmDH"],
+	"Desert+Hill+Obsidian+Farm": ["Desert+Hill","FarmDH","Obsidian"],
+	
+	"Desert+Flood plains+Farm": ["Desert","Flood plains","FarmP","HutFarm"],
+	
+	"Grassland+Corn+Farm": ["Grassland","FarmG","FarmC","HutFarm"],
+	"Plains+Corn+Farm": ["Plains","FarmP","FarmC","HutFarm"],
+	"Desert+Corn+Farm": ["Desert","FarmD","FarmC","HutFarm"],
+	
+	"Grassland+Fresh water+Corn+Farm": ["Grassland","FarmG","FarmC","HutFarm"],
+	"Plains+Fresh water+Corn+Farm": ["Plains","FarmP","FarmC","HutFarm"],
+	
+	"Tundra+Farm": ["Tundra","FarmT","HutFarmT"],
+	"Tundra+Rune Stone+Farm": ["Tundra","Rune Stone","FarmT"],
+	"Tundra+Ivory+Farm": ["Tundra","FarmT","Ivory"],
+	
+	"Tundra+Hill+Farm": ["Tundra+Hill","FarmTH","HutFarmT"],
+	"Tundra+Hill+Mythical Egg+Farm": ["Tundra+Hill","FarmTH","Mythical Egg"],
+	"Tundra+Hill+Rune Stone+Farm": ["Tundra+Hill","Rune Stone","FarmTH"],
+	"Tundra+Hill+Amber+Farm": ["Tundra+Hill","Amber","FarmTH"],
+	"Tundra+Hill+Coffee+Farm": ["Tundra+Hill","FarmTH","Coffee"],
+	"Tundra+Hill+Jade+Farm": ["Tundra+Hill","Jade","FarmTH"],
+	"Tundra+Hill+Obsidian+Farm": ["Tundra+Hill","FarmTH","Obsidian"],
+	"Tundra+Hill+Tea+Farm": ["Tundra+Hill","FarmTH","Tea"],
+	
+	"Snow+Mythical Egg+Farm": ["Snow","FarmS","Mythical Egg"],
+	"Snow+Rune Stone+Farm": ["Snow","Rune Stone","FarmS"],
+	"Snow+Hill+Mythical Egg+Farm": ["Snow+Hill","FarmSH","Mythical Egg"],
+	"Snow+Hill+Rune Stone+Farm": ["Snow+Hill","Rune Stone","FarmSH"],
+	
+	"Snow+Farm": ["Snow","FarmS","HutFarmT"],
+	"Snow+Hill+Farm": ["Snow+Hill","FarmSH","HutFarmT"],
+	
+	// Lumbermill
+	"Tundra+Forest+Lumber mill": ["Tundra","ForestT","Lumber millT"],
+	"Tundra+Rune Stone+Forest+Lumber mill": ["Tundra","Rune Stone","ForestT","Lumber millT"],
+	"Tundra+Amber+Forest+Lumber mill": ["Tundra","Amber","ForestT","Lumber millT"],
+	
+	"Tundra+Hill+Forest+Lumber mill": ["Tundra+Hill","ForestTH","Lumber millT"],
+	"Tundra+Hill+Mythical Egg+Forest+Lumber mill": ["Tundra+Hill","Mythical Egg","ForestTH","Lumber millT"],
+	"Tundra+Hill+Rune Stone+Forest+Lumber mill": ["Tundra+Hill","Rune Stone","ForestTH","Lumber millT"],
+	"Tundra+Hill+Amber+Forest+Lumber mill": ["Tundra+Hill","Amber","ForestTH","Lumber millT"],
+	"Tundra+Hill+Coffee+Forest+Lumber mill": ["Tundra+Hill","Coffee","ForestTH","Lumber millT"],
+	"Tundra+Hill+Jade+Forest+Lumber mill": ["Tundra+Hill","Jade","ForestTH","Lumber millT"],
+	"Tundra+Hill+Obsidian+Forest+Lumber mill": ["Tundra+Hill","Obsidian","ForestTH","Lumber millT"],
+	"Tundra+Hill+Tea+Forest+Lumber mill": ["Tundra+Hill","Tea","ForestTH","Lumber millT"],
+	
+	// Mine
+	"Tundra+Mine": ["Tundra","MineT"],
+	"Tundra+Hill+Mine": ["Tundra+Hill","MineT"],
+	
+	"Snow+Mine": ["Snow","MineT"],
+	"Snow+Hill+Mine": ["Snow+Hill","MineT"],
+	
+	// Fort
+	"Tundra+Fort": ["Tundra","FortT"],
+	"Tundra+Rune Stone+Fort": ["Tundra","Rune Stone","FortT"],
+	"Tundra+Amber+Fort": ["Tundra","Amber","FortT"],
+	"Tundra+Ivory+Fort": ["Tundra","Ivory","FortT"],
+	
+	"Tundra+Hill+Fort": ["Tundra+Hill","FortT"],
+	"Tundra+Hill+Mythical Egg+Fort": ["Tundra+Hill","Mythical Egg","FortT"],
+	"Tundra+Hill+Rune Stone+Fort": ["Tundra+Hill","Rune Stone","FortT"],
+	"Tundra+Hill+Amber+Fort": ["Tundra+Hill","Amber","FortT"],
+	"Tundra+Hill+Coffee+Fort": ["Tundra+Hill","Coffee","FortT"],
+	"Tundra+Hill+Jade+Fort": ["Tundra+Hill","Jade","FortT"],
+	"Tundra+Hill+Obsidian+Fort": ["Tundra+Hill","Obsidian","FortT"],
+	
+	"Snow+Fort": ["Snow","FortT"],
+	"Snow+Ley Line+Fort": ["Snow","Ley Line","FortT"],
+	"Snow+Mythical Egg+Fort": ["Snow","Mythical Egg","FortT"],
+	"Snow+Rune Stone+Fort": ["Snow","Rune Stone","FortT"],
+	"Snow+Hill+Fort": ["Snow+Hill","FortT"],
+	"Snow+Hill+Mythical Egg+Fort": ["Snow+Hill","Mythical Egg","FortT"],
+	"Snow+Hill+Rune Stone+Fort": ["Snow+Hill","Rune Stone","FortT"],
+	
+	//Academy
+	"Tundra+Academy": ["Tundra","AcademyT"],
+	"Tundra+Mythical Egg+Academy": ["Tundra","AcademyT"],
+	"Tundra+Rune Stone+Academy": ["Tundra","Rune Stone","AcademyT"],
+	"Tundra+Ivory+Academy": ["Tundra","AcademyT"],
+	"Tundra+Jade+Academy": ["Tundra","Jade","AcademyT"],
+	
+	"Tundra+Hill+Academy": ["Tundra+Hill","AcademyT"],
+	"Tundra+Hill+Mythical Egg+Academy": ["Tundra+Hill","AcademyT"],
+	"Tundra+Hill+Rune Stone+Academy": ["Tundra+Hill","Rune Stone","AcademyT"],
+	"Tundra+Hill+Amber+Academy": ["Tundra+Hill","Amber","AcademyT"],
+	"Tundra+Hill+Coffee+Academy": ["Tundra+Hill","Coffee","AcademyT"],
+	"Tundra+Hill+Ivory+Academy": ["Tundra+Hill","Ivory","AcademyT"],
+	"Tundra+Hill+Jade+Academy": ["Tundra+Hill","Jade","AcademyT"],
+	"Tundra+Hill+Obsidian+Academy": ["Tundra+Hill","Obsidian","AcademyT"],
+	
+	"Snow+Academy": ["Snow","AcademyT"],
+	"Snow+Mythical Egg+Academy": ["Snow","Uranium","AcademyT"],
+	"Snow+Rune Stone+Academy": ["Snow","Rune Stone","AcademyT"],
+	"Snow+Hill+Academy": ["Snow+Hill","AcademyT"],
+	
+	// Landmark
+	"Tundra+Landmark": ["Tundra","LandmarkT"],
+	"Tundra+Mythical Egg+Landmark": ["Tundra","LandmarkT"],
+	"Tundra+Rune Stone+Landmark": ["Tundra","Rune Stone","LandmarkT"],
+	"Tundra+Ivory+Landmark": ["Tundra","LandmarkT"],
+	"Tundra+Jade+Landmark": ["Tundra","Jade","LandmarkT"],
+	
+	"Tundra+Hill+Landmark": ["Tundra+Hill","LandmarkT"],
+	"Tundra+Hill+Mythical Egg+Landmark": ["Tundra+Hill","LandmarkT"],
+	"Tundra+Hill+Rune Stone+Landmark": ["Tundra+Hill","Rune Stone","LandmarkT"],
+	"Tundra+Hill+Amber+Landmark": ["Tundra+Hill","Amber","LandmarkT"],
+	"Tundra+Hill+Coffee+Landmark": ["Tundra+Hill","Coffee","LandmarkT"],
+	"Tundra+Hill+Ivory+Landmark": ["Tundra+Hill","LandmarkT"],
+	"Tundra+Hill+Jade+Landmark": ["Tundra+Hill","Jade","LandmarkT"],
+	"Tundra+Hill+Obsidian+Landmark": ["Tundra+Hill","Obsidian","LandmarkT"],
+	"Tundra+Hill+Tea+Landmark": ["Tundra+Hill","Tea","LandmarkT"],
+	
+	"Snow+Landmark": ["Snow","LandmarkT"],
+	"Snow+Mythical Egg+Landmark": ["Snow","LandmarkT"],
+	"Snow+Rune Stone+Landmark": ["Snow","Rune Stone","LandmarkT"],
+	"Snow+Hill+Landmark": ["Snow+Hill","LandmarkT"],
+	
+	// Holy Site
+	"Tundra+Holy Site": ["Tundra","Holy SiteT"],
+	"Tundra+Mythical Egg+Holy Site": ["Tundra","Holy SiteT"],
+	"Tundra+Rune Stone+Holy Site": ["Tundra","Rune Stone","Holy SiteT"],
+	"Tundra+Ivory+Holy Site": ["Tundra","Ivory","Holy SiteT"],
+	"Tundra+Jade+Holy Site": ["Tundra","Jade","Holy SiteT"],
+	
+	"Tundra+Hill+Holy Site": ["Tundra+Hill","Holy SiteT"],
+	"Tundra+Hill+Mythical Egg+Holy Site": ["Tundra+Hill","Holy SiteT"],
+	"Tundra+Hill+Rune Stone+Holy Site": ["Tundra+Hill","Rune Stone","Holy SiteT"],
+	"Tundra+Hill+Amber+Holy Site": ["Tundra+Hill","Amber","Holy SiteT"],
+	"Tundra+Hill+Coffee+Holy Site": ["Tundra+Hill","Coffee","Holy SiteT"],
+	"Tundra+Hill+Ivory+Holy Site": ["Tundra+Hill","Holy SiteT"],
+	"Tundra+Hill+Jade+Holy Site": ["Tundra+Hill","Jade","Holy SiteT"],
+	"Tundra+Hill+Obsidian+Holy Site": ["Tundra+Hill","Obsidian","Holy SiteT"],
+	"Tundra+Hill+Tea+Holy Site": ["Tundra+Hill","Tea","Holy SiteT"],
+	
+	"Snow+Holy Site": ["Snow","Holy SiteT"],
+	"Snow+Mythical Egg+Holy Site": ["Snow","Holy SiteT"],
+	"Snow+Rune Stone+Holy Site": ["Snow","Rune Stone","Holy SiteT"],
+	"Snow+Hill+Holy Site": ["Snow+Hill","Holy SiteT"],
+	
+	// Trade Hub
+	"Tundra+Trade Hub": ["Tundra","Trade HubT"],
+	"Tundra+Deer+Trade Hub": ["Tundra","Deer","Trade HubT"],
+	"Tundra+Stone+Trade Hub": ["Tundra","Stone","Trade HubT"],
+	"Tundra+Ley Line+Trade Hub": ["Tundra","Trade HubT"],
+	"Tundra+Altalium+Trade Hub": ["Tundra","Aluminum","Trade HubT"],
+	"Tundra+Iron+Trade Hub": ["Tundra","Iron","Trade HubT"],
+	"Tundra+Mythical Egg+Trade Hub": ["Tundra","Trade HubT"],
+	"Tundra+Rune Stone+Trade Hub": ["Tundra","Rune Stone","Trade HubT"],
+	"Tundra+Soulstone+Trade Hub": ["Tundra","Soulstone","Trade HubT"],
+	"Tundra+Citrus+Trade Hub": ["Tundra","Citrus","Trade HubT"],
+	"Tundra+Copper+Trade Hub": ["Tundra","Copper","Trade HubT"],
+	"Tundra+Dyes+Trade Hub": ["Tundra","Dyes","Trade HubT"],
+	"Tundra+Furs+Trade Hub": ["Tundra","FursT","Trade HubT"],
+	"Tundra+Gems+Trade Hub": ["Tundra","Gems","Trade HubT"],
+	"Tundra+Gold Ore+Trade Hub": ["Tundra","Gold Ore","Trade HubT"],
+	"Tundra+Ivory+Trade Hub": ["Tundra","Ivory","Trade HubT"],
+	"Tundra+Jade+Trade Hub": ["Tundra","Jade","Trade HubT"],
+	"Tundra+Salt+Trade Hub": ["Tundra","Salt","Trade HubT"],
+	"Tundra+Silk+Trade Hub": ["Tundra","Silk","Trade HubT"],
+	"Tundra+Silver+Trade Hub": ["Tundra","Silver","Trade HubT"],
+	"Tundra+Spices+Trade Hub": ["Tundra","Spices","Trade HubT"],
+	"Tundra+Truffles+Trade Hub": ["Tundra","Truffles","Trade HubT"],
+
+	"Tundra+Hill+Trade Hub": ["Tundra+Hill","Trade HubT"],
+	"Tundra+Hill+Deer+Trade Hub": ["Tundra+Hill","Deer","Trade HubT"],
+	"Tundra+Hill+Sheep+Trade Hub": ["Tundra+Hill","Sheep","Trade HubT"],
+	"Tundra+Hill+Stone+Trade Hub": ["Tundra+Hill","Stone","Trade HubT"],
+	"Tundra+Hill+Ley Line+Trade Hub": ["Tundra+Hill","Trade HubT"],
+	"Tundra+Hill+Altalium+Trade Hub": ["Tundra+Hill","Altalium","Trade HubT"],
+	"Tundra+Hill+Horses+Trade Hub": ["Tundra+Hill","Horses","Trade HubT"],
+	"Tundra+Hill+Iron+Trade Hub": ["Tundra+Hill","Iron","Trade HubT"],
+	"Tundra+Hill+Mythical Egg+Trade Hub": ["Tundra+Hill","Trade HubT"],
+	"Tundra+Hill+Rune Stone+Trade Hub": ["Tundra+Hill","Rune Stone","Trade HubT"],
+	"Tundra+Hill+Soulstone+Trade Hub": ["Tundra+Hill","Soulstone","Trade HubT"],
+	"Tundra+Hill+Amber+Trade Hub": ["Tundra+Hill","Amber","Trade HubT"],
+	"Tundra+Hill+Citrus+Trade Hub": ["Tundra+Hill","Citrus","Trade HubT"],
+	"Tundra+Hill+Coffee+Trade Hub": ["Tundra+Hill","Coffee","Trade HubT"],
+	"Tundra+Hill+Copper+Trade Hub": ["Tundra+Hill","Copper","Trade HubT"],
+	"Tundra+Hill+Dyes+Trade Hub": ["Tundra+Hill","Dyes","Trade HubT"],
+	"Tundra+Hill+Furs+Trade Hub": ["Tundra+Hill","FursT","Trade HubT"],
+	"Tundra+Hill+Gems+Trade Hub": ["Tundra+Hill","Gems","Trade HubT"],
+	"Tundra+Hill+Gold Ore+Trade Hub": ["Tundra+Hill","Gold Ore","Trade HubT"],
+	"Tundra+Hill+Ivory+Trade Hub": ["Tundra+Hill","Trade HubT"],
+	"Tundra+Hill+Jade+Trade Hub": ["Tundra+Hill","Jade","Trade HubT"],
+	"Tundra+Hill+Marble+Trade Hub": ["Tundra+Hill","Marble","Trade HubT"],
+	"Tundra+Hill+Obsidian+Trade Hub": ["Tundra+Hill","Obsidian","Trade HubT"],
+	"Tundra+Hill+Salt+Trade Hub": ["Tundra+Hill","Salt","Trade HubT"],
+	"Tundra+Hill+Silk+Trade Hub": ["Tundra+Hill","Silk","Trade HubT"],
+	"Tundra+Hill+Silver+Trade Hub": ["Tundra+Hill","Silver","Trade HubT"],
+	"Tundra+Hill+Tea+Trade Hub": ["Tundra+Hill","Tea","Trade HubT"],
+	"Tundra+Hill+Spices+Trade Hub": ["Tundra+Hill","Spices","Trade HubT"],
+	"Tundra+Hill+Truffles+Trade Hub": ["Tundra+Hill","Truffles","Trade HubT"],
+
+	"Snow+Trade Hub": ["Snow","Trade HubT"],
+	"Snow+Iron+Trade Hub": ["Snow","Iron","Trade HubT"],
+	"Snow+Ley Line+Trade Hub": ["Snow","Trade HubT"],
+	"Snow+Altalium+Trade Hub": ["Snow","Altalium","Trade HubT"],
+	"Snow+Mythical Egg+Trade Hub": ["Snow","Trade HubT"],
+	"Snow+Rune Stone+Trade Hub": ["Snow","Rune Stone","Trade HubT"],
+	"Snow+Soulstone+Trade Hub": ["Snow","Soulstone","Trade HubT"],
+	"Snow+Hill+Trade Hub": ["Snow+Hill","Trade HubT"],
+	"Snow+Hill+Iron+Trade Hub": ["Snow+Hill","Iron","Trade HubT"],
+	
+	// Forest Hamlet
+	"Grassland+Forest+Forest Hamlet": ["Grassland","ForestGUp","Forest HamletG","ForestGLow"],
+	"Grassland+Hill+Forest+Forest Hamlet": ["Grassland+Hill","ForestGHUp","Forest HamletG","ForestGHLow"],
+	"Plains+Forest+Forest Hamlet": ["Plains","ForestPUp","Forest HamletP","ForestPLow"],
+	"Plains+Hill+Forest+Forest Hamlet": ["Plains+Hill","ForestPHUp","Forest HamletP","ForestPHLow"],
+	"Tundra+Forest+Forest Hamlet": ["Tundra","ForestTUp","Forest HamletT","ForestTLow"],
+	"Tundra+Hill+Forest+Forest Hamlet": ["Tundra+Hill","ForestTUp","Forest HamletT","ForestTLow"],
+	
+	}
+
+}

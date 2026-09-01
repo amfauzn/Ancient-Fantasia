@@ -1,109 +1,351 @@
 [
-    {
-        "name": "a stash of gold #1",
-        "notification": "We have receive 40 Gold from the villagers!",
-        "uniques": ["Gain [40] [Gold]"],
-        "color": "#ffeb7f"
-    },
+	// Culture
 	{
-        "name": "a stash of gold #2",
-        "notification": "We have receive 75 Gold from the villagers!",
-        "uniques": ["Gain [75] [Gold]", "Only available after [8] turns"],
-        "color": "#ffeb7f"
-    },
+		"name": "discover cultural sign",
+		"notification": "We have discovered cultural sign in the dungeons! (+[cultureAmount] culture)",
+		"uniques": ["Gain [20] [Culture] <(modified by game speed)>"],
+		"weight": 9,
+		"color": "#cf8ff7"
+	},
 	{
-        "name": "a stash of gold #1",
-        "notification": "We have receive 120 Gold from the villagers!",
-        "uniques": ["Gain [120] [Gold]", "Only available after [15] turns"],
-        "color": "#ffeb7f"
-    },
+		"name": "discover cultural artifacts",
+		"notification": "We have discovered cultural artifacts in the dungeons! (+[cultureAmount] culture)",
+		"uniques": ["Gain [50] [Culture] <(modified by game speed)>"],
+		"weight": 8,
+		"color": "#cf8ff7"
+	},
 	{
-        "name": "shared cultural inspiration #1",
-        "notification": "Villagers share the secrets of their well-ordered society (+25 culture)",
-        "uniques": ["Gain [25] [Culture]"],
-        "color": "#cf8ff7"
-    },
+		"name": "old God's teaching",
+		"notification": "We have discovered a long forgotten God's teaching and preaching! (+[cultureAmount] culture)",
+		"uniques": [
+			"Gain [75]-[100] [Culture] <(modified by game speed)>",
+			"Only available <after turn number [50]>"
+		],
+		"weight": 6,
+		"color": "#cf8ff7"
+	},
 	{
-        "name": "shared cultural inspiration #2",
-        "notification": "Villagers share the secrets of their well-ordered society (+60 culture)",
-        "uniques": ["Gain [60] [Culture]", "Only available after [10] turns"],
-        "color": "#cf8ff7"
-    },
+		"name": "adopt foreign policy",
+		"notification": "Captured villagers share the secrets of their well-ordered society!",
+		"uniques": [
+			"Free Social Policy",
+			"Only available <before turn number [100]>"
+		],
+		"weight": 4,
+		"color": "#cf8ff7",
+		"excludedDifficulties": ["Immortal","Deity"]
+	},
+	
+	// Gold
 	{
-        "name": "an ancient prophecy #1",
-        "notification": "Villagers pray for you (+20 Faith)",
-        "uniques": ["Hidden when religion is disabled", "Gain [20] [Faith]", "Only available after [10] turns"],
-		"color": "#CDDDF4"
-    },
+		"name": "small amount of gold",
+		"notification": "small amount of gold buried underground! (+50 gold)",
+		"uniques": ["Gain [50] [Gold]"],
+		"weight": 9,
+		"color": "#ffeb7f"
+	},
 	{
-        "name": "an ancient prophecy #2",
-        "notification": "Villagers pray for you (+60 Faith)",
-        "uniques": ["Hidden when religion is disabled", "Gain [60] [Faith]", "Only available after [20] turns"],
-		"color": "#CDDDF4"
-    },
+		"name": "a pocket of gold",
+		"notification": "a pocket of gold buried underground! (+100 gold)",
+		"uniques": ["Gain [100] [Gold]"],
+		"weight": 9,
+		"color": "#ffeb7f"
+	},
 	{
-        "name": "an ancient prophecy #3",
-        "notification": "Villagers pray for you (+100 Faith)",
-        "uniques": ["Hidden when religion is disabled", "Gain [100] [Faith]", "Only available after [30] turns"],
-		"color": "#CDDDF4"
-    },
+		"name": "a stash of gold",
+		"notification": "We have found a stash of [goldAmount] Gold in the dungeons!",
+		"uniques": ["Gain [150]-[250] [Gold] <(modified by game speed)>"],
+		"weight": 8,
+		"color": "#ffeb7f"
+	},
 	{
-        "name": "discover a lost technology #1",
-        "notification": "Villagers share their technological secrets (+25 Science)",
-        "uniques": ["Gain [25] [Science]"],
+		"name": "a treasure chest",
+		"notification": "We have found [goldAmount] Gold in the treasure chest we've secured!",
+		"uniques": [
+			"Gain [300]-[500] [Gold] <(modified by game speed)>",
+			"Only available <after turn number [60]>"
+		],
+		"weight": 6,
+		"color": "#ffeb7f"
+	},
+	{
+		"name": "hit a jackpot",
+		"notification": "Jackpot! (+1000 gold)",
+		"uniques": [
+			"Gain [1000] [Gold]",
+			"Only available <after turn number [100]>"
+		],
+		"weight": 4,
+		"color": "#ffeb7f",
+		"excludedDifficulties": ["Immortal","Deity"]
+	},
+	
+	// Science
+	{
+		"name": "discover a lost technology",
+		"notification": "We have discovered the lost technology of [techName] in the dungeons!",
+		"uniques": [
+			"[1] free random researchable Tech(s) from the [Archaic Age]",
+			"Only available <before the [Feudal Age]>"
+		],
+		"weight": 9,
 		"color": "#7f7fff"
-    },
+	},
 	{
-        "name": "discover a lost technology #2",
-        "notification": "Villagers share their technological secrets (+50 Science)",
-        "uniques": ["Gain [50] [Science]", "Only available after [15] turns"],
+		"name": "discover a portion of technology",
+		"notification": "Captured old man taught us a vague knowledge! (+[scienceAmount] science)",
+		"uniques": ["Gain [50] [Science] <(modified by game speed)>"],
+		"weight": 8,
 		"color": "#7f7fff"
-    },
+	},
 	{
-        "name": "discover a lost technology #3",
-        "notification": "Villagers share their technological secrets: [techName]",
-        "uniques": ["[1] free random researchable Tech(s) from the [Ancient era]", "Only available after [30] turns"],
+		"name": "discover a research note",
+		"notification": "We have discovered an Inventor's research note! (+[scienceAmount] science)",
+		"uniques": [
+			"Gain [80]-[100] [Science] <(modified by game speed)>",
+			"Only available <after turn number [50]>"
+		],
+		"weight": 7,
 		"color": "#7f7fff"
-    },
+	},
 	{
-        "name": "survivors (adds population to a city)",
-        "notification": "Survivors decide to join you! Population added to [cityName].",
-        "uniques": ["[+1] population in a random city"], // This can't be easily added to cityFilter, as it is non-deterministic
+		"name": "stolen technology",
+		"notification": "We are succesfully take control of the stolen technology! (+[scienceAmount] science)",
+		"uniques": [
+			"Gain [100]-[150] [Science]",
+			"Only available <after turn number [100]>"
+		],
+		"weight": 5,
+		"color": "#7f7fff",
+		"excludedDifficulties": ["Immortal","Deity"]
+	},
+	
+	// Faith
+	{
+		"name": "discover holy symbols",
+		"notification": "Signs of a long forgotten God founded in the dungeons, giving us a deeper understanding of His existence! (+[faithAmount] Faith)",
+		"uniques": [
+			"Gain enough Faith for a Pantheon",
+			"Only available <when religion is enabled>",
+			"Only available <before founding a Pantheon>",
+			"Only available <after turn number [20]>"
+		],
+		"weight": 9,
+		"color": "#CDDDF4"
+	},
+	{
+		"name": "an ancient prophecy",
+		"notification": "We have found an ancient prophecy in the dungeons, greatly increasing our spiritual connection! (+[faithAmount] Faith)",
+		"uniques": [
+			"Gain enough Faith for [33]% of a Great Prophet",
+			"Only available <when religion is enabled>",
+			"Only available <after founding a Pantheon>",
+			"Unavailable <after generating a Great Prophet>",
+			"Only available <after turn number [20]>"
+		],
+		"weight": 9,
+		"color": "#CDDDF4"
+	},
+	{
+		"name": "a praying priest",
+		"notification": "A dying priest pray for you! (+[faithAmount] Faith)",
+		"uniques": [
+			"Gain [100]-[200] [Faith] <(modified by game speed)>",
+			"Only available <when religion is enabled>",
+			"Only available <after founding a Pantheon>",
+			"Only available <after turn number [40]>"
+		],
+		"weight": 7,
+		"color": "#CDDDF4"
+	},
+	{
+		"name": "a wandering oracle",
+		"notification": "An oracle foresee your future and gave you some pointers! (+[faithAmount] Faith)",
+		"uniques": [
+			"Gain [200]-[300] [Faith] <(modified by game speed)>",
+			"Only available <when religion is enabled>",
+			"Only available <after founding a Pantheon>",
+			"Only available <after turn number [60]>"
+		],
+		"weight": 5,
+		"color": "#CDDDF4",
+		"excludedDifficulties": ["Immortal","Deity"]
+	},
+	
+	// Population
+	{
+		"name": "survivors (adds population to a city)",
+		"notification": "We have found survivors in the dungeons! Population added to [cityName].",
+		"uniques": ["[+1] population in a random city"],
+		"weight": 9,
 		"color": "#81c784"
-    },
+	},
 	{
-        "name": "squatters willing to work for you #1",
-        "notification": "A [Worker] from the village comes to work for you!",
-        "uniques": ["Free [Worker] found in the ruins"],
-        "excludedDifficulties": ["Prince", "King", "Emperor", "Immortal", "Deity"]
-    },
+		"name": "accepted immigrants (adds 3 population to a city)",
+		"notification": "We have saved a migrating family trapped in the sudden appearances of a dungeons! Population added to [city Name].",
+		"uniques": [
+			"[+3] population [in capital]",
+			"Only available <after turn number [50]>"
+		],
+		"weight": 7,
+		"color": "#81c784",
+		"excludedDifficulties": ["Immortal","Deity"]
+	},
+	
+	// Native
 	{
-        "name": "squatters willing to work for you #2",
-        "notification": "A [Trader] from the village join you!",
-        "uniques": ["Free [Trader] found in the ruins"],
-        "excludedDifficulties": ["Prince", "King", "Emperor", "Immortal", "Deity"]
-    },
+		"name": "squatters willing to work for you",
+		"notification": "A [Worker] has joined us!",
+		"uniques": ["Free [Worker] found in the ruins"],
+		"weight": 9,
+		"color": "#e89220",
+		"excludedDifficulties": ["King","Emperor","Immortal","Deity"]
+	},
 	{
-        "name": "your exploring unit receives training",
-        "notification": "Villagers train your men!",
-        "uniques": ["This Unit gains [10] XP"]
-    },
-	/*
-    {
-        "name": "squatters willing to work for you",
-        "notification": "A [Scout] has joined us!",
-        "uniques": ["Free [Scout] found in the ruins"],
-        "excludedDifficulties": ["Prince", "King", "Emperor", "Immortal", "Deity"]
-    },
-    {
-        "name": "squatters wishing to settle under your rule",
-        "notification": "A [Settler] has joined us!",
-        "uniques": ["Free [Settler] found in the ruins"],
-        "excludedDifficulties": ["Warlord","Prince","King","Emperor","Immortal","Deity"]
-    },
-    {
-        "name": "advanced weaponry for your explorer",
-        "notification": "Our unit finds advanced weaponry hidden in the ruins!",
-        "uniques": ["This Unit upgrades for free including special upgrades"]
-    }*/
+		"name": "squatters wishing to settle under your rule",
+		"notification": "A [Settler] has joined us!",
+		"uniques": [
+			"Free [Settler] found in the ruins"
+		],
+		"weight": 9,
+		"color": "#e89220",
+		"excludedDifficulties": ["Prince","King","Emperor","Immortal","Deity"]
+	},
+	{
+		"name": "free a general",
+		"notification": "Unexpectedly, we save a former general!",
+		"uniques": [
+			"Free [Great General] found in the ruins",
+			"Only available <after turn number [30]>"
+		],
+		"weight": 8,
+		"color": "#e89220"
+		"excludedDifficulties": ["Immortal","Deity"]
+	},
+	{
+		"name": "save a merchant",
+		"notification": "We have succesfully save a [Great Merchant]!",
+		"uniques": ["Free [Great Merchant] found in the ruins"],
+		"weight": 7,
+		"color": "#e89220",
+		"excludedDifficulties": ["Prince","King","Emperor","Immortal","Deity"]
+	},
+	
+	// Military
+	{
+		"name": "your exploring unit receives training",
+		"notification": "An elder trained us in their ways of combat!",
+		"uniques": ["[This Unit] gains [15] XP"],
+		"weight": 9,
+		"color": "#20afe8"
+	},
+	{
+		"name": "hell training",
+		"notification": "Your men experience a hellish training!",
+		"uniques": [
+			"[This Unit] gains [30] XP",
+			"Only available <after turn number [40]>"
+		],
+		"weight": 7,
+		"color": "#20afe8"
+	},
+	{
+		"name": "advanced weaponry for your explorer",
+		"notification": "Our unit finds advanced weaponry hidden in the ruins!",
+		"uniques": ["[This Unit] upgrades for free including special upgrades"],
+		"weight": 7,
+		"color": "#20afe8"
+	},
+	{
+		"name": "promishing spearman",
+		"notification": "A young [Spearman] has joined us!",
+		"uniques": [
+			"Free [Spearman] found in the ruins",
+			"Only available <after turn number [20]>",
+			"Only available <before turn number [120]>"
+		],
+		"weight": 8,
+		"color": "#20afe8"
+	},
+	{
+		"name": "levied bowman",
+		"notification": "A skilled [Composite Bowman] has joined us!",
+		"uniques": [
+			"Free [Composite Bowman] found in the ruins",
+			"Only available <after turn number [20]>",
+			"Only available <before turn number [120]>"
+		],
+		"weight": 8,
+		"color": "#20afe8"
+	},
+	
+	// Maps
+	{
+		"name": "reveal Dungeon outbreak",
+		"notification": "You find evidence of sudden dungeon formation. Nearby dungeons are revealed!",
+		"uniques": [
+			"Reveal up to [All] [Barbarian encampment] within a [10] tile radius",
+			"Only available <before turn number [250]>"
+		],
+		"weight": 9
+	},
+	{
+		"name": "reveal nearby Bonus resource",
+		"notification": "You found notes of fertile lands in the area!",
+		"uniques": [
+			"Reveal up to [All] [Bonus resource] within a [10] tile radius",
+			"Only available <before turn number [100]>"
+		],
+		"weight": 9
+	},
+	{
+		"name": "reveal nearby Luxury resource",
+		"notification": "You found notes of rare and valueable resources!",
+		"uniques": [
+			"Reveal up to [All] [Luxury resource] within a [7] tile radius",
+			"Only available <before turn number [100]>"
+		],
+		"weight": 9
+	},
+	{
+		"name": "find a crudely-drawn map",
+		"notification": "We have found a broken map left by a failed dungeon explorer!",
+		"uniques": [
+			"From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [5] tiles away with [70]% chance",
+			"Only available <before turn number [100]>"
+		],
+		"weight": 9
+	},
+	{
+		"name": "find a well-drawn map",
+		"notification": "We have found a map in the dungeon!",
+		"uniques": [
+			"From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [5] tiles away with [100]% chance",
+			"Only available <before turn number [250]>"
+		],
+		"weight": 7
+	},
+	{
+		"name": "a big map barter",
+		"notification": "Bravo, we just bought a big map from a fellow adventurer!",
+		"uniques": [
+			"From a randomly chosen tile [8] tiles away from the ruins, reveal tiles up to [8] tiles away with [100]% chance",
+			"Gain [-10] [Gold]",
+			"Only available <before the [Heroic Age]>"
+		],
+		"weight": 6
+	},
+	
+	// Triggerable
+	{
+		"name": "into era of greatness",
+		"notification": "Solving a potential problem bring us to the era of greatness",
+		"uniques": [
+			"Empire enters golden age",
+			"Only available <after turn number [100]>"
+		],
+		"weight": 8,
+		"color": "#cf8ff7",
+		"excludedDifficulties": ["Deity"]
+	}
 ]

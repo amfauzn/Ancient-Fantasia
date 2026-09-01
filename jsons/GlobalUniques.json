@@ -1,19 +1,26 @@
 {
-    "name": "Global uniques", 
-    "uniques": [
-        "[-33]% growth [in all cities] <when between [-5] and [0] Happiness>",
-		"[-66]% growth [in all cities] <when between [-10] and [-5] Happiness>",
-        "Nullifies Growth [in all cities] <when below [-10] Happiness>",
-        "[-33]% [Production] [in all cities] <when below [-10] Happiness>",
-        "[-33]% Strength <for [All] units> <when below [-10] Happiness>",
-        "Cannot build [Settler] units <when below [-10] Happiness>",
-        "[-10]% Culture cost of adopting new Policies",
-		"[-50]% Unhappiness from [Population] [in all cities]",
-		"Gain a free [City Center] [in all cities]",
-		"[+1] Happiness from each type of luxury resource",
-		"[+1 Happiness] from every [City Center] <in cities with at least [3] [Population]>",
-		"[-1 Gold] from [River] tiles [in all cities]",
-		"[+2 Food] from every [Desert]",
-		"[-2 Food] from [Desert] tiles without [Flood plains] [in all cities]"
-    ]
+	"name": "Global uniques", 
+	"uniques": [
+		"[-50]% growth [in all cities] <when between [-5] and [-1] [Happiness]>",
+		"[-75]% growth [in all cities] <when between [-10] and [-6] [Happiness]>",
+		"Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
+		"[-33]% [Production] [in all cities] <when below [-10] [Happiness]>",
+		"[-25]% Strength <for [All] units> <when below [-10] [Happiness]>",
+		//"Gain a free [Original Capital] [in capital] <before turn number [10]> <for [Major] Civilizations>",
+		"Cannot build [Settler] units <when below [-10] [Happiness]>",
+		"Rebel units may spawn <when below [-20] [Happiness]>",
+		"[-1] Sight <for [Embarked] units>",
+		"[-1 Science] per [2] population [in all cities]"
+	],
+	
+	"unitUniques": [
+		// Avenger
+		"[This Unit] takes [10] damage <upon damaging a [Avenger] unit>",
+		
+		// Volatile Core
+		"[This Unit] takes [30] damage <upon defeating a [Volatile Core] unit>",
+		
+		// Forest Hamlet
+		"[This Unit] takes [10] damage <upon entering a [Forest Hamlet] tile> <in [Enemy Land] tiles> <for [non-[The Night Elves]] Civilizations>"
+	]
 }

@@ -1,122 +1,186 @@
 [
-    {
-        "name": "Civilian",
-        "movementType": "Land"
-    },
 	{
-        "name": "Civilian Water",
-        "movementType": "Water"
-    },
+		"name": "Civilian",
+		"movementType": "Land"
+	},
+	{
+		"name": "Civilian Water",
+		"movementType": "Water"
+	},
 	
-    {
-        "name": "Scout",
-        "movementType": "Land",
-		"uniques": ["Ignores terrain cost"]
-    },
 	{
-        "name": "Melee",
-        "movementType": "Land",
-		"uniques": ["[+33]% Strength <vs [Anti-Cavalry] units>"]
-    },
+		"name": "Recon",
+		"movementType": "Land",
+		"uniques": [
+			"Footman",
+			"[+25]% Strength <when defending> <when adjacent to a [Protector] unit> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		]
+	},
 	{
-        "name": "Anti-Cavalry",
-        "movementType": "Land",
-		"uniques": ["[+33]% Strength <vs [Mounted] units>"]
-    },
+		"name": "Sword",
+		"movementType": "Land",
+		"uniques": [
+			"Footman",
+			"[+25]% Strength <when defending> <when adjacent to a [Protector] unit> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		]
+	},
 	{
-        "name": "Mounted",
-        "movementType": "Land"
-    },
-    {
-        "name": "Ranged",
-        "movementType": "Land",
-		"uniques": ["[-57]% Strength <vs [Water] units>", "[-57]% Strength <vs cities> <when attacking>"]
-    },
-    {
-        "name": "Siege",
-        "movementType": "Land",
-		"uniques": ["[-57]% Strength <vs [Land] units>", "[+270]% Strength <vs cities> <when attacking>"]
-    },
-    
-    {
+		"name": "Spear",
+		"movementType": "Land",
+		"uniques": [
+			"Footman",
+			"[+25]% Strength <when defending> <when adjacent to a [Protector] unit> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Mounted",
+		"movementType": "Land",
+		"uniques": [
+			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Archery",
+		"movementType": "Land",
+		"uniques": [
+			"Footman",
+			"[+25]% Strength <when defending> <when adjacent to a [Protector] unit> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Siege",
+		"movementType": "Land",
+		"uniques": [
+			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Mage",
+		"movementType": "Land",
+		"uniques": [
+			"Footman",
+			"[+25]% Strength <when defending> <when adjacent to a [Protector] unit> <hidden from users>",
+			"[+50]% Strength <vs [Construct] units>",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Construct",
+		"movementType": "Land",
+		"uniques": [
+			"[+50]% Strength <when defending> <for [non-[Clay Golem]] units>",
+			"[-2] XP gained from combat",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
         "name": "Melee Water",
-        "movementType": "Water"
+        "movementType": "Water",
+		"uniques": ["Never appears as a Barbarian unit"]
     },
     {
         "name": "Ranged Water",
-        "movementType": "Water"
-    },
-    {
-        "name": "Submarine",
         "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+		"uniques": ["Never appears as a Barbarian unit"]
     },
-    {
-        "name": "Aircraft Carrier",
-        "movementType": "Water"
-    },
-    {
-        "name": "Fighter",
-        "movementType": "Air",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"]
-    },
-    {
-        "name": "Bomber",
-        "movementType": "Air",
-        "uniques": ["Aircraft"]
-    },
-    {
-        "name": "Atomic Bomber",
-        "movementType": "Air",
-        "uniques": ["Aircraft"]
-    },
-    {
-        "name": "Missile",
-        "movementType": "Air",
-        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
-    },
-    {
-        "name": "Helicopter",
-        "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles"]
-    },
-    
-    // Deprecated unit types required for mods without a UnitTypes.json file to work
-    
-    {
-        "name": "Melee",
-        "movementType": "Land"
-    },
-    {
-        "name": "Ranged",
-        "movementType": "Land"
-    },
-    {
-        "name": "Armor",
-        "movementType": "Land"
-    },
-    {
-        "name": "WaterCivilian",
-        "movementType": "Water"
-    },
-    {
-        "name": "WaterMelee",
-        "movementType": "Water"
-    },
-    {
-        "name": "WaterRanged",
-        "movementType": "Water"
-    },
-    {
-        "name": "WaterSubmarine",
-        "movementType": "Water"
-    },
-    {
-        "name": "WaterAircraftCarrier",
-        "movementType": "Water"
-    },
-    {
-        "name": "AtomicBomber",
-        "movementType": "Air"
-    }
+	{
+		"name": "Air Terror",
+		"movementType": "Land",
+		"uniques": [
+			"Flying",
+			"Can pass through impassable tiles",
+			"All tiles cost 1 movement",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"May travel on Water tiles without embarking",
+			"No defensive terrain bonus",
+			"[+100]% maintenance costs"
+		]
+	},
+	{
+		"name": "Water Terror",
+		"movementType": "Water",
+		"uniques": [
+			"Can enter ice tiles",
+			"Invisible to non-adjacent units",
+			"Can see invisible [Water Terror] units",
+			//"[+100]% maintenance costs"
+		]
+	},
+	{
+		"name": "Tamer",
+		"movementType": "Land",
+		"uniques": ["Never appears as a Barbarian unit"]
+	},
+	{
+		"name": "Air Bomber",
+		"movementType": "Air"
+	},
+	{
+		"name": "Air Combat",
+		"movementType": "Air",
+		"uniques": [
+			"[+4] Sight",
+			"Can see over obstacles"
+		]
+	},
+	{
+		"name": "Mass Destructor",
+		"movementType": "Air",
+		"uniques": [
+			"Self-destructs when attacking",
+			"Cannot be intercepted"
+		]
+	},
+	
+	{
+		"name": "Foot Monster",
+		"movementType": "Land",
+		"uniques": [
+			"Footman",
+			"Monster"
+		]
+	},
+	{
+		"name": "Mounted Monster",
+		"movementType": "Land",
+		"uniques": [
+			"Monster",
+			"Can pass through impassable tiles",
+			"Can move after attacking <for [Barbarians] Civilizations>",
+			"Ignores Zone of Control",
+			"No defensive terrain bonus <for [Major] Civilizations>"
+		]
+	},
+	{
+		"name": "Flying Monster",
+		"movementType": "Land",
+		"uniques": [
+			"Flying",
+			"Monster",
+			"Can pass through impassable tiles",
+			"All tiles cost 1 movement",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"May travel on Water tiles without embarking",
+			"No defensive terrain bonus",
+			"Can see over obstacles"
+		]
+	},
+	{
+		"name": "Water Monster",
+		"movementType": "Water",
+		"uniques": [
+			"Monster",
+			"Can pass through impassable tiles",
+			"Eliminates combat penalty for attacking across a coast",
+			"Ignores Zone of Control"
+		]
+	},
 ]

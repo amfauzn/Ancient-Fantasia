@@ -1,7 +1,12 @@
 {
-	"isBaseRuleset":true,
+	"isBaseRuleset": true,
 	"constants": {
-		"maxXPfromBarbarians": 60
+		"maxXPfromBarbarians": 60,
+		"cityStrengthBase": 14,
+		"cityStrengthFromTechsMultiplier": 4,
+		"cityStrengthFromTechsExponent": 2,
+		"cityStrengthFromGarrison": 0.3
 	},
-	"uniques": ["Can trade civilization introductions for [100] Gold"]
+	"uniques": ["Can trade civilization introductions for [100] Gold"],
+	"unitset": "FantasyHex"
 }

@@ -1,0 +1,265 @@
+
+Icons.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+CityStateIcons/Agrarian
+  rotate: false
+  xy: 4, 606
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+CityStateIcons/Food Exporter
+  rotate: false
+  xy: 4, 606
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+CityStateIcons/Artisan
+  rotate: false
+  xy: 212, 814
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+CityStateIcons/Industrial
+  rotate: false
+  xy: 212, 814
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+CityStateIcons/Ceremonial
+  rotate: false
+  xy: 420, 814
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+CityStateIcons/Cultured
+  rotate: false
+  xy: 420, 814
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+CityStateIcons/Gilded Vault
+  rotate: false
+  xy: 420, 398
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+CityStateIcons/Icypath Kongsi
+  rotate: false
+  xy: 420, 398
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+CityStateIcons/Middleman Group
+  rotate: false
+  xy: 420, 398
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+CityStateIcons/Smithy Guild
+  rotate: false
+  xy: 420, 398
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Academy
+  rotate: false
+  xy: 4, 814
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Barbarian encampment
+  rotate: false
+  xy: 4, 398
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Citadel
+  rotate: false
+  xy: 4, 190
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Sea Fort
+  rotate: false
+  xy: 4, 190
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Deep Mine
+  rotate: false
+  xy: 628, 814
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Forest Hamlet
+  rotate: false
+  xy: 212, 190
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Holy Site
+  rotate: false
+  xy: 628, 606
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Landmark
+  rotate: false
+  xy: 628, 398
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Manufactory
+  rotate: false
+  xy: 836, 606
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Taming
+  rotate: false
+  xy: 836, 190
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Trade Hub
+  rotate: false
+  xy: 1252, 606
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+OtherIcons/Aircraft
+  rotate: false
+  xy: 1044, 290
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Amber
+  rotate: false
+  xy: 1252, 498
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Buffalo
+  rotate: false
+  xy: 212, 606
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Circle
+  rotate: false
+  xy: 4, 4
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ResourceIcons/Coffee
+  rotate: false
+  xy: 212, 398
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Corn
+  rotate: false
+  xy: 420, 606
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Honey
+  rotate: false
+  xy: 836, 814
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Jade
+  rotate: false
+  xy: 420, 190
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Mithril
+  rotate: false
+  xy: 1044, 814
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Mythical Egg
+  rotate: false
+  xy: 628, 190
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Niter
+  rotate: false
+  xy: 1460, 706
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Obsidian
+  rotate: false
+  xy: 836, 398
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Perfume
+  rotate: false
+  xy: 1044, 606
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Rune Stone
+  rotate: false
+  xy: 1252, 814
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Tea
+  rotate: false
+  xy: 1044, 398
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Yairmon
+  rotate: false
+  xy: 1460, 814
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1

@@ -1,606 +1,1412 @@
 [
-
+	// Global
 	{
-		"name": "Heal Instantly",
-		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged","Anti-Cavalry","Melee Water","Ranged Water","Submarine"]
+		"name": "Healing Potion",
+		"uniques": [
+			"[This Unit] heals [50] HP",
+			"Doing so will consume this opportunity to choose a Promotion",
+			"Only available <before discovering [Apothecaries]> <hidden from users>"
+		],
+		"unitTypes": [
+			"Recon",
+			"Sword",
+			"Spear",
+			"Mounted",
+			"Archery",
+			"Siege",
+			"Mage",
+			"Melee Water",
+			"Ranged Water",
+			"Tamer"
+		],
+		"innerColor": [220,40,40],
+		"outerColor": [255,240,240],
+		"column": 0,
+		"row": 0
 	},
-
-	// Scout (Recon)
 	{
-		"name": "Ranger",
-		"uniques": ["[+1] Movement <in [Forest] tiles>", "[+1] Movement <in [Jungle] tiles>"],
-		"unitTypes": ["Scout"]
+		"name": "Potent Healing Potion",
+		"uniques": [
+			"[This Unit] heals [90] HP",
+			"Doing so will consume this opportunity to choose a Promotion",
+			"Only available <after discovering [Apothecaries]>",
+		],
+		"unitTypes": [
+			"Recon",
+			"Sword",
+			"Spear",
+			"Mounted",
+			"Archery",
+			"Siege",
+			"Mage",
+			"Melee Water",
+			"Ranged Water",
+			"Tamer"
+		],
+		"innerColor": [220,40,40],
+		"outerColor": [255,240,240],
+		"column": 1,
+		"row": 0
 	},
+	
+	// Recon
 	{
-		"name": "Alpine",
-		"uniques": ["[+1] Movement <in [Hill] tiles>"],
-		"unitTypes": ["Scout"]
-	},
-	{
-		"name": "Sentry",
-		"prerequisites": ["Ranger","Alpine"],
+		"name": "Scouting I",
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Scout"]
+		"unitTypes": ["Recon"],
+		"column": 2,
+		"row": 0
 	},
 	{
-		"name": "Guerrilla",
-		"prerequisites": ["Ranger","Alpine"],
-		"uniques": ["Can move after attacking"],
-		"unitTypes": ["Scout"]
-	},
-	{
-		"name": "Spyglass",
-		"prerequisites": ["Sentry"],
+		"name": "Scouting II",
+		"prerequisites": ["Scouting I"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Scout"]
+		"unitTypes": ["Recon"],
+		"column": 2,
+		"row": 1
 	},
 	{
-		"name": "Ambush",
-		"prerequisites": ["Guerrilla"],
-		"uniques": ["[+33]% Strength"],
-		"unitTypes": ["Scout"]
+		"name": "Guerilla",
+		"prerequisites": ["Scouting II"],
+		"uniques": [
+			"[+1] Movement",
+			"Can move after attacking"
+		],
+		"unitTypes": ["Recon"],
+		"column": 2,
+		"row": 2
+	},
+	
+	{
+		"name": "Medic I",
+		"prerequisites": ["Shock I","Drill I"],
+		"uniques": [
+			"[+2] HP when healing",
+			"All adjacent units heal [+5] HP when healing"
+		],
+		"unitTypes": ["Recon"],
+		"column": 3,
+		"row": 1
+	},
+	{
+		"name": "Medic II",
+		"prerequisites": ["Medic I"],
+		"uniques": [
+			"[+1] HP when healing",
+			"[+5] HP when healing <in [Foreign Land] tiles>",
+			"All adjacent units heal [+5] HP when healing"
+		],
+		"unitTypes": ["Recon"],
+		"column": 3,
+		"row": 2
+	},
+	
+	{
+		"name": "Survivalism I",
+		"uniques": [
+			"[+5] HP when healing <in [Foreign Land] tiles>",
+			"[+33]% Strength <when defending>"
+		],
+		"unitTypes": ["Recon"],
+		"column": 4,
+		"row": 0
+	},
+	{
+		"name": "Survivalism II",
+		"prerequisites": ["Survivalism I"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Recon"],
+		"column": 4,
+		"row": 1
 	},
 	{
 		"name": "Camouflage",
-		"prerequisites": ["Spyglass","Ambush"],
-		"uniques": ["Invisible to non-adjacent units"],
-		"unitTypes": ["Scout"]
+		"prerequisites": ["Survivalism II"],
+		"uniques": [
+			"Withdraws before melee combat <with [34]% chance>",
+			"Invisible to non-adjacent units"
+		],
+		"unitTypes": ["Recon"],
+		"column": 4,
+		"row": 2
 	},
 	
-	// Melee
+	// Sword + Spear
 	{
-		"name": "Battlecry",
-		"uniques": ["[+25]% Strength <vs [Melee] units> <when attacking>", "[+25]% Strength <vs [Ranged] units> <when attacking>"],
-		"unitTypes": ["Melee"]
+		"name": "Shock I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Spear","Mounted","Foot Monster","Mounted Monster"],
+		"column": 6,
+		"row": 0
 	},
 	{
-		"name": "Tortoise",
-		"uniques": ["[+33]% Strength <when defending>"],
-		"unitTypes": ["Melee"]
+		"name": "Shock II",
+		"prerequisites": ["Shock I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Spear","Mounted","Foot Monster","Mounted Monster"]
 	},
 	{
-		"name": "Commando",
-		"prerequisites": ["Battlecry"],
-		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Melee"]
-	},
-	{
-		"name": "Amphibious",
-		"prerequisites": ["Tortoise","Commando"],
-		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Melee"]
-	},
-	{
-		"name": "Zweihander",
-		"prerequisites": ["Commando","Amphibious"],
-		"uniques": ["[+25]% Strength <vs [Anti-Cavalry] units>"],
-		"unitTypes": ["Melee"]
-	},
-	{
-		"name": "Urban Warfare",
-		"prerequisites": ["Commando","Amphibious"],
-		"uniques": ["[+33]% Strength <when fighting in [Friendly Land] tiles> <with [1] to [6] neighboring [City center] tiles>", 
-			"[+33]% Strength <in [Holy site] tiles>"],
-		"unitTypes": ["Melee"]
-	},
-	{
-		"name": "Elite Guard",
-		"prerequisites": ["Zweihander","Urban Warfare"],
-		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
-		"unitTypes": ["Melee"]
+		"name": "Shock III",
+		"prerequisites": ["Shock II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Spear","Mounted","Foot Monster","Mounted Monster"]
 	},
 	
-	// Ranged
 	{
-		"name": "Volley",
-		"uniques": ["[+17]% Strength <vs [Land] units> <when attacking>"],
-		"unitTypes": ["Ranged"]
+		"name": "Drill I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Sword","Spear","Mounted","Foot Monster","Mounted Monster"],
+		"column": 7,
+		"row": 0
 	},
 	{
-		"name": "Garrison",
-		"uniques": ["[+33]% Strength <when defending>"],
-		"unitTypes": ["Ranged"]
+		"name": "Drill II",
+		"prerequisites": ["Drill I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Sword","Spear","Mounted","Foot Monster","Mounted Monster"]
 	},
 	{
-		"name": "Arrow Storm",
-		"prerequisites": ["Volley"],
-		"uniques": ["[+25]% Strength <vs [Land] units> <when attacking>", "[+25]% Strength <vs [Water] units> <when attacking>"],
-		"unitTypes": ["Ranged"]
+		"name": "Drill III",
+		"prerequisites": ["Drill II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Sword","Spear","Mounted","Foot Monster","Mounted Monster"]
+	},
+	
+	{
+		"name": "Formation I",
+		"prerequisites": ["Shock I","Drill I"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
+		"unitTypes": ["Sword","Spear"]
 	},
 	{
-		"name": "Incendiaries",
-		"prerequisites": ["Garrison"],
-		"uniques": ["[+25]% Strength <vs cities> <when attacking>"],
-		"unitTypes": ["Ranged"]
-	},
-	{
-		"name": "Suppression",
-		"prerequisites": ["Arrow Storm","Incendiaries"],
-		"uniques": ["Ranged attacks may be performed over obstacles"], // Ignores Zone of Control
-		"unitTypes": ["Ranged"]
-	},
-	{
-		"name": "Emplacement",
-		"prerequisites": ["Arrow Storm","Incendiaries"],
-		"uniques": ["[+33]% Strength <vs cities> <when defending>"],
-		"unitTypes": ["Ranged"]
-	},
-	{
-		"name": "Expert Marksman",
-		"prerequisites": ["Suppression","Emplacement"],
-		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Ranged"]
-	},
-
-	// Siege
-	{
-		"name": "Grape Shot",
-		"uniques": ["[+25]% Strength <vs [Land] units> <when attacking>"],
-		"unitTypes": ["Siege"]
-	},
-	{
-		"name": "Crew Weapons",
-		"uniques": ["[+25]% Strength <when defending>"],
-		"unitTypes": ["Siege"]
-	},
-	{
-		"name": "Shrapnel",
-		"prerequisites": ["Grape Shot"],
-		"uniques": ["[+33]% Strength <vs [Land] units> <when attacking>"],
-		"unitTypes": ["Siege"]
-	},
-	{
-		"name": "Shells",
-		"prerequisites": ["Crew Weapons"],
-		"uniques": ["[+33]% Strength <vs cities> <when attacking>"],
-		"unitTypes": ["Siege"]
-	},
-	{
-		"name": "Advanced Rangefinding",
-		"prerequisites": ["Shrapnel","Shells"],
-		"uniques": ["[+33]% Strength <vs [Water] units> <when attacking>"],
-		"unitTypes": ["Siege"]
-	},
-	{
-		"name": "Expert Crew",
-		"prerequisites": ["Shrapnel","Shells"],
-		"uniques": ["Can move after attacking"], // attack after moving
-		"unitTypes": ["Siege"]
-	},
-	{
-		"name": "Forward Observers",
-		"prerequisites": ["Advanced Rangefinding","Expert Crew"],
-		"uniques": ["[+1] Range"],
-		"unitTypes": ["Siege"]
-	},
-
-	// Warrior Monk
-	{
-		"name": "Shadow Strike",
-		"uniques": ["[+100]% to Flank Attack bonuses"],
-	},
-	/*{
-		"name": "Twilight Veil",
-		"uniques": ["Invisible to non-adjacent units"],
-		"unitTypes": []
-	},*/
-	{
-		"name": "Exploding Palms",
-		"prerequisites": ["Shadow Strike"],
-		"uniques": ["[+33]% Strength"],
-		"unitTypes": ["Melee"]
-	},
-	{
-		"name": "Sweeping Wind",
-		"prerequisites": ["Exploding Palms"],
-		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Melee"]
-	},
-	{
-		"name": "Dancing Crane",
-		"prerequisites": ["Exploding Palms"],
-		"uniques": ["[+1] Movement"],
-	},
-	{
-		"name": "Cobra Strike",
-		"prerequisites": ["Sweeping Wind","Dancing Crane"],
-		"uniques": ["[+50]% Strength"],
-	},
-
-	// Anti-Cavalry
-	{
-		"name": "Echelon",
-		"uniques": ["[+17]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Anti-Cavalry"]
-	},
-	{
-		"name": "Thrust",
-		"uniques": ["[+33]% Strength <vs [Melee] units> <when attacking>"],
-		"unitTypes": ["Anti-Cavalry"]
-	},
-	{
-		"name": "Square",
-		"prerequisites": ["Echelon"],
-		"uniques": ["All healing effects doubled"], // Double support
-		"unitTypes": ["Anti-Cavalry"]
-	},
-	{
-		"name": "Schiltron",
-		"prerequisites": ["Thrust"],
-		"uniques": ["[+15]% Strength <vs [Melee] units> <when defending>"],
-		"unitTypes": ["Anti-Cavalry"]
-	},
-	{
-		"name": "Redeploy",
-		"prerequisites": ["Square","Schiltron"],
-		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Anti-Cavalry"]
-	},
-	{
-		"name": "Choke Points",
-		"prerequisites": ["Square","Schiltron"],
-		"uniques": ["[+25]% Strength <when fighting in [Rough terrain] tiles> <when defending>"],
-		"unitTypes": ["Anti-Cavalry"]
-	},
-	{
-		"name": "Hold the Line",
-		"prerequisites": ["Choke Points","Redeploy"],
-		"uniques": ["Bonus for units in 2 tile radius 15%"], // vs Mounted
-		"unitTypes": ["Anti-Cavalry"]
+		"name": "Formation II",
+		"prerequisites": ["Formation I"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
+		"unitTypes": ["Sword","Spear"]
 	},
 	
 	// Mounted
 	{
+		"name": "Ambush I",
+		"prerequisites": ["Shock I","Drill I"],
+		"uniques": ["[+20]% Strength <vs [Footman] units>"],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Ambush II",
+		"prerequisites": ["Ambush I"],
+		"uniques": ["[+20]% Strength <vs [Footman] units>"],
+		"unitTypes": ["Mounted"]
+	},
+	
+	{
+		"name": "Depredation I",
+		"uniques": ["[+50]% Yield from pillaging tiles"],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Depredation II",
+		"prerequisites": ["Depredation I"],
+		"uniques": ["No movement cost to pillage"],
+		"unitTypes": ["Mounted"]
+	},
+	
+	{
 		"name": "Charge",
-		"uniques": ["[+15]% Strength <when attacking>"],
+		"prerequisites": ["Shock II","Drill II"],
+		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Mounted"]
 	},
+	
+	// Archery + Siege
 	{
-		"name": "Barding",
-		"uniques": ["[+25]% Strength <when defending>"],
-		"unitTypes": ["Mounted"]
+		"name": "Accuracy I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Archery","Siege","Mage"]
 	},
 	{
-		"name": "Marauding",
-		"prerequisites": ["Charge","Rout"],
-		"uniques": ["Bonus vs City 25%"],
-		"unitTypes": ["Mounted"]
+		"name": "Accuracy II",
+		"prerequisites": ["Accuracy I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Archery","Siege","Mage"]
 	},
 	{
-		"name": "Rout",
-		"prerequisites": ["Barding","Marauding"],
-		"uniques": ["[+17]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Mounted"]
-	},	
+		"name": "Accuracy III",
+		"prerequisites": ["Accuracy II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Archery","Siege"]
+	},
+
 	{
-		"name": "Armor Piercing",
-		"prerequisites": ["Marauding","Rout"],
-		"uniques": ["[+25]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Mounted"]
-	},	
-	{
-		"name": "Reactive Armor",
-		"prerequisites": ["Rout"],
-		"uniques": ["[+25]% Strength <when defending>"],
-		"unitTypes": ["Mounted"]
+		"name": "Barrage I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Archery","Siege","Mage"]
 	},
 	{
-		"name": "Breakthrough",
-		"prerequisites": ["Armor Piercing","Reactive Armor"],
-		"uniques": ["[1] additional attack per turn"],
-		"unitTypes": ["Mounted"]
+		"name": "Barrage II",
+		"prerequisites": ["Barrage I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Archery","Siege","Mage"]
+	},
+	{
+		"name": "Barrage III",
+		"prerequisites": ["Barrage II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Archery","Siege"]
+	},
+	
+	// Mage
+	{
+		"name": "Restoration",
+		"prerequisites": ["Accuracy II","Barrage II"],
+		"uniques": [
+			"Comment [Heals 5 HP upon turn end]",
+			"[This Unit] heals [5] HP <upon turn end> <hidden from users>"
+		],
+		"unitTypes": ["Mage"]
+	},
+	
+	{
+		"name": "Magic Skin",
+		"prerequisites": ["Accuracy I","Barrage I"],
+		"uniques": ["[+33]% Strength <when defending>"],
+		"unitTypes": ["Mage"]
+	},
+	{
+		"name": "Elemental Awakening",
+		"prerequisites": ["Magic Skin","Accuracy II","Barrage II"],
+		"uniques": [
+			"Comment [After entering combat, next attacks inflict status ailment (random)]",
+			"Triggers a [Element Awakens] event <upon entering combat> <hidden from users>",
+			//"[+33]% Strength <vs [Ranged] units> <when defending>"
+		],
+		"unitTypes": ["Mage"],
+		"civilopediaText": [
+			{ "text": "Fireball", "link": "Promotion/Fireball" },
+			{ "text": "Water Whip", "link": "Promotion/Water Whip" },
+			{ "text": "Geospike", "link": "Promotion/Geospike" },
+			{ "text": "Slashing Wind", "link": "Promotion/Slashing Wind" }
+		]
+	},
+	{
+		"name": "Elemental Strengthening",
+		"prerequisites": ["Elemental Awakening"],
+		"uniques": [
+			"[+33]% Strength <vs [Ailment] units> <when attacking>",
+			"[+5] HP when healing"
+		],
+		"unitTypes": ["Mage"]
+	},
+	
+	{
+		"name": "Fireball",
+		"prerequisites": ["Elemental Awakening"],
+		"uniques": [
+			"Fire Element",
+			"Only available <for units without [Fireball]>",
+			"Comment [Inflict [Burning] on target]",
+			"[Target Unit] gains the [Burning] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>",
+			"[This Unit] loses the [Burning] status <upon gaining the [Burning] status> <hidden from users>"
+		],
+		"innerColor": [255, 69, 10],
+		"civilopediaText": [
+			{ "text": "Burning", "link": "Promotion/Burning" }
+		]
+	},
+	{
+		"name": "Water Whip",
+		"prerequisites": ["Elemental Awakening"],
+		"uniques": [
+			"Water Element",
+			"Only available <for units without [Water Whip]>",
+			"Comment [Inflict [Chilled] on target]",
+			"[Target Unit] gains the [Chilled] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>",
+			"[This Unit] loses the [Chilled] status <upon gaining the [Chilled] status> <hidden from users>"
+		],
+		"innerColor": [  0,191,255],
+		"civilopediaText": [
+			{ "text": "Chilled", "link": "Promotion/Chilled" }
+		]
+	},
+	{
+		"name": "Geospike",
+		"prerequisites": ["Elemental Awakening"],
+		"uniques": [
+			"Earth Element",
+			"Only available <for units without [Geospike]>",
+			"Comment [Inflict [Rooted] on target]",
+			"[Target Unit] gains the [Rooted] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>",
+			"[This Unit] loses the [Rooted] status <upon gaining the [Rooted] status> <hidden from users>"
+		],
+		"innerColor": [147, 78, 30],
+		"civilopediaText": [
+			{ "text": "Rooted", "link": "Promotion/Rooted" }
+		]
+	},
+	{
+		"name": "Slashing Wind",
+		"prerequisites": ["Elemental Awakening"],
+		"uniques": [
+			"Wind Element",
+			"Only available <for units without [Slashing Wind]>",
+			"Comment [Inflict [Bleeding] on target]",
+			"[Target Unit] gains the [Bleeding] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>",
+			"[This Unit] loses the [Bleeding] status <upon gaining the [Bleeding] status> <hidden from users>"
+		],
+		"innerColor": [  0,196,125],
+		"civilopediaText": [
+			{ "text": "Bleeding", "link": "Promotion/Bleeding" }
+		]
+	},
+	
+	{
+		"name": "Burning",
+		"uniques": [
+			"Ailment",
+			"Comment [Takes 10 damage upon turn start]",
+			"[This Unit] takes [10] damage <upon turn start> <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>"
+		],
+		"innerColor": [200, 0, 0]
+	},
+	{
+		"name": "Chilled",
+		"uniques": [
+			"Ailment",
+			"[-15]% Strength"
+		],
+		"innerColor": [200, 0, 0]
+	},
+	{
+		"name": "Rooted",
+		"uniques": [
+			"Ailment",
+			"Cannot move",
+			"No defensive terrain bonus",
+			
+			"[-1]% Strength <hidden from users>"
+		],
+		"innerColor": [200, 0, 0]
+	},
+	{
+		"name": "Bleeding",
+		"uniques": [
+			"Ailment",
+			"[-5] HP when healing",
+			"[This Unit] takes [10] damage <upon entering a [All] tile>",
+			
+			"[-1]% Strength <hidden from users>"
+		],
+		"innerColor": [200, 0, 0]
+	},
+	
+	// Construct
+	{
+		"name": "Bulwark Protocol",
+		"uniques": ["[+20]% Strength <when defending>"],
+		"unitTypes": ["Construct"]
+	},
+	{
+		"name": "Shield Arm",
+		"prerequisites": ["Bulwark Protocol"],
+		"uniques": ["[+20]% Strength <when defending>"],
+		"unitTypes": ["Construct"]
+	},
+	{
+		"name": "Protector",
+		"prerequisites": ["Shield Arm"],
+		"uniques": ["Comment [Adjacent Footman units gain +25% Strength when defending]"],
+		"unitTypes": ["Construct"]
+	},
+	
+	{
+		"name": "Assault Protocol",
+		"uniques": ["[+20]% Strength <when attacking>"],
+		"unitTypes": ["Construct"]
+	},
+	{
+		"name": "Demolitionist",
+		"prerequisites": ["Assault Protocol"],
+		"uniques": [
+			"[+33]% Strength <when attacking> <vs cities>",
+			"Destroys tile improvements when attacking"
+		],
+		"unitTypes": ["Construct"]
+	},
+	{
+		"name": "Berserk",
+		"prerequisites": ["Demolitionist"],
+		"uniques": [
+			"No damage penalty for wounded units <hidden from users>",
+			"Comment [+5% Strength for every 10 HP lost]",
+			"[+5]% Strength <when below [91] HP> <hidden from users>",
+			"[+5]% Strength <when below [81] HP> <hidden from users>",
+			"[+5]% Strength <when below [61] HP> <hidden from users>",
+			"[+5]% Strength <when below [51] HP> <hidden from users>",
+			"[+5]% Strength <when below [41] HP> <hidden from users>",
+			"[+5]% Strength <when below [31] HP> <hidden from users>",
+			"[+5]% Strength <when below [21] HP> <hidden from users>",
+			"[+5]% Strength <when below [11] HP> <hidden from users>",
+		],
+		"unitTypes": ["Construct"]
+	},
+	
+	{
+		"name": "Avenger",
+		"prerequisites": ["Protector","Berserk"],
+		"uniques": ["Comment [Deals 10 damage to attacker]"],
+		"unitTypes": ["Construct"]
+	},
+	{
+		"name": "Volatile Core",
+		"prerequisites": ["Protector","Berserk"],
+		"uniques": ["Comment [Upon being defeated, deals 30 damage to the last attacker]"],
+		"unitTypes": ["Construct"]
+	},
+	{
+		"name": "Auxiliary Core",
+		"prerequisites": ["Protector","Berserk"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Construct"]
+	},
+	
+	{
+		"name": "Amphibious Mode",
+		"prerequisites": ["Bulwark Protocol","Assault Protocol"],
+		"uniques": [
+			"[1] Movement point cost to embark",
+			"[1] Movement point cost to disembark",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast"
+		],
+		"unitTypes": ["Construct"]
 	},
 	
 	// Melee Water
 	{
-		"name": "Helmsman",
-		"uniques": ["[+1] Movement"],
+		"name": "Boarding Party I",
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Melee Water"]
 	},
 	{
-		"name": "Embolon",
-		"uniques": ["[+25]% Strength <vs [Water] units>"],
+		"name": "Boarding Party II",
+		"prerequisites": ["Boarding Party I"],
+		"uniques": ["[+20]% Strength <vs [Water] units>"],
 		"unitTypes": ["Melee Water"]
 	},
 	{
-		"name": "Rutter",
-		"prerequisites": ["Helmsman"],
+		"name": "Boarding Party III",
+		"prerequisites": ["Boarding Party II"],
+		"uniques": ["[+20]% Strength <vs [Water] units>"],
+		"unitTypes": ["Melee Water"]
+	},
+
+	{
+		"name": "Coastal Raider I",
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Melee Water"]
+	},
+	{
+		"name": "Coastal Raider II",
+		"prerequisites": ["Coastal Raider I"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Melee Water"]
+	},
+	{
+		"name": "Coastal Raider III",
+		"prerequisites": ["Coastal Raider II"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Melee Water"]
+	},
+	
+	{
+		"name": "Landing Party",
+		"prerequisites": ["Boarding Party I","Coastal Raider I"],
+		"uniques": ["Eliminates combat penalty for attacking across a coast"],
+		"unitTypes": ["Melee Water"]
+	},
+	{
+		"name": "Armor Plating",
+		"prerequisites": ["Landing Party","Boarding Party II","Coastal Raider II"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Melee Water"]
+	},
+	
+	// Ranged Water
+	{
+		"name": "Targeting I",
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water"]
+	},
+	{
+		"name": "Targeting II",
+		"prerequisites": ["Targeting I"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water"]
+	},
+	{
+		"name": "Targeting III",
+		"prerequisites": ["Targeting II"],
+		"uniques": ["[+20]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water"]
+	},
+	
+	// Air Terror
+	{
+		"name": "Hunter Instinct I",
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"unitTypes": ["Air Terror"]
+	},
+	{
+		"name": "Hunter Instinct II",
+		"prerequisites": ["Hunter Instinct I"],
+		"uniques": ["[+20]% Strength <when attacking>"],
+		"unitTypes": ["Air Terror"]
+	},
+	{
+		"name": "Hunter Instinct III",
+		"prerequisites": ["Hunter Instinct II"],
+		"uniques": ["[+25]% Strength"],
+		"unitTypes": ["Air Terror"]
+	},
+	
+	{
+		"name": "Awareness I",
+		"uniques": ["Comment [Attacks inflict status ailment]"],
+		"unitTypes": ["Air Terror"]
+	},
+	{
+		"name": "Awareness II",
+		"prerequisites": ["Awareness I"],
+		"uniques": [
+			"Can see over obstacles",
+			"Can see invisible [Military] units"
+		],
+		"unitTypes": ["Air Terror"]
+	},
+	{
+		"name": "Awareness III",
+		"prerequisites": ["Awareness II"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Melee Water"]
-	},
-	{
-		"name": "Reinforced Hull",
-		"prerequisites": ["Embolon"],
-		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Melee Water"]
-	},
-	{
-		"name": "Convoy",
-		"prerequisites": ["Rutter","Reinforced Hull"],
-		"uniques": ["[+20]% Strength <when adjacent to a [{Military} {Water}] unit>"], // +33% in formation
-		"unitTypes": ["Melee Water"]
-	},
-	{
-		"name": "Auxillary Ships",
-		"prerequisites": ["Rutter","Reinforced Hull"],
-		"uniques": ["May heal outside of friendly territory", "[+10] HP when healing <in [Foreign Land] tiles>"],
-		"unitTypes": ["Melee Water"]
-	},
-	{
-		"name": "Creeping Attack",
-		"prerequisites": ["Convoy","Auxillary Ships"],
-		"uniques": ["[+50]% Strength <vs [Water] units>"], // vs Submarine
-		"unitTypes": ["Melee Water"]
+		"unitTypes": ["Air Terror"]
 	},
 	
-	// Water ranged
 	{
-		"name": "Line of Battle",
-		"uniques": ["[+25]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water"]
+		"name": "Fire Breath", 					// Fire Dragon
+		"prerequisites": ["Awareness I"],
+		"uniques": [
+			"Fire Element",
+			"Only available <for units without [Ice Breath]> <for units without [Venom Breath]> <for units without [Wind Breath]>",
+			"This Promotion is free",
+			"[+15]% Strength <vs [Wind Element] units> <when attacking>",
+			
+			"Comment [Inflict [Burning] on target]",
+			"[Target Unit] gains the [Burning] status for [3] turn(s) <upon damaging a [Land] unit> <hidden from users>",
+			"[This Unit] loses the [Burning] status <upon gaining the [Burning] status> <hidden from users>"
+		],
+		"unitTypes": ["Air Terror"],
+		"innerColor": [255, 69, 10],
+		"civilopediaText": [
+			{ "text": "Burning", "link": "Promotion/Burning" }
+		]
 	},
 	{
-		"name": "Bombardment",
-		"uniques": ["[+25]% Strength <vs cities>"],
-		"unitTypes": ["Ranged Water"]
+		"name": "Ice Breath", 					// Ice Dragon
+		"prerequisites": ["Awareness I"],
+		"uniques": [
+			"Water Element",
+			"Only available <for units without [Fire Breath]> <for units without [Venom Breath]> <for units without [Wind Breath]>",
+			"This Promotion is free",
+			"[+15]% Strength <vs [Fire Element] units> <when attacking>",
+			
+			"Comment [Inflict [Chilled] on target]",
+			"[Target Unit] gains the [Chilled] status for [3] turn(s) <upon damaging a [Land] unit> <hidden from users>",
+			"[This Unit] loses the [Chilled] status <upon gaining the [Chilled] status> <hidden from users>"
+		],
+		"unitTypes": ["Air Terror"],
+		"innerColor": [  0,191,255],
+		"civilopediaText": [
+			{ "text": "Chilled", "link": "Promotion/Chilled" }
+		]
 	},
 	{
-		"name": "Preparatory Fire",
-		"prerequisites": ["Line of Battle"],
-		"uniques": ["[+25]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water"]
+		"name": "Venom Breath", 				// Green Dragon (DnD), Wind
+		"prerequisites": ["Awareness I"],
+		"uniques": [
+			"Earth Element",
+			"Only available <for units without [Fire Breath]> <for units without [Ice Breath]> <for units without [Wind Breath]>",
+			"This Promotion is free",
+			"[+15]% Strength <vs [Water Element] units> <when attacking>",
+			
+			"Comment [Inflict [Poisoned] on target]",
+			"[Target Unit] gains the [Poisoned] status for [3] turn(s) <upon damaging a [Land] unit> <hidden from users>",
+			"[This Unit] loses the [Poisoned] status <upon gaining the [Poisoned] status> <hidden from users>"
+		],
+		"unitTypes": ["Air Terror"],
+		"innerColor": [  0,196,125],
+		"civilopediaText": [
+			{"text": "Poisoned", "link":"Promotion/Poisoned"}
+		]
 	},
 	{
-		"name": "Rolling Barrage",
-		"prerequisites": ["Bombardment"],
-		"uniques": ["[+25]% Strength <vs cities> <when attacking>"],
-		"unitTypes": ["Ranged Water"]
-	},
-	{
-		"name": "Supply Fleet",
-		"prerequisites": ["Preparatory Fire","Rolling Barrage"],
-		"uniques": ["May heal outside of friendly territory", "[+10] HP when healing <in [Foreign Land] tiles>"],
-		"unitTypes": ["Ranged Water"]
-	},
-	{
-		"name": "Proximity Fuses",
-		"prerequisites": ["Preparatory Fire","Rolling Barrage"],
-		"uniques": ["[+25]% Strength <vs [Air] units> <when defending>"],
-		"unitTypes": ["Ranged Water"]
-	},
-	{
-		"name": "Coincidence Rangefinding",
-		"prerequisites": ["Supply Fleet","Proximity Fuses"],
-		"uniques": ["[+1] Range"],
-		"unitTypes": ["Ranged Water"]
+		"name": "Wind Breath", 					// Wind Dragon
+		"prerequisites": ["Awareness I"],
+		"uniques": [
+			"Wind Element",
+			"Only available <for units without [Fire Breath]> <for units without [Ice Breath]> <for units without [Venom Breath]>",
+			"This Promotion is free",
+			"[+15]% Strength <vs [Earth Element] units> <when attacking>",
+			
+			"Comment [Inflict [Bleeding] on target]",
+			"[Target Unit] gains the [Bleeding] status for [3] turn(s) <upon damaging a [Land] unit> <hidden from users>",
+			"[This Unit] loses the [Bleeding] status <upon gaining the [Bleeding] status> <hidden from users>"
+		],
+		"innerColor": [  0,196,125],
+		"unitTypes": ["Air Terror"],
+		"civilopediaText": [
+			{ "text": "Bleeding", "link": "Promotion/Bleeding" }
+		]
 	},
 	
-	// Submarine
+	{
+		"name": "Poisoned",
+		"uniques": [
+			"Ailment",
+			"Comment [Takes 10 damage upon turn start]",
+			"[This Unit] takes [10] damage <upon turn start> <hidden from users>",
+			
+			"[-1]% Strength <hidden from users>"
+		],
+		"innerColor": [200, 0, 0]
+	},
+	
+	{
+		"name": "Hardened Scale",
+		"prerequisites": ["Hunter Instinct I","Awareness I"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Air Terror"]
+	},
+	{
+		"name": "Aerial Agility",
+		"prerequisites": ["Hunter Instinct III","Awareness III"],
+		"uniques": ["Can move after attacking"],
+		"unitTypes": ["Air Terror"]
+	},
+	
+	// Water Terror
+	{
+		"name": "Lurking Attack I",
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Water Terror"]
+	},
+	{
+		"name": "Lurking Attack II",
+		"prerequisites": ["Lurking Attack I"],
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Water Terror"]
+	},
+	{
+		"name": "Lurking Attack III",
+		"prerequisites": ["Lurking Attack II"],
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Water Terror"]
+	},
+	
 	{
 		"name": "Loot",
-		"uniques": ["No movement cost to pillage", "Earn [33]% of the damage done to [City] units as [Gold]"],
-		"unitTypes": ["Submarine"]
-	},
-	{
-		"name": "Boarding",
-		"uniques": ["Earn [100]% of killed [Water] unit's [Strength] as [Gold]"],
-		"unitTypes": ["Submarine"]
-	},
-	{
-		"name": "Swift Keel",
-		"prerequisites": ["Loot","Homing Torpedoes"],
-		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Submarine"]
-	},
-	{
-		"name": "Homing Torpedoes",
-		"prerequisites": ["Boarding","Swift Keel"],
-		"uniques": ["[+33]% Strength <vs [Water] units>"],
-		"unitTypes": ["Submarine"]
-	},
-	{
-		"name": "Observation",
-		"prerequisites": ["Swift Keel"],
-		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Submarine"]
+		"prerequisites": ["Lurking Attack I"],
+		"uniques": [
+			"No movement cost to pillage", 
+			"Earn [33]% of the damage done to [Water] units as [Gold]"
+		],
+		"unitTypes": ["Water Terror"]
 	},
 	{
 		"name": "Silent Running",
-		"prerequisites": ["Homing Torpedoes"],
+		"prerequisites": ["Lurking Attack II"],
 		"uniques": ["Can move after attacking"],
-		"unitTypes": ["Submarine"]
+		"unitTypes": ["Water Terror"]
+	},
+	
+	// Tamer
+	{
+		"name": "Subjugation I",
+		"uniques": [
+			"[+15]% Strength <vs [Monster] units>",
+			"[This Unit] gains [5] XP <upon defeating a [Monster] unit>",
+			"[This Unit] gains [10] XP <upon defeating a [Boss] unit>",
+			"[This Unit] heals [50] HP <upon defeating a [Boss] unit>"
+		],
+		"unitTypes": ["Tamer"]
 	},
 	{
-		"name": "Wolfpack",
-		"prerequisites": ["Observation","Silent Running"],
-		"uniques": ["[1] additional attack per turn"],
-		"unitTypes": ["Submarine"]
-	},
-
-	// Aircraft Carrier
-	{
-		"name": "Flight Deck",
-		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Aircraft Carrier"]
+		"name": "Subjugation II",
+		"prerequisites": ["Subjugation I"],
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Tamer"]
 	},
 	{
-		"name": "Scout Planes",
-		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Aircraft Carrier"]
+		"name": "Subjugation III",
+		"prerequisites": ["Subjugation II"],
+		"uniques": [
+			"[-10]% Strength for enemy [Monster] units in adjacent [All] tiles",
+			"Comment [Reduce damage taken by 3]",
+			"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <hidden from users>"
+		],
+		"unitTypes": ["Tamer"]
+	},
+	
+	{
+		"name": "Synergy I",
+		"uniques": ["[+20]% Strength bonus for [Monster] units within [2] tiles"],
+		"unitTypes": ["Tamer"]
 	},
 	{
-		"name": "Hangar Deck",
-		"prerequisites": ["Flight Deck","Advanced Engines"],
-		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Aircraft Carrier"]
+		"name": "Synergy II",
+		"prerequisites": ["Synergy I"],
+		"uniques": [
+			"[+25]% Strength <when defending>",
+			"All adjacent units heal [+5] HP when healing"
+		],
+		"unitTypes": ["Tamer"]
 	},
 	{
-		"name": "Advanced Engines",
-		"prerequisites": ["Scout Planes","Hangar Deck"],
-		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Aircraft Carrier"]
+		"name": "Synergy III",
+		"prerequisites": ["Synergy II"],
+		"uniques": [
+			"[+1] Sight",
+			"Can see invisible [Military] units"
+		],
+		"unitTypes": ["Tamer"]
+	},
+	
+	// Air Bomber + Air Combat
+	{
+		"name": "Volley I",
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Air Bomber"]
 	},
 	{
-		"name": "Folding Wings",
-		"prerequisites": ["Hangar Deck","Deck Crews"],
-		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Aircraft Carrier"]
+		"name": "Volley II",
+		"prerequisites": ["Volley I"],
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Air Bomber"]
 	},
 	{
-		"name": "Deck Crews",
-		"prerequisites": ["Advanced Engines","Folding Wings"],
-		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Aircraft Carrier"]
+		"name": "Volley III",
+		"prerequisites": ["Volley II"],
+		"uniques": ["[+34]% Strength <vs cities>"],
+		"unitTypes": ["Air Bomber"]
+	},
+	
+	{
+		"name": "Interception I",
+		"uniques": ["[+33]% Damage when intercepting"],
+		"unitTypes": ["Air Combat"]
 	},
 	{
-		"name": "Supercarrier",
-		"prerequisites": ["Deck Crews","Folding Wings"],
-		"uniques": ["May heal outside of friendly territory", "[+10] HP when healing <in [Foreign Land] tiles>"],
-		"unitTypes": ["Aircraft Carrier"]
-	},
-
-	// Bomber
-	{
-		"name": "Box Formation",
-		"uniques": ["Bonus vs Fighter 25%"],
-		"unitTypes": ["Bomber"]
+		"name": "Interception II",
+		"prerequisites": ["Interception I"],
+		"uniques": ["[+33]% Damage when intercepting"],
+		"unitTypes": ["Air Combat"]
 	},
 	{
-		"name": "Evasive Maneuvers",
-		"uniques": ["[+25]% Strength <vs [Melee] units>"],
-		"unitTypes": ["Bomber"]
+		"name": "Interception III",
+		"prerequisites": ["Interception II"],
+		"uniques": ["[+34]% Damage when intercepting"],
+		"unitTypes": ["Air Combat"]
+	},
+	
+	{
+		"name": "Air Targeting I",
+		"prerequisites": ["Volley I","Bombardment I"],
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
+		"unitTypes": ["Air Bomber","Air Combat"]
 	},
 	{
-		"name": "Torpedo Bomber",
-		"prerequisites": ["Box Formation","Evasive Maneuvers"],
-		"uniques": ["[+57]% Strength <vs [Water] units>"],
-		"unitTypes": ["Bomber"]
+		"name": "Air Targeting II",
+		"prerequisites": ["Air Targeting I"],
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
+		"unitTypes": ["Air Bomber","Air Combat"]
 	},
+	
 	{
-		"name": "Close Air Support",
-		"prerequisites": ["Box Formation","Evasive Maneuvers"],
-		"uniques": ["[+40]% Strength <vs [Land] units>"],
-		"unitTypes": ["Bomber"]
-	},
-	{
-		"name": "Tactical Maintenance",
-		"prerequisites": ["Torpedo Bomber"],
-		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Bomber"]
-	},
-	{
-		"name": "Long Range",
-		"prerequisites": ["Close Air Support"],
+		"name": "Operational Range",
+		"prerequisites": ["Volley I","Bombardment I"],
 		"uniques": ["[+2] Range"],
-		"unitTypes": ["Bomber"]
+		"unitTypes": ["Air Bomber","Air Combat"]
 	},
 	{
-		"name": "Superfortress",
-		"prerequisites": ["Tactical Maintenance","Long Range"],
+		"name": "Evasion",
+		"prerequisites": ["Volley II","Bombardment II"],
 		"uniques": ["Damage taken from interception reduced by [50]%"],
-		"unitTypes": ["Bomber"]
-	},
-	
-	// Fighter
-	{
-		"name": "Dogfighting",
-		"uniques": ["[+25]% Strength <vs [Fighter] units>"],
-		"unitTypes": ["Fighter"]
+		"unitTypes": ["Air Bomber"]
 	},
 	{
-		"name": "Cockpit Armor",
-		"uniques": ["[+25]% Strength <vs [Melee] units>"],
-		"unitTypes": ["Fighter"]
+		"name": "Mega Counterspell",
+		"prerequisites": ["Interception II"],
+		"uniques": ["[1] extra interceptions may be made per turn"],
+		"unitTypes": ["Air Combat"]
 	},
 	{
-		"name": "Interceptor",
-		"prerequisites": ["Dogfighting"],
-		"uniques": ["[+25]% Strength <vs [Bomber] units>"],
-		"unitTypes": ["Fighter"]
-	},
-	{
-		"name": "Strafe",
-		"prerequisites": ["Cockpit Armor"],
-		"uniques": ["[+57]% Strength <vs [Melee] units>","[+57]% Strength <vs [Armor] units>"],
-		"unitTypes": ["Fighter"]
-	},
-	{
-		"name": "Ground Crews",
-		"prerequisites": ["Interceptor"],
+		"name": "Healing Charm",
+		"prerequisites": ["Volley II","Bombardment II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Fighter"]
+		"unitTypes": ["Air Bomber","Air Combat"]
+	},
+	
+	// Hero
+	{
+		"name": "Hero",
+		"uniques": [
+			"[-100]% maintenance costs",
+			"[+33] Strength <vs [Monster] units>",
+			"[+33] Strength <vs [Air Terror] units>",
+			"[+33] Strength <vs [Water Terror] units>",
+			
+			// Status ailment removal
+			"Comment [Immune to status ailment]",
+			"[This Unit] loses the [Burning] status <upon gaining the [Burning] status> <hidden from users>",
+			"[This Unit] loses the [Chilled] status <upon gaining the [Chilled] status> <hidden from users>",
+			"[This Unit] loses the [Rooted] status <upon gaining the [Rooted] status> <hidden from users>",
+			"[This Unit] loses the [Bleeding] status <upon gaining the [Bleeding] status> <hidden from users>",
+			"[This Unit] loses the [Poisoned] status <upon gaining the [Poisoned] status> <hidden from users>",
+			"[This Unit] loses the [Frightened] status <upon gaining the [Frightened] status> <hidden from users>",
+			"[This Unit] loses the [Webbed] status <upon gaining the [Frightened] status> <hidden from users>",
+			
+			// Average Strength 40
+			"[+25] Strength <after discovering [Enlightenments]> <hidden from users>", // 65
+		]
 	},
 	{
-		"name": "Tank Buster",
-		"prerequisites": ["Strafe"],
-		"uniques": ["[+57]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Fighter"]
+		"name": "Teleportation",
+		"uniques": [
+			"Flying", // not affected by some unqiues
+			"May Paradrop to [Land] tiles up to [10] tiles away <in [City center] tiles>"
+		]
+	},
+	
+	
+	{
+		"name": "Bushido",
+		"uniques": ["No damage penalty for wounded units"]
 	},
 	{
-		"name": "Drop Tanks",
-		"prerequisites": ["Ground Crews","Tank Buster"],
-		"uniques": ["[+2] Range"],
-		"unitTypes": ["Fighter"]
+		"name": "Phalanx",
+		"uniques": [
+			"[+15]% Strength <when defending>",
+			"[+25]% Strength <when defending> <vs [Ranged] units>"
+		]
 	},
-
-	// Uniques
 	{
-		"name": "Water of Life", // only for Units that have been close to Natural Wonder Fountain of Youth
-		"uniques": ["[+10] HP when healing"]
+		"name": "River Warlord",
+		"uniques": [
+			"Eliminates combat penalty for attacking over a river",
+			"[+50]% to Flank Attack bonuses"
+		]
+	},
+	{
+		"name": "Huntress",
+		"uniques": [
+			"[+1] Range",
+			"[+1] Sight <in [Hill] tiles>"
+		]
+	},
+	{
+		"name": "Rapid Fire",
+		"uniques": ["[1] additional attacks per turn"]
+	},
+	{
+		"name": "Victory Banner",
+		"uniques": [
+			"[+1] Range <in [City center] tiles>",
+			"Ranged attacks may be performed over obstacles"
+		]
+	},
+	{
+		"name": "Turtling",
+		"uniques": [
+			"[+20]% Strength <in [Friendly Land] tiles>",
+			"Comment [Reduce damage taken by 5]",
+			"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <hidden from users>"
+		]
+	},
+	{
+		"name": "Sea Wolf",
+		"uniques": [
+			"Invisible to non-adjacent units",
+			"Earn [33]% of the damage done to [Water] units as [Gold]"
+		]
+	},
+	
+	// Mixed
+	{
+		"name": "Bombardment I",
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Ranged Water","Air Bomber","Air Combat"]
+	},
+	{
+		"name": "Bombardment II",
+		"prerequisites": ["Bombardment I"],
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Ranged Water","Air Bomber","Air Combat"]
+	},
+	{
+		"name": "Bombardment III",
+		"prerequisites": ["Bombardment II"],
+		"uniques": ["[+34]% Strength <vs [Land] units>"],
+		"unitTypes": ["Ranged Water","Air Bomber","Air Combat"]
 	},
 	
 	{
-		"name": "Taxis", // Byzantium
-		"uniques": ["[10]% Strength"]
+		"name": "Besiege",
+		"prerequisites": ["Shock II","Drill II"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Sword","Spear"]
 	},
 	{
-		"name": "Porphyrogennetos", // Byzantium
-		"uniques": ["Bonus vs City 33%"]
+		"name": "Amphibious",
+		"prerequisites": ["Shock II","Drill II","Subjugation II","Synergy II"],
+		"uniques": [
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast"
+		],
+		"unitTypes": ["Sword","Spear","Tamer"]
 	},
 	{
-		"name": "Mit'a", // Inca's Worker
+		"name": "Sentry",
+		"prerequisites": ["Shock II","Drill II","Accuracy I","Barrage I","Boarding Party I","Coastal Raider I","Targeting I","Bombardment I","Lurking Attack I"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Sword","Spear","Mounted","Archery","Mage","Melee Water","Ranged Water","Water Terror"]
+	},
+	{
+		"name": "Blitz",
+		"prerequisites": ["Shock III","Drill III","Subjugation III","Synergy III"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Sword","Spear","Mounted","Tamer"]
+	},
+	{
+		"name": "March",
+		"prerequisites": ["Shock III","Drill III","Accuracy II","Barrage II","Subjugation III","Synergy III"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Sword","Spear","Mounted","Archery","Siege","Tamer"]
+	},
+	{
+		"name": "Woodsman",
+		"prerequisites": ["Shock III","Drill III","Subjugation II","Synergy II"],
+		"uniques": [
+			"Double movement in [Forest]",
+			"Double movement in [Jungle]"
+		],
+		"unitTypes": ["Sword","Spear","Tamer"]
+	},
+	{
+		"name": "Mobility",
+		"prerequisites": ["Shock III","Drill III","Shield Arm","Demolitionist","Boarding Party II","Coastal Raider II","Targeting II","Bombardment II","Hunter Instinct III","Awareness III","Lurking Attack II"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Mounted","Construct","Melee Water","Ranged Water","Air Terror","Water Terror"]
+	},
+	
+	{
+		"name": "Cover I",
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Sword","Spear","Archery","Siege"]
+	},
+	{
+		"name": "Cover II",
+		"prerequisites": ["Cover I"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Sword","Spear","Archery","Siege"]
+	},
+	
+	{
+		"name": "Extended Range",
+		"prerequisites": ["Accuracy III","Barrage III","Restoration","Elemental Awakening","Targeting II","Bombardment II","Lurking Attack III"],
+		"uniques": [
+			"Only available <for units without [Huntress]> <hidden from users>",
+			"[+1] Range"
+		],
+		"unitTypes": ["Archery","Siege","Mage","Ranged Water","Water Terror"]
+	},
+	{
+		"name": "Indirect Fire",
+		"prerequisites": ["Accuracy II","Barrage II","Targeting II","Bombardment II"],
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"unitTypes": ["Archery","Siege","Mage","Ranged Water"]
+	},
+	{
+		"name": "Volley",
+		"prerequisites": ["Accuracy I","Barrage I"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Siege","Mage"]
+	},
+	
+	{
+		"name" : "Supply",
+		"prerequisites": ["Boarding Party III","Coastal Raider III","Targeting II","Bombardment II"],
+		"uniques": [
+			"May heal outside of friendly territory",
+			"[+15] HP when healing <in [Foreign Land] tiles>"
+		],
+		"unitTypes": ["Melee Water","Ranged Water"]
+	},
+	
+	{
+		"name": "Huntdown",
+		"prerequisites": ["Shock II","Drill II"],
+		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Foot Monster","Mounted Monster"]
+	},
+	{
+		"name": "Rage",
+		"prerequisites": ["Shock III","Drill III"],
+		"uniques": [
+			"[+25]% Strength <when below [50] HP>",
+			"[+25]% Strength <when below [25] HP>",
+			"No damage penalty for wounded units",
+			"[-5] HP when healing"
+		],
+		"unitTypes": ["Foot Monster","Mounted Monster"]
+	},
+	
+	{
+		"name": "Logistics",
+		"prerequisites": ["Accuracy III","Barrage III","Boarding Party III","Coastal Raider III","Targeting II","Bombardment II"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Archery","Siege","Melee Water","Ranged Water"]
+	},
+	{
+		"name": "Regenerative Tissue",
+		"prerequisites": ["Hunter Instinct III","Awareness III","Lurking Attack III"],
+		"uniques": [
+			"May heal outside of friendly territory <hidden from users>",
+			"Unit will heal every turn, even if it performs an action"
+		],
+		"unitTypes": ["Air Terror","Water Terror"]
+	},
+	{
+		"name": "Intimidation",
+		"prerequisites": ["Hunter Instinct III","Awareness III","Lurking Attack III","Shock III","Drill III"],
+		"uniques": ["[-10]% Strength for enemy [non-[Hero]] units in adjacent [All] tiles"],
+		"unitTypes": ["Air Terror","Water Terror","Foot Monster","Mounted Monster"]
+	},
+	
+	// Free
+	{
+		"name": "Morale",							// Heroic Epic
+		"uniques": ["[+15]% Strength"]
+	},
+	{
+		"name": "Ignore terrain cost",				// Recon
+		"uniques": ["Ignores terrain cost"]
+	},
+	{
+		"name": "Rejuvenation",						// Fountain of Youth
+		"uniques": ["All healing effects doubled"]
+	},
+	{
+		"name": "Cold Resistant",					// Mount Snowpeak
+		"uniques": [
+			"Comment [Immune to [Chilled]]",
+			"[This Unit] loses the [Chilled] status <upon gaining the [Chilled] status> <hidden from users>",
+			"Double movement in [Snow]"
+		]
+	},
+	{
+		"name": "Fly",							// Tech Fly
 		"uniques": ["Can pass through impassable tiles"]
 	},
 	{
-		"name": "Ordu", // Mongolia
-		"uniques": ["[+1] Movement"]
+		"name": "Great Generals I",					// Hero
+		"uniques": ["[Great General] is earned [50]% faster"]
 	},
 	{
-		"name": "Founder of Chartage", // Phoenicia
-		"uniques": ["[+2] Movement <in [Coast] tiles>", "[+2] Movement <in [Ocean] tiles>", 
-			"[+1] Sight <in [Coast] tiles>", "[+1] Sight <in [Ocean] tiles>", "[1] Movement point cost to embark", 
-			"[1] Movement point cost to disembark"]
+		"name": "Great Generals II",				// Hero
+		"uniques": ["[Great General] is earned [100]% faster"]
 	},
 	{
-		"name": "Royal Navy Dockyard", // England
-		"uniques": ["[+1] Movement"],
-		"unitTypes": ["WaterRanged","WaterSubmarine","WaterMelee","WaterAircraftCarrier"]
+		"name": "Great Admirals I",					// Hero
+		"uniques": ["[Great Admiral] is earned [50]% faster"]
 	},
 	{
-		"name": "Martyr", //Khmer
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence"]
+		"name": "Great Admirals II",				// Hero
+		"uniques": ["[Great Admiral] is earned [100]% faster"]
+	},
+	
+	// Landoruel
+	{
+		"name": "[Bowman] ability",
+		"uniques": [
+			"[+25]% Strength <in [Forest] tiles>",
+			"[+25]% Strength <in [Jungle] tiles>"
+		]
+	},
+	
+	// Nirimar
+	{
+		"name": "[Wayfarer] ability",
+		"uniques": [
+			"Founds a new city <on foreign continents>",
+			"[1] Movement point cost to embark",
+			"[1] Movement point cost to disembark"
+		]
 	},
 	{
-		"name": "Drone Air Defense", // GDR
-		"uniques": ["Bonus vs air units 333%"]
+		"name": "Nature Blessing",
+		"uniques": [
+			"Comment [This Unit heals 50 HP upon ending a turn on or near Natural Wonder]",
+			"[This Unit] heals [50] HP <upon ending a turn in a [All] tile> <with [1] to [6] neighboring [Natural Wonder] tiles> <hidden from users>",
+			"[This Unit] heals [50] HP <upon ending a turn in a [Natural Wonder] tile> <hidden from users>"
+		]
+	},
+	
+	// Gaaril
+	{
+		"name": "Heavily Armored",
+		"uniques": [
+			"Comment [20% damage reduction, up to 10 damage]",
+			"[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [15] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [20] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [25] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [30] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [35] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [40] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [45] HP in a single attack> <hidden from users>",
+			"[This Unit] heals [1] HP <upon losing at least [50] HP in a single attack> <hidden from users>"
+		]
+	},
+	
+	// The Obtrar'ri
+	{
+		"name": "Bloodthirst",
+		"uniques": ["[This Unit] heals [3] HP <upon damaging a [All] unit>"]
 	},
 	{
-		"name": "Particle Beam Siege Cannon", // GDR
-		"uniques": ["[100]% Strength","Bonus vs City 100%"]
+		"name": "Demonic Might",
+		"uniques": [
+			"Comment [Access to unique skills]",
+			"[This Unit] gains [10] XP <upon conquering a city>"
+		]
 	},
 	{
-		"name": "Enhanced Mobility", // GDR
-		"uniques": ["+1 Movement","+1 Movement","+1 Movement"]
+		"name": "Demonic Resilience",
+		"prerequisites": ["Demonic Might"],
+		"uniques": [
+			"[-1] Movement",
+			"[+33]% Strength <when defending>"
+		],
+		"unitTypes": ["Mounted"]
 	},
 	{
-		"name": "Reinforced Armor Plating", // GDR
-		"uniques": ["[+33]% Strength <when defending>"]
+		"name": "Demon's Wrath",
+		"prerequisites": ["Demonic Might"],
+		"uniques": ["[+25]% Strength <when below [50] HP>"],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Dread Aura",
+		"prerequisites": ["Demonic Might"],
+		"uniques": ["[-10]% Strength for enemy [non-[Hero]] units in adjacent [All] tiles"],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Overlord",
+		"prerequisites": ["Demonic Might"],
+		"uniques": ["[+33]% Strength <when attacking> <vs cities>"],
+		"unitTypes": ["Mounted"]
+	},
+	{
+		"name": "Soul Devourer",
+		"prerequisites": ["Demonic Might"],
+		"uniques": ["[This Unit] heals [15] HP <upon defeating a [non-[Barbarian]] unit>"],
+		"unitTypes": ["Mounted"]
+	},
+	
+	// The Red Elves
+	{
+		"name": "Passion of Blood",
+		"uniques": [
+			"Comment [+10% Strength per 20 HP lost]",
+			"[This Unit] heals [15] HP <upon defeating a [non-[Barbarian]] unit>",
+			
+			"[+10]% Strength <when below [80] HP> <hidden from users>",
+			"[+10]% Strength <when below [60] HP> <hidden from users>",
+			"[+10]% Strength <when below [40] HP> <hidden from users>",
+			"[+10]% Strength <when below [20] HP> <hidden from users>"
+		]
+	},
+	{
+		"name": "[Blood Mage] ability",
+		"uniques": [
+			"[This Unit] heals [15] HP <upon defeating a [Military] unit>",
+			"[This Unit] loses the [Bleeding] status <upon gaining the [Bleeding] status> <hidden from users>"
+		]
+	},
+	{
+		"name": "Blood Lance",
+		"uniques": [
+			"Comment [Inflict [Bleeding] on target]",
+			"Comment [Deals extra 10 damage to [Bleeding] unit]",
+			
+			"[Target Unit] gains the [Bleeding] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>",
+			"[Target Unit] takes [10] damage <upon damaging a [Bleeding] unit> <hidden from users>"
+		]
+	},
+	
+	// The Night Elves
+	{
+		"name": "Protected",
+		"uniques": [
+			"Invisible to others <in [Forest] tiles>",
+			"Invisible to others <in [Jungle] tiles>"
+		]
+	},
+	{
+		"name": "Sight of Moon",
+		"uniques": [
+			"Can see over obstacles",
+			"Can see invisible [All] units"
+		]
+	},
+	{
+		"name": "[Nightstalker] ability",
+		"uniques": [
+			"Comment [Invisible on [Forest] and [Jungle] if not move for the last 2 turns]",
+			"Invisible to others <in [Forest] tiles> <for units without [[Nightstalker] ability Cooldown]> <hidden from users>",
+			"Invisible to others <in [Jungle] tiles> <for units without [[Nightstalker] ability Cooldown]> <hidden from users>",
+			"[This Unit] gains the [[Nightstalker] ability Cooldown] status for [2] turn(s) <upon entering a [All] tile> <hidden from users>"
+		]
+	},
+	{
+		"name": "[Nightstalker] ability Cooldown",
+		"uniques": [
+			"Comment [[[Nightstalker] ability] is on cooldown]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	
+	
+	// Monster
+	{
+		"name": "Vermin Bite",						// Giant Rat
+		"uniques": [
+			"Comment [Inflict [Poisoned] on target]",
+			"[Target Unit] gains the [Poisoned] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>"
+		],
+		"civilopediaText": [
+			{"text": "Poisoned", "link":"Promotion/Poisoned"}
+		]
+	},
+	{
+		"name": "Screech",							// Cave Bat
+		"uniques": [
+			"Comment [Inflict [Frightened] on target]",
+			"[Target Unit] gains the [Frightened] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>"
+		],
+		"civilopediaText": [
+			{"text": "Frightened", "link":"Promotion/Frightened"}
+		]
+	},
+	{
+		"name": "Quick Reflexes",					// Jackalope
+		"uniques": ["Withdraws before melee combat <with [50]% chance>"]
+	},
+	{
+		"name": "Call of the Dead",					// Undead King
+		"uniques": [
+			"Comment [May calls [Undead Warrior] and [Undead Champion]]",
+			"Free [Undead Warrior] appears <upon losing at least [30] HP in a single attack> <hidden from users>",
+			"Free [Undead Champion] appears <upon losing at least [50] HP in a single attack> <hidden from users>"
+		]
+	},
+	{
+		"name": "Venomous Sting",					// Scorpion Man
+		"uniques": [
+			"Comment [Inflict [Poisoned] on target]",
+			"[Target Unit] gains the [Poisoned] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>",
+			
+			"[+1]% Strength <hidden from users>"
+		],
+		"civilopediaText": [
+			{"text": "Poisoned", "link":"Promotion/Poisoned"}
+		]
+	},
+	{
+		"name": "Poisonous Bite",					// Peuchen
+		"uniques": [
+			"Comment [Inflict [Poisoned] on target]",
+			"[Target Unit] gains the [Poisoned] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>",
+			
+			"[+1]% Strength <hidden from users>"
+		],
+		"civilopediaText": [
+			{"text": "Poisoned", "link":"Promotion/Poisoned"}
+		]
+	},
+	{
+		"name": "Web Trap",							// Arachne
+		"uniques": [
+			"Comment [Inflict [Webbed] for on target]",
+			"[Target Unit] gains the [Webbed] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>"
+		],
+		"civilopediaText": [
+			{"text": "Webbed", "link":"Promotion/Webbed"}
+		]
+	},
+	{
+		"name": "Onslaught",						// Minotaur
+		"uniques": [
+			"[+20]% Strength <vs [Wounded] units>",
+			"Comment [Inflict [Rooted] on target]",
+			"[Target Unit] gains the [Rooted] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>"
+		],
+		"civilopediaText": [
+			{"text": "Rooted", "link":"Promotion/Rooted"}
+		]
+	},
+	{
+		"name": "Wail of Despair",					// Banshee
+		"uniques": [
+			"Comment [Inflict [Frightened] on target]",
+			"[Target Unit] gains the [Frightened] status for [2] turn(s) <upon damaging a [All] unit> <hidden from users>",
+			"[-10]% Strength for enemy [Land] units in adjacent [All] tiles"
+		],
+		"civilopediaText": [
+			{"text": "Frightened", "link":"Promotion/Frightened"}
+		]
 	},
 	
 	
 	{
-		"name": "Ignore terrain cost",
-		"uniques": ["Ignores terrain cost"]
-	}
+		"name": "Frightened",
+		"uniques": [
+			"Ailment",
+			"Cannot move",
+			
+			"[-1]% Strength <hidden from users>",
+		],
+		"innerColor": [200, 0, 0]
+	},
+	{
+		"name": "Webbed",
+		"uniques": [
+			"Ailment",
+			"Cannot move",
+			"Cannot attack",
+			"No defensive terrain bonus",
+			
+			"[-1]% Strength <hidden from users>",
+			"[This Unit] loses the [Webbed] status <for [2] movement> <hidden from users>"
+		],
+		"innerColor": [200, 0, 0]
+	},
 ]

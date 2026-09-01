@@ -1,1042 +1,637 @@
-[
-	//Spectator
+[	
 	{
 		"name": "Spectator",
 		"outerColor": [255,255,255]
 //		"innerColor": [255,255,255]
 	},
 	
-	// Nations
 	{
-		"name": "Arabia",
-		"leaderName": "Saladin",
-		"adjective": ["Arabian"],
-		"startBias": ["Desert"],
+		"name": "Landoruel",
+		"leaderName": "Ithriel",
+		"adjective": ["Aureli"],
+		"startBias": ["Hill","Forest"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Warden of Harmony",
+		"style": "Elves",
+		
+		"startIntroPart1": "The Aureli were the remnants of the Thalasia Elves who separated from the Verdalia Kingdom. They later founded Landoruel.",
+		"startIntroPart2": "Oh Queen Ithriel, your people expect your return once more, to expels those who seek to harm the tradition of Landoruel. Will you take up the challenge? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Your presence threatens our safety, you forced us to take the offensive!",
+		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
+		"denounced": "Your courage must be commended.",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"introduction": "A na m\u00e1ri\u00eb, I am Ithriel, King of the Aureli. What matter brings you here?",
+		
+		"neutralHello": "Nam\u00e1ri\u00eb.",
+		"hateHello": "Begone.",
+		"tradeRequest": "This inquiry will certainly intrigue you.",
+		
+		"outerColor": [ 70,  0,118],
+		"innerColor": [240,199,  0],
+		
+		"uniqueName": "Children of the Wild"
+		"uniques": [
+			"Elves",
+			"Comment [[Mother Tree] replaces [Palace], revealing all [Forest] and [Jungle] within 10 tile radius of original capital]",
+			//"Comment [+1 [Culture] in cities with every 2 neighboring [Forest] or [Jungle]]",
+			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."
+			
+			"Reveal up to [All] [Forest] within a [10] tile radius <upon founding a city> <in cities with a [Mother Tree]> <hidden from users>", 
+			"Reveal up to [All] [Jungle] within a [10] tile radius <upon founding a city> <in cities with a [Mother Tree]> <hidden from users>",
+			
+			//"[+1 Culture] [in all cities] <with [1] to [2] neighboring [Forest] tiles> <hidden from users>",
+			//"[+1 Culture] [in all cities] <with [3] to [4] neighboring [Forest] tiles> <hidden from users>",
+			//"[+1 Culture] [in all cities] <with [5] to [6] neighboring [Forest] tiles> <hidden from users>",
+			//"[+1 Culture] [in all cities] <with [1] to [2] neighboring [Jungle] tiles> <hidden from users>",
+			//"[+1 Culture] [in all cities] <with [3] to [4] neighboring [Jungle] tiles> <hidden from users>",
+			//"[+1 Culture] [in all cities] <with [5] to [6] neighboring [Jungle] tiles> <hidden from users>",
+			
+			"[+1 Culture] from every [Ancestor Tree] <when number of [[Ancestor Tree] Buildings] is more than [0]> <hidden from users>",
+			"[+5]% [Culture] from every [Ancestor Tree] <when number of [[Ancestor Tree] Buildings] is more than [1]> <hidden from users>",
+			"[+1 Production] from every [Ancestor Tree] <when number of [[Ancestor Tree] Buildings] is more than [2]> <hidden from users>",
+			"[+10]% Great Person generation [in all cities] <in cities with a [Ancestor Tree]> <when number of [[Ancestor Tree] Buildings] is more than [3]> <hidden from users>",
+			"[+2]% growth [in capital] <when number of [[Ancestor Tree] Buildings] is more than [0]> <hidden from users>",
+			"[+2]% growth [in capital] <when number of [[Ancestor Tree] Buildings] is more than [1]> <hidden from users>",
+			"[+2]% growth [in capital] <when number of [[Ancestor Tree] Buildings] is more than [2]> <hidden from users>",
+			"[+2]% growth [in capital] <when number of [[Ancestor Tree] Buildings] is more than [3]> <hidden from users>",
+			"[+2]% growth [in capital] <when number of [[Ancestor Tree] Buildings] is more than [4]> <hidden from users>",
+		],
+		"cities": [
+			"Elarion","Thalorien","Arandell","Nilanbel","Omyveluna","Allanar","Lylvanar","Nymbrel","Falae","Lindarae"
+		]
+	},
+	{
+		"name": "Nirimar",
+		"leaderName": "Aelwen",
+		"adjective": ["Nirimar"],
 		"preferredVictoryType": "Scientific",
-		"favoredReligion": "Islam",
+		"personality": "Verdant Pioneer",
+		"style": "Elves",
+		
+		"startIntroPart1": "Nirimar were those of the clan of Elves who migrate East to Eustasia. The Niranni and the Sulvani are both the descendants of Nirimar.",
+		"startIntroPart2": "Oh King Aelwen, once more the people look to you for guidance. Will you bring your family and people the honor and glory they deserve? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "The clans has decided, your end is nigh!",
+		"attacked": "You will not live to see the end of this!",
+		"denounced": "Your reckless pride will destroy you if you're not careful.",
+		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
+		"introduction": "Suili\u00eb, stranger. I am the glorified King Aelwen, who looks after his great people.",
+		
+		"neutralHello": "Suili\u00eb.",
+		"hateHello": "So what now?",
+		"tradeRequest": "We could form a mutual agreement.",
+		
+		"outerColor": [255,184, 33],
+        "innerColor": [  3,115, 86],
+		
+		"uniqueName": "Children of Nature"
+		"uniques": [
+			"Elves",
+			"Starts with [Archery]",
+			"Empire enters golden age <upon discovering a Natural Wonder>",
+			"[+4 Happiness] from every [Natural Wonder]",
+			
+			"Enables [Wayfarer] units to enter ocean tiles <after discovering [Sailing]> <hidden from users>"
+		],
+		"cities": [
+			"Elenthar","Eryndel","Uym Allanar","Silvariel","Lothariel","Allna Aethel","Aeloria","Nilanbel","Feywood","Whitespire"
+		],
+	},
 	
-		"declaringWar": "It is a shame that we must resort to violence, it is not the custom of kings to kill kings.",
-		"attacked": "I warn you against making a habit of shedding blood. Blood never sleeps.",
-		"defeated": "This is not victory. 'Victory' is changing the hearts of your opponents; through gentleness, through kindness.",
-		"introduction": "By the grace of the one God, the powerful, the victorious, the everlasting of whose Kingdom there is no end, I greet you, my sincere friend.",
-		"neutralHello": "Excellent!",
-		"hateHello": "It is said by my people that the house of a tyrant is a ruin...and all I see is ruin around you.",
-		"tradeRequest": "I have sent a delegation to you with gifts from our empire. Please receive them as our courtesy.",
-		"outerColor": [248,217,2],
-		"innerColor": [21,108,49],
-		
-		"uniqueName": "The Last Prophet",
-		"uniques": ["[Great Prophet] is earned [66]% faster", "[+1 Science] from each Trade Route"],
-		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
-			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
-			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"]
-	},
 	{
-		"name": "The Cree",
-		"leaderName": "Poundmaker",
-		"adjective": ["Cree"],
-		
-		"declaringWar": "I do not care to inflict the terrors of war upon you—but justice requires it.",
-		"attacked": "You could have found another way. Now, your regrets will be measured in blood.",
-		"defeated": "Had I wanted war, I would not be here now. You did not catch me. I gave myself up.",
-		"introduction": "I am Poundmaker, and I represent the Cree. May there always be peace between us.",
-		"neutralHello": "Good, good.",
-		"hateHello": "Your word is worthless.",
-		"tradeRequest": "My people send you gifts. With these you will last through winter.",
-		"outerColor": [1,42,108],
-		"innerColor": [70,175,10],
-		
-		"uniqueName": "Nihithaw",
-		"uniqueText": "Gain +1 Trade Route capacity \nGain a free Trader with Pottery \n+2 Culture in cities with a garrison",
-		"uniques": ["Gain a free [Cree Bonus] [in capital]", "Receive free [Trader] when you discover [Pottery]", 
-			"[+2 Culture] [in all cities] <with a garrison>"],
-		"cities": ["Mikisiw-Wacîhk","Pihtokahanapiwiyin","Mistahi-Sipihk","Paskwaw-Askhik","Piyesiw-Awasis","Mistawasis","Makwa-Sakahikan","Ka-Peyakwaskonam","Ahtahkakoop","Wihkasko-Kiseyin",
-			"Chemawawin","Ka-kiwistahaw","Ka-ohpawakastahk","Kawacatoose","Kawawachikamach","Kinosew-Sakahikan","Maskotew","Missanabie","Moosomin","Natashquan",
-			"Nekaneet","Ochapowace","Okanese","Papewe","Peepeekisis","Posakanacihk","Tataskweyak","Wapi-maskwa","Waskahikanihk","Whapmagoostui"]
-	},
-	{
-		"name": "Egypt",
-		"leaderName": "Cleopatra",
-		"adjective": ["Egyptian"],
-		"startBias": ["Flood plains"],
-		"preferredVictoryType": "Cultural",
-		
-		"declaringWar": "I have had enough with you. May Amun Ra guide us!",
-		"attacked": "Hah! Osiris will be pleased to welcome my enemies.",
-		"defeated": "Egypt is lost. If I can't embrace my love, I will embrace the asps.",
-		"introduction": "I am Isis reborn, I am the living Nile, I am Cleopatra and an ally, if you are worthy.",
-		"neutralHello": "Very well.",
-		"hateHello": "You will regret this!",
-		"tradeRequest": "My diplomatic delegation brings you gifts. Welcome them as you would welcome me.",
-		"outerColor": [2,79,80],
-		"innerColor": [251,236,127],
-		
-		"uniqueName": "Iteru",
-		"uniqueText": "+15% Production towards districts and wonders in cities built along a river",
-		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
-			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
-			   "Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
-			   "Balat","Ellahun","Hawara","Dashur","Damanhur","Ellahun","Abusir","Ellahun","Herakleopolis","Akoris",
-			   "Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"]
-	},
-	{
-		"name": "Ethiopia",
-		"leaderName": "Menelik II",
-		"adjective": ["Ethiopian"],
-		"startBias": ["Hill"],
-		"preferredVictoryType": "Cultural",
-		"favoredReligion": "Eastern Orthodoxy",
-		
-		"declaringWar": "Your actions insult the people of Ethiopia, and for that you must pay a heavy price.",
-		"attacked": "Do you not know that the Lion of Judah has always conquered? Well, you will learn soon enough.",
-		"defeated": "Do you think God abandoned Ethiopia? Do you think his favor rests on you? Do not gloat in your victory today.",
-		"introduction": "I am Menelik, Lion of Judah, of the house and lineage of Solomon, emperor of Ethiopia. Greetings.",
-		"neutralHello": "You are on the right side of history.",
-		"hateHello": "Your rule is a disgrace.",
-		"tradeRequest": "Ethiopia sends you our warm wishes.",
-		"outerColor": [248,217,2],
-		"innerColor": [21,108,49],
-		
-		"uniqueName": "Aksumite Legacy",
-		"uniques": ["[+1 Faith] from every [Strategic resource]", "[+1 Faith] from every [Luxury resource]"], // Purchase archaeologist amd its museum
-		"cities": ["Addis Ababa","Gondar","Harar","Axum","Adwa","Lalibela","Mekele","Dessie","Jimma","Sodo","Dire Dawa","Adigrat",
-			"Weldiya","Ankober","Alamata","Yirgalem","Gore","Negele Borana","Ginir","Debarq","Nejo","Debre Berhan",
-			"Abiy Addi","Mersa","Soqota","Sayint Ajebar","Chencha","Antalo","Yifat","Dabat","Debre Sina"]
-	},
-	{
-		"name": "France",
-		"leaderName": "Catherine de Medici",
-		"adjective": ["French"],
-		"preferredVictoryType": "Cultural",
-		"favoredReligion": "Catholicism",
-		
-		"declaringWar": "Masquerading as friends was kind of fun, wasn't it? Unfortunately it's time to drop the pretense and get to the business at hand.",
-		"attacked": "You dare attack my sovereign realm? I don't believe even Nostradamus could have predicted this!",
-		"defeated": "I have lived long enough to know when I am defeated. Carry on.",
-		"introduction": "I am Catherine, the Queen Mother of France, and I welcome you to the realm. I do so look forward to learning all there is to know about you.",
-		"neutralHello": "Carry on.",
-		"hateHello": "What would your friends think of this information?",
-		"tradeRequest": "I have sent you a trade delegation with all of the customary gifts.",
-		"outerColor": [0,79,205],
-		"innerColor": [251,236,127],
-		
-		"uniqueName": "Grand Tour",
-		"uniques": ["[+20]% Production when constructing [All] wonders [in all cities] <during the [Medieval era]>", 
-			"[+20]% Production when constructing [All] wonders [in all cities] <during the [Renaissance era]>", "[+2 Culture] from every [Wonder]"], // should double tourism
-		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
-			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
-			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
-			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"]
-	},
-	{
-		"name": "Germany",
-		"leaderName": "Frederick Barbarossa",
-		"adjective": ["German"],
-		"preferredVictoryType": "Scientific",
-		"favoredReligion": "Catholicism",
-		
-		"declaringWar": "Let it be known: you are an enemy of Germany and must be destroyed. May God have mercy on you, for I will not.",
-		"attacked": "I have defeated enemies ten times as powerful as you. You will be just one more for the historians.",
-		"defeated": "We were the august and glorious… but no, never mind that. You are victorious. May your reign be more peaceful than mine ever was.",
-		"introduction": "Greetings. I am the Holy Roman Emperor Frederick, King of Germany, Italy, Burgundy, and many others. I trust that you will rule your lands as I do: through might.",
-		"neutralHello": "Let us live in peace.",
-		"hateHello": "No, of course not.",
-		"tradeRequest": "We have sent a diplomatic envoy to you. Treat them as you would treat me.",
-		"outerColor": [175,175,175],
-		"innerColor": [24,24,24],
-		
-		"uniqueName": "Free Imperial Cities",
-		"uniqueText": "All cities can construct 1 additional District",
-		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen",
-			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
-			"Munster","Rostok","Chemnitz","Braunschweig","Halle","Mצnchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
-			"Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrucken","Krefeld","Pirmasens","Potsdam","Solingen",
-			"Osnabruck","Ludwingshafen","Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg",
-			"Recklinghausen","Gצttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"]
-	},
-	{
-		"name": "Gran Colombia",
-		"leaderName": "Simón Bolívar",
-		"adjective": ["Gran Colombian"],
-		"preferredVictoryType": "Domination"
-		"favoredReligion": "Catholicism",
-		
-		"declaringWar": "Your tyranny, if unchecked, dooms the world to darkness, and for this reason I must declare war on you.",
-		"attacked": "Recourse to war is regrettable, but necessary, when dealing with vipers like you.",
-		"defeated": "Everything I have done, I did for the nation of Gran Colombia. I remain a patriot to the very end.",
-		"introduction": "I, President Simon Bolivar, welcome you to Gran Colombia.",
-		"neutralHello": "Excellent!",
-		"hateHello": "Tyrant!.",
-		"tradeRequest": "I send to you a delegation of my finest horsemen. Will you let them in?",
-		"outerColor": [1,42,108],
-		"innerColor": [245,217,0],
-		
-		"uniqueName": "Ejército Patriota",
-		"uniqueText": "+1 Movement for non-air units",
-		"uniques": ["[+1] Movement <for [non-air] units>", 
-			"[+1 Food] from every [Hacienda] <with [2] to [3] neighboring [Plantation] tiles>", 
-			"[+2 Food] from every [Hacienda] <with [4] to [6] neighboring [Plantation] tiles>", 
-			"[+1 Production] from every [Hacienda] <with [2] to [3] neighboring [Hacienda] tiles>", 
-			"[+2 Production] from every [Hacienda] <with [4] to [5] neighboring [Hacienda] tiles>", 
-			"[+3 Production] from every [Hacienda] <with [6] to [6] neighboring [Hacienda] tiles>"],
-		"cities": ["Bogotá","Quito","Valencia De Carabobo","Cali","Cumaná","Maracaibo","Medellín","Guayaquil","Panamá","Caracas",
-			"Cartagena de Indias","Popayán","Cuenca","Barinas","Santa Marta","Loja","Angostura","Pasto","Nueva Barcelona","Neiva",
-			"Mérida","Portoviejo","Riobamba","Ibarra","Riohacha","Quibdó","Nueva Pamplona","Santiago de Veraguas","La Asunción","Achaguas",
-			"Honda","Socorro","Mompós","Trujillo","Santa Fe de Antioquia","Pore","Cúcuta","Mariquita","San Fernando de Apure","Barquisimeto"]
-	},
-	{
-		"name": "Hungary",
-		"leaderName": "Matthias Corvinus",
-		"adjective": ["Hungarian"],
-		"startBias": ["Geothermal Fissure"],
-		"preferredVictoryType": "Domination",
-		
-		"declaringWar": "Your insolence has provoked this war, and I shall be happy to lead the Black Army to victory over you.",
-		"attacked": "Surely you had to know that one day there would be war between us.",
-		"defeated": "Today you wear the victor's laurels, but can you keep what you have taken?",
-		"introduction": "I am Matthias. I am King of Hungary, scourge of my foes, and defender of the faithful. Greetings.",
-		"neutralHello": "I am glad to call you a friend.",
-		"hateHello": "You are a lawless snake.",
-		"tradeRequest": "I am sending you gifts worthy of a prince.",
-		"outerColor": [21,108,49],
-		"innerColor": [254,129,19],
-		
-		"uniqueName": "Pearl of the Danube",
-		"uniqueText": "+50% Production towards districts and buildings in cities built along a river",
-		"cities": ["Buda","Debrecen","Esztergom","Pécs","Pest","Eger","Tahiti","Miskolc","Szeged","Győr",
-			"Székesfehérvár","Óbuda","Kőszeg","Tatabánya","Kolozsvár","Diósgyőr","Kiritimati","Mohács","Tata","Szolnok",
-			"Kassa","Kecskemét","Szombathely","Simontornya","Nyíregyháza","Sárvár","Sopron","Csesznek","Zágráb","Temesvár","Nagyvázsony",
-			"Hódmezővásárhely","Sümeg","Baja"]
-	},
-	{
-		"name": "Inca",
-		"leaderName": "Pachacuti",
-		"adjective": ["Incan"],
-		"startBias": ["Mountain"],
-		
-		"declaringWar": "Let there be war between us! I will wrestle your lands away, and rule your subjects with strength.",
-		"attacked": "Now is the time for war. Hear the stamp of our warriors—warriors with the hearts of the puma.",
-		"defeated": "How did you darken the sun? I ruled with diligence and mercy—see that you do so as well.",
-		"introduction": "You stand before Pachacuti Inca Yupanqui. I accept your greeting and the service you can provide the Inca.",
-		"neutralHello": "We are as the sun and moon.",
-		"hateHello": "I do not accept this.",
-		"tradeRequest": "Receive these gifts.",
-		"outerColor": [148,73,1],
-		"innerColor": [248,217,2],
-		
-		"uniqueName": "Mit'a",
-		"uniqueText": "Citizens may work Mountain tiles \n+2 Production from every Mountain \n+1 Food from every Mountain adjacent to Terrace farm \n +1 Production from every Mountain starting from Industrial era",
-		"uniques": ["[+2 Production] from every [Mountain]", "[+1 Food] from every [Mountain] <with [1] to [1] neighboring [Terrace farm] tiles>", 
-			"[+2 Food] from every [Mountain] <with [2] to [2] neighboring [Terrace farm] tiles>", 
-			"[+3 Food] from every [Mountain] <with [3] to [6] neighboring [Terrace farm] tiles>"],
-		"cities": ["Qusqu","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
-			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
-			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
-			"Llactapata","Pisac","Kuelap","Pajaten","Chucuito","Choquequirao"]
-	},
-	{
-		"name": "Indonesia",
-		"leaderName": "Gitarja",
-		"adjective": ["Indonesian"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Cultural",
-		"favoredReligion": "Hinduism",
-
-		"declaringWar": "Before this war ends, you will know the fury of a thousand ships.",
-		"attacked": "Truly? Didn't you know my vengeance puts monsoons to shame? Soon you will.",
-		"defeated": "The dream of Nusantara is lost to the turning tide.",
-		"introduction": "I am Gitarja, Indonesia's queen and protector. Those who thought us weak litter the ocean floor.",
-		"neutralHello": "I knew you had it in you.",
-		"hateHello": "You are like the muck that spreads around ships in calm waters.",
-		"tradeRequest": "Our delegation brings oncom spore cakes!",
-		"outerColor": [205,0,1],
-		"innerColor": [9,171,157],
-		
-		"uniqueName": "Great Nusantara",
-		"uniqueText": "+1 Amenities from every cities built adjacent to a Coast or Lakes \nCoast and Lakes tile provide +0.5 adjacency bonus for Holy Site, Campus, Industrial Zone, and Theater Square",
-		"uniques": ["[+1 Happiness] [in all cities] <with [1] to [6] neighboring [Coast] tiles>",
-			"[+1 Happiness] [in all cities] <with [1] to [6] neighboring [Lakes] tiles>", 
-			"[+1 Faith, +1 Science, +1 Culture, +1 Production] [in all cities] <with [1] to [2] neighboring [Coast] tiles>", 
-			"[+2 Faith, +2 Science, +2 Culture, +2 Production] [in all cities] <with [3] to [4] neighboring [Coast] tiles>", 
-			"[+3 Faith, +3 Science, +3 Culture, +3 Production] [in all cities] <with [5] to [6] neighboring [Coast] tiles>", 
-			"[+1 Faith, +1 Science, +1 Culture, +1 Production] [in all cities] <with [1] to [2] neighboring [Lakes] tiles>", 
-			"[+2 Faith, +2 Science, +2 Culture, +2 Production] [in all cities] <with [3] to [4] neighboring [Lakes] tiles>", 
-			"[+3 Faith, +3 Science, +3 Culture, +3 Production] [in all cities] <with [5] to [6] neighboring [Lakes] tiles>"],
-		"cities": ["Majapahit","Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
-			"Kupang","Depok","Palembang","Trowulan","Semarang","Jayapura","Tangerang","Bogor","Pekanbaru","Bandar Lampung",
-			"Malang","Padang","Ternate","Banjarmasin","Pontianak","Cimahi","Balikpapan","Jambi","Komodo","Solo",
-			"Biak","Djawa","Kudus","Lombok","Samosir","Sragen","Garut","Gresik","Nias","Madiun",
-			"Yogyakarta","Bima","Sorong"]
-	},
-	{
-		"name": "The Khmer",
-		"leaderName": "Jayavarman VII",
-		"adjective": ["Khmer"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Cultural",
-		"favoredReligion": "Buddhism",
-
-		"declaringWar": "I will not allow the Empire to suffer you any longer. The time has come to end this charade!",
-		"attacked": "War, then? Fools think fortune is on their side. Who will you blame when yours runs out?",
-		"defeated": "One gains humility in defeat. I pray you are granted the most humility of all.",
-		"introduction": "I am Jayavarman VII, and the Khmer allow me to lead them. Their suffering is my suffering.",
-		"neutralHello": "Perhaps... yes.",
-		"hateHello": "You defy Heaven with your harsh words!",
-		"tradeRequest": "Our delegation brings gits!",
-		"outerColor": [116,0,155],
-		"innerColor": [254,129,19],
-		
-		"uniqueName": "Grand Barays",
-		"uniqueText": "+1 Amenities, +1 Faith from every cities with Aqueduct \n+2 Food from every Farm adjacency to Aqueduct \n+1 Faith from every Farm adjacent to Holy Site", // +1 Faith per pops in cities with Aqueduct
-		"uniques": ["[+1 Faith, +1 Happiness] from every [Aqueduct]", "[+2 Food] from every [Farm] <with [1] to [6] neighboring [City center] tiles>", 
-			"[+1 Faith] from every [Farm] <with [1] to [1] neighboring [Holy site] tiles>", "[+2 Faith] from every [Farm] <with [2] to [2] neighboring [Holy site] tiles>", 
-			"[+3 Faith] from every [Farm] <with [3] to [3] neighboring [Holy site] tiles>", "[+4 Faith] from every [Farm] <with [4] to [6] neighboring [Holy site] tiles>"],
-		"cities": ["Angkor Wat","Hariharalya","Yaodharapura","Mahendraparvata","Vimayapura","Indrapura","Lingapura","Preah Vihear","Bhavapura","Kompong Svay",
-			"Nagara Jayasri","Vyadhapura","Chaturmukha","Dviradapura","Rajavihara","Amarendrapura","Phanom Rung","Isvarapura","Muang Tam","Angkor Borei",
-			"Banteay Kdei","Phetchaburi","Chaiya","Isanapura","Pre Rup","Beng Melea","Lavodayapura","Shrestapura","Aninditapura"]
-	},
-	{
-		"name": "Korea",
-		"leaderName": "Seondeok",
-		"adjective": ["Korean"],
-		"startBias": ["Hill","Avoid [Snow]"],
-		"preferredVictoryType": "Scientific",
-		"favoredReligion": "Confucianism",
-
-		"declaringWar": "The stars predict your defeat. You cannot argue with the heavens.",
-		"attacked": "Your defeat shall be swift … your people, forgotten. This I have foreseen.",
-		"defeated": "I foresaw my own end, but not that Korea would share my fate.",
-		"introduction": "I, Seondeok of Korea, acknowledge you. Our meeting was foreseen.",
-		"neutralHello": "How wonderful.",
-		"hateHello": "It is not to be, then.",
-		"tradeRequest": "Please accept our delicious gifts.",
-		"outerColor": [205,0,1],
-		"innerColor": [117,163,243],
-		"uniqueName": "Three Kingdoms",
-		"uniqueText": "+1 Food from every Farm adjacent to Seowon \n +1 Production from every Mine adjacent to Seowon",
-		"uniques": ["[+1 Food] from every [Farm] <with [1] to [6] neighboring [City center] tiles>", 
-			"[+1 Production] from every [Mine] <with [1] to [6] neighboring [City center] tiles>"],
-		"cities": ["Gyeongju","Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung",
-			"Hamhung","Wonju","Ulsan","Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon",
-			"Geoje","Suncheon","Jinju","Sangju","Rason","Chungju","Sacheon","Gimje","Anju"]
-	},
-	{
-		"name": "Macedon",
-		"leaderName": "Alexander",
-		"adjective": ["Macedonian"],
-		"preferredVictoryType": "Domination",
-
-		"declaringWar": "The armies of Greece await you with open arms!",
-		"attacked": "Peace was never of all that much interest to me anyway.",
-		"defeated": "Just as quickly as it began, my long march finally comes to end.",
-		"introduction": "Greetings! I am Alexander of Macedon, the King and the Pharaoh, the undefeated General of Greece! Surely you've heard of me?",
-		"neutralHello": "Come!",
-		"hateHello": "I've dealt with traitors and deserters alike that were still more honorable than you!",
-		"tradeRequest": "I've dispatched a trade delegation bearing gifts! I trust you'll greet my envoys warmly?",
-		"outerColor": [158,158,158], //175,175,175
-		"innerColor": [243,216,9],
-		
-		"uniqueName": "Hellenistic Fusion",
-		"uniqueText": "Conquering a city grants Technology and Civic boost", 
-		"uniques": ["Upon capturing a city, receive [2] times its [Culture] production as [Culture] immediately", 
-			"Upon capturing a city, receive [1] times its [Faith] production as [Culture] immediately", 
-			"Upon capturing a city, receive [1] times its [Science] production as [Science] immediately"
-			"Upon capturing a city, receive [1] times its [Production] production as [Science] immediately", 
-			"New [Hetairoi] units start with [10] Experience [in all cities]"]
-		"cities": ["Pella","Aigai","Alexandria","Methone","Chalkidiki","Dion","Alexandropouli","Amphipolis","Alexandria Troas","Pydna",
-			"Alexandria by the Latmus","Alexandretta","ALexandria in Aria","Alexandria Prophthasia","Alexandria in Arachosia","Aiani",
-			"Alexandria in the Caucaus","Alexandria Eschate","Akanthos","Alexandria Oxiana","Heraclea Lyncestis","Alexandria Bucephalia",
-			"Alexandria Nicaea","Philippolis","Alexandria on the Indus","Alexandria Rhambacia","Stagira","Alexandria in Susiana","Apollonia","Batman"]
-	},
-	{
-		"name": "Mali",
-		"leaderName": "Mansa Musa",
-		"adjective": ["Malian"],
-		"startBias": ["Desert"],
-		"favoredReligion": "Islam",
-
-		"declaringWar": "Your transgressions are as deep as oceans. O God, grant that I may chastise this one!",
-		"attacked": "Enough! My forbearance ends here! We must have war between us, instead of a false peace.",
-		"defeated": "Wealth is fleeting; learning is vanity. All I have done, O God, I did in your name.",
-		"introduction": "I am Sultan Musa, lord of Mali, and—thanks be to God—a very, very rich man. I am pleased to meet you.",
-		"neutralHello": "I am pleased.",
-		"hateHello": "Serpent! Tempter! Wretch!",
-		"tradeRequest": "Please accept these simple gifts of one hundred porters carrying sacks of gold dust.",
-		"outerColor": [121,0,2],
-		"innerColor": [234,225,158],
-		
-		"uniqueName": "Songs of the Jeli",
-		"uniques": ["[-30]% Production when constructing [Buildings] buildings [in all cities]", 
-			"[-30]% Production when constructing [Military] units [in all cities]", 
-			"[+1 Faith, +2 Food] in cities on [Desert] tiles", "[-1 Production, +4 Gold] from every [Mine]"], // +1 Faith, +1 Food in cities on or adjacent to Desert
-		"cities": ["Niani","Timbuktu","Jenne","Gao","Kumbi Saleh","Walata","Tawdenni","Tadmekka","Awdaghust","Kirina",
-			"Segu","Nioro","Kangaba","Kouroussa","Niagassola","Diara","Kayes","N'teret","Dia","Arawan",
-			"Kiri","Mopti","Narena","Dakadiala","Kukya","Siby","Fadama","Tabon","Siguiri","Kaniana"]
-	},
-	{
-		"name": "The Maya",
-		"leaderName": "Lady Six Sky",
-		"adjective": ["Mayan"],
-		"startBias": ["Grassland","Plains"],
-		"preferredVictoryType": "Scientific",
-
-		"declaringWar": "You are unworthy of rulership. I will take your cities and your people, and rule them for you.",
-		"attacked": "I will not allow you to remain in power any longer. You have offended me for too long!",
-		"defeated": "The cycle of the Maya ends. But the end of your time will come, too. I pray it will be soon.",
-		"introduction": "You are in the presence of Lady Six Sky, priestess and warrior, queen of the Maya. Greetings.",
-		"neutralHello": "We shine together in the sky, you and I.",
-		"hateHello": "I must have misjudged you.",
-		"tradeRequest": "My envoys bring to you gifts. Will you let them in?",
-		"outerColor": [117,163,243],
-		"innerColor": [2,79,80],
-		
-		"uniqueName": "Mayab",
-		"uniqueText": "+1 Amenities from Luxury resources adjacent to City Center \n+1 Gold, +1 Production from every Farm adjacent to Observatory District",
-		"uniques": ["[+1 Happiness] from every [Luxury resource] <with [1] to [6] neighboring [City center] tiles>", 
-			"[+1 Gold, +1 Production] from every [Farm] <with [1] to [6] neighboring [City center] tiles>"],
-		"cities": ["Wak Kab'nal","Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul","Edzna",
-			"Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua","Q'umarkaj","Nakbe",
-			"Cerros","Xumantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal","Caracol","Naranjo","Dos Pilas",
-			"Mayapan","Ixinche","Zaculeu","Kabah"]
-	},
-	{
-		"name": "Mongolia",
-		"leaderName": "Genghis Khan",
-		"adjective": ["Mongolian"],
-		"startBias": ["Plains"],
-		"preferredVictoryType": "Domination",
-		"favoredReligion": "Buddhism",
-
-		"declaringWar": "You stand in the way of my armies. Soon, you shall fall before them.",
-		"attacked": "No more words. Today, Mongolia charges toward your defeat.",
-		"defeated": "You have hobbled the Mongolian clans. My respect for you nearly matches the loathing.",
-		"introduction": "I am Genghis Khan. Before me lie future Mongolian lands. Behind me is the only cavalry that matters.",
-		"neutralHello": "Mongolia will appreciate this.",
-		"hateHello": "Don't assume Mongolia admires you that much.",
-		"tradeRequest": "I am sending you gifts—surplus horses, a youth's bow, and airag to fortify you. Drink up!",
-		"outerColor": [121,0,2],
-		"innerColor": [253,126,25],
-		
-		"uniqueName": "Örtöö",
-		"uniques": ["[+15]% Strength <for [Mounted] units>", "[+10]% Strength <for [Land] units> <when fighting in [Road] tiles>"],
-		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
-			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
-			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
-			"Har-Ayrag","Nalayh","Tes"]
-	},
-	{
-		"name": "Norway",
-		"leaderName": "Harald Hardrada",
-		"adjective": ["Norwegian"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
-		"favoredReligion": "Protestanism",
-
-		"declaringWar": "Now comes a storm you cannot escape. You can only hope for a quick death.",
-		"attacked": "This will make a great saga! The skalds will sing of my valor!",
-		"defeated": "So, I will join the einherjar in Valhalla and feast, while you toil away here.",
-		"introduction": "Harald Sigurdsson stands before you: a Viking unlike any the seas and lands have ever known. Hah, are you afraid?",
-		"neutralHello": "Friend? Yes, I am a friend.",
-		"hateHello": "No, not for all the treasure in Asgard.",
-		"tradeRequest": "I have sent you traders with gifts!",
-		"outerColor": [43,51,128],
-		"innerColor": [233,45,24],
-		
-		"uniqueName": "Knarr",
-		"uniques": ["Enables [Water] units to enter ocean tiles <after discovering [Shipbuilding]>", "[1] Movement point cost to embark <for [All] units>", 
-			"[1] Movement point cost to disembark <for [All] units>", "[+10] HP when healing <in [Foreign Land] tiles> <for [Melee Water] units>"],
-		"cities": ["Nidaros","Avaldsnes","Bergen","Bjarkøy","Brattahlíð","Drammen","Frosta","Hamar","Hundorp","Karmøy","Kristiansand",
-			"Kristiansund","Kvitsøy","Moster","Namsos","Oslo","Reykjavik","Ringerike","Sandnæs","Sarpsborg","Skedsmo",
-			"Skien","Sogndal","Stange","Stavanger","Stiklestad","Tjøtta","Tromsø","Verdal","Vinland","Alesund"]
-	},
-	{
-		"name": "Nubia", 
-		"leaderName": "Amanitore",
-		"adjective": ["Nubian"],
-		"startBias": ["Desert","Hill"],
-		
-		"declaringWar": "We have arrows, finely honed. We shall deliver them freely to your throat.",
-		"attacked": "As predicted, you know only how to take. Come, then—choose the manner of your defeat.",
-		"defeated": "Though Nubia declines, our pyramids shall remain long after your plans fall to ruin.",
-		"introduction": "I am Amanitore of Nubia. All are welcome in our magnificent cities—provided they come as friends.",
-		"neutralHello": "How gracious of you.",
-		"hateHello": "With you, I always expect the worst.",
-		"tradeRequest": "Our delegation brings goodwill!",
-		"outerColor": [251,236,127],
-		"innerColor": [146,74,1],
-		
-		"uniqueName": "Ta-Seti",
-		"uniqueText": "Ranged units gain +50% combat experience \n+30% Production when constructing Ranged units in all cities \n+1 Production Production for Mines over strategic resources, and +2 Gold Gold for Mines over bonus and luxury resources",
-		"uniques": ["[+50]% XP gained from combat <for [Ranged] units>", "[+30]% Production when constructing [Ranged] units [in all cities]",
-			"Gain a free [Nubia Bonus] [in capital]"],
-		"cities": ["Kerma","Napata","Nuri","El-Kurru","Kawa","Sedeinga","Heh","Qasr Ibrim","Faras","Shaat",
-			"Iken","Abu Simbel","Buhen","Dengeil","Miam","Tombos","Kurgus","Toshka","Soleb","Wad ban Naqa",
-			"Debba","Bugdumbush","Baki","Amara","Musawwarat es-Sufra","El Fura","Ukma","Pedeme","Defeia"]		
-	},
-	{
-		"name": "The Ottomans", 
-		"leaderName": "Suleiman",
-		"adjective": ["Ottoman"],
-		"preferredVictoryType": "Domination",
-		"favoredReligion": "Islam",
-
-		"declaringWar": "Your continued insolence and failure to recognize any preeminence leads us to war.",
-		"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
-		"defeated": "Ruin! Ruin! Istanbul becomes Iram of the Pillars, remembered only by the melancholy poets.",
-		"introduction": "From the magnificence of Topkapi, I, Suleiman, Kayser-I Rum, bestow upon you my welcome.",
-		"neutralHello": "Great is my charity! It will be done.",
-		"hateHello": "You are not my equal, merely an ardent admirer.",
-		"tradeRequest": "I send you gifts of rubies, emeralds, goldwork, and many delicacies!",
-		"outerColor": [249,249,249],
-		"innerColor": [10,105,36],
-		
-		"uniqueName": "Great Turkish Bombard",
-		"uniques": ["[+30]% Production when constructing [Siege] units [in all cities]", "[+10]% Strength <vs cities> <when attacking> <for [Siege] units>", 
-			"[+1 Happiness] [in annexed cities]"],
-		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyabakir","Izmir","Kayseri","Malatya",
-			"Marsin","Antalya","Zonguldak","Denizli","Ordu","Mugia","Eskishehir","Inebolu","Sinop","Adana","Artuin",
-			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarhisar",
-			"Bitlis","Yalova"]		
-	},
-	{
-		"name": "Phoenicia", 
-		"leaderName": "Dido",
-		"adjective": ["Phoenician"],
-		"startBias": ["Coast"],
-		"favoredReligion": "Judaism",
-		
-		"declaringWar": "Now we have war between us. Look to the seas——already the horizon is crowded with the sails of my fleets.",
-		"attacked": "War? Are you a fool? Your cities will suffer the fate of Epirus and Saguntum.",
-		"defeated": "Do not glory in your conquest. One day you may see your capital bathed in flame.",
-		"introduction": "I, Dido, queen and mother of Carthage, greet you on behalf of the Phoenicians.",
-		"neutralHello": "Find rest among us.",
-		"hateHello": "You flatter yourself.",
-		"tradeRequest": "Accept these gifts—a mere taste of the wealth of Phoenicia.",
-		"outerColor": [109,0,205],
-		"innerColor": [117,163,243],
-		
-		"uniqueName": "Founder of Carthage",
-		"uniqueText": "Starts with Writing \nSettlers receive +2 Movement and Sight while embarked, and pay no Movement costs to embark or disembark."
-		"uniques": ["Starts with [Writing]", "[Settler] units gain the [Founder of Chartage] promotion"],
-		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
-			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
-			"Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",
-			"Saldae"]		
-	},
-	{
-		"name": "Rome", 
-		"leaderName": "Trajan",
-		"adjective": ["Roman"],
-		"preferredVictoryType": "Scientific",
-
-		"declaringWar": "Prepare yourselves for war. Our armies will stop at nothing; our navies will swarm your shores, for the glory of Rome.",
-		"attacked": "Your hubris will be your end. No power can defeat Rome.",
-		"defeated": "The wellbeing of the defeated is to not hope for much more wellbeing.",
-		"introduction": "Hail, stranger. I am the Imperator Caesar Trajan of far-reaching Rome. Who are you and what lands can you claim as your own?",
-		"neutralHello": "Many thanks.",
-		"hateHello": "What a shame.",
-		"tradeRequest": "I have sent a trade delegation to you.",
-		"outerColor": [109,0,205],
-		"innerColor": [246,217,6],
-		
-		"uniqueName": "All Roads Lead to Rome",
-		"uniques": ["[+1 Gold] from each Trade Route", "[-66]% maintenance on road & railroads"],
-		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
-			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
-			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
-			"Agrippina","Verona","Corfinium","Treverii","Sirmium","Augustadorum","Curia","Interrama","Adria",]	
-	},
-	{
-		"name": "Russia", 
-		"leaderName": "Peter",
-		"adjective": ["Russian"],
-		"startBias": ["Tundra"],
-		"preferredVictoryType": "Scientific",
-		"favoredReligion": "Eastern Orthodoxy",
-
-		"declaringWar": "I hereby proclaim you an enemy to Russia, our allies, and God, may he have mercy on your soul.",
-		"attacked": "Your war is futile. It's impossible to defeat Russia! Whoever will come to us with a sword, from a sword will perish!",
-		"defeated": "I am defeated. To live one's life is not like crossing a field.",
-		"introduction": "Hello! I am Tsar Peter. A worthy ruler such as yourself must appreciate all the most exquisite things. Do you like art like I do?",
-		"neutralHello": "You have my gratitude.",
-		"hateHello": "You should be ashamed, and will be.",
-		"tradeRequest": "I have sent you a trade delegation bearing gifts. Please enjoy.",
-		"outerColor": [246,217,2],
-		"innerColor": [31,29,23],
-		
-		"uniqueName": "Mother Russia",
-		"uniques": ["[-15]% Culture cost of natural border growth [in all cities]", "[+1 Faith, +1 Production] from every [Tundra]"],
-		"cities": ["St. Petersburg","Moscow","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
-			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
-			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
-			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"]	
-	},
-	{
-		"name": "Scotland", 
-		"leaderName": "Robert the Bruce",
-		"adjective": ["Scottish"],
-		"preferredVictoryType": "Scientific",
-		"favoredReligion": "Catholicism",
-
-		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
-		"attacked": " You gormless radger! You'll dine on your own teeth before you set foot in Scotland!",
-		"defeated": "A lonely wind blows through the highlands today. A dirge for Scotland. Can you it hear?",
-		"introduction": "I am Robert the Bruce. Scotland follows me—be it through fields of wheat or of battle.",
-		"neutralHello": "Hmm. Agreed.",
-		"hateHello": "You reeking midden!",
-		"tradeRequest": "Please accept my people's finest gifts. Oh, and hark to the pipers! Are they not grand?",
-		"outerColor": [246,252,255],
-		"innerColor": [6,84,206],
-		
-		"uniqueName": "Scottish Enlightenment",
-		"uniques": ["[+5]% [Science] <while the empire is happy>", "[+5]% [Production] [in all cities] <while the empire is happy>"],
-		"cities": ["Stirling","Edinburgh","Aberdeen","Roxburgh","Haddington","Dumfries","Dundee","Ayr","Cullen","Dumbarton",
-			"Scone","Forres","Montrose","Wigtown","Peairt","Selkirk","Peebles","Forfar","Berwick-upon-Tweed","Galashiels",
-			"Elgin","Glasgow","Saint Andrews","Inverness","Cumbernauld","Dunfermline","Linlithgow","Prestwick","Cupar","Clackmannan",
-			"Jedburgh",]	
-	},
-	{
-		"name": "Scythia", 
-		"leaderName": "Tomyris",
-		"adjective": ["Sycthian"],
-		"startBias": ["Grassland","Plains"],
-		"preferredVictoryType": "Domination",
-
-		"declaringWar": "The Empress calls for your head. You will be drowned in your own blood!",
-		"attacked": "You have betrayed the trust of Tomyris and now you will pay!",
-		"defeated": "The Empress falls, but I will be remembered. Will you?",
-		"introduction": "Let it be known between us: I will repay treachery with blood! But, if you are a true friend, we will have peace.",
-		"neutralHello": "Thank you, friend.",
-		"hateHello": "No one will believe your hollow lies.",
-		"tradeRequest": "I have sent you a trade delegation bearing a decorated gorytos as a gift for you. You do have a bow, yes?",
-		"outerColor": [254,178,60],
-		"innerColor": [121,0,2],
-		
-		"uniqueName": "People of the Steppe",
-		"uniques": ["[+100]% Production when constructing [Mounted] units [in all cities]"],
-		"cities": ["Issyk","Kul Oba","Gelonus","Pazyryk","Chertomlyk","Neapolis","Kostromskaya","Myriv","Solokha","Malkop",
-			"Kamianka-Dniprovska","Tolstaya","Seven Brothers","Olbia","Kelermes","Solocha","Ulski","Arzhan","Elizavetovskaya","Melgunov",
-			"Panticapaeum","Tsarskaya","Ogüz","Tanais","Alexandropol","Kurdzhips","Tsymbalka","Theodosia","Kozei"]	
-	},
-	{
-		"name": "Sumeria", 
-		"leaderName": "Gilgamesh",
-		"adjective": ["Sumerian"],
+		"name": "Gaaril",
+		"leaderName": "Barund Goldvein",
+		"adjective": ["Gaarili"],
+		"startBias": ["Hill","Mountain"],
 		"preferredVictoryType": "Diplomatic",
-
-		"declaringWar": "Why do I fight? Because I can... because Inanna demands it. Now you will know the power of Sumer!",
-		"attacked": "I will enjoy hearing your last breath when you witness the destruction of your people.",
-		"defeated": "What treachery did this to me? No, what evil?",
-		"introduction": "I am Gilgamesh of Sumeria and King of Uruk. Do not be afraid… I am good to my friends.",
-		"neutralHello": "All the world knows of my generosity to my friends.",
-		"hateHello": "Are you mad?",
-		"tradeRequest": "The delegation of Gilgamesh brings you Sumerian gifts. Will you accept them into your city?",
-		"outerColor": [1,42,107],
-		"innerColor": [254,129,19],
+		"personality": "Wealthy Protector",
+		"style": "Dwarves",
 		
-		"uniqueName": "Epic Quest",
-		"uniques": ["Receive triple Gold from Barbarian encampments and pillaging Cities", "[-50]% City-State Influence degradation"],
-		"cities": ["Uruk","Eridu","Kish","Ur","Lagash","Nippur","Bad-Tibira","Sippar","Shuruppak","Adab",
-			"Isin","Hamazi","Larak","Abu Salabikh","Umma","Larsa","Girsu","Jemdet Nasr","Nina","Kuara",
-			"Dilbat","Kutha","Marad","Zabalam","Kisurra","Pazurish-Dagan","Harbidum","Kesh","Fallaka"]	
+		"startIntroPart1": "",
+		"startIntroPart2": "Oh King Barund Goldvein, can you yet again bring incredible wealth and prosperity to your people? Will you take up the challenge? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Blow the horns, bang the drums, Barund is coming to town!",
+		"attacked": "Damn you, I will not fall.",
+		"denounced": "So be it. You'll have only yourself to blame.",
+		"defeated": "We, dwarves, will rise again.",
+		"introduction": "How are you? You stand before Barund Goldvein.",
+		
+		"neutralHello": "Hello again.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "It is time for a trade.",
+		
+		"outerColor": [217, 89,  0],
+		"innerColor": [255,255, 75],
+		
+		"uniqueName": "Sons of the Golden Mountain"
+		"uniques": [
+			"Dwarves",
+			"Comment [Double Gold given to enemies if your city is captured]",
+			"Comment [May buy National Wonder for 1000 [Gold] at an increasing price (500), bypassing its building requirements]",
+			"[+3]% City Strength from defensive buildings <for every [1000] [Gold]>",
+			
+			"Gain a free [doubleLoss] [in capital] <hidden from users>",
+			"May buy [NaW Buyer] buildings for [1000] [Gold] [in all cities] at an increasing price ([500]) <hidden from users>",
+			"Cannot build [Longswordsman] units <hidden from users>"
+		],
+		"cities": [
+			"Goldvein's Keep","Tiltein","Aurholm","Coinreach","Kazad-Auric","Khaz-Moradin","Gemforge","Mintgate","Hammerdeep","Prosperhall"
+		],
 	},
+	
 	{
-		"name": "The Zulu", 
-		"leaderName": "Shaka",
-		"adjective": ["Zulu"],
+		"name": "Asil",
+		"leaderName": "Gali",
+		"adjective": ["Asili"],
+		"startBias": ["Hill"],
+		//"preferredVictoryType": "none",
+		"personality": "Ingenious Artisan",
+		"style": "Dwarves",
+		
+		"startIntroPart1": "The Asili Dwarves were the ancestors of Polgar Sod'em and Dwargon.",
+		"startIntroPart2": "Oh King Gali Worldsmith, once again Asil yearns for your wisdom. Will you bring about a new golden age for the Asili? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "We can't tolerate you! I'll smash you into pieces!",
+		"attacked": "How DARE you!?",
+		"denounced": "You'll regret this decision, fool. I swear it!",
+		"defeated": "Curses! This can't be..!",
+		"introduction": "I am Gali, and who are you stranger?",
+		
+		"neutralHello": "Respect!",
+		"hateHello": "Are you mad?",
+		"tradeRequest": "I give you this, you give me that. What do you think?",
+		
+        "outerColor": [ 51, 25,  0],
+        "innerColor": [255,255,102],
+		
+		"uniqueName": "Sons of the Earth"
+		"uniques": [
+			"Dwarves",
+			"[+1 Production] from every [Strategic resource]",
+			"Comment [Double quantity of All mined resource]",
+			
+			"[+100]% [Iron] resource production <hidden from users>",
+			"[+100]% [Niter] resource production <hidden from users>",
+			"[+100]% [Rune Stone] resource production <hidden from users>",
+			"[+100]% [Amber] resource production <hidden from users>",
+			"[+100]% [Copper] resource production <hidden from users>",
+			"[+100]% [Gems] resource production <hidden from users>",
+			"[+100]% [Gold Ore] resource production <hidden from users>",
+			"[+100]% [Jade] resource production <hidden from users>",
+			"[+100]% [Salt] resource production <hidden from users>",
+			"[+100]% [Silver] resource production <hidden from users>",
+			"Cannot build [Longswordsman] units <hidden from users>"
+		],
+		"cities": [
+			"Oldcrown","Eldburimm","Thal Buddem","Torum","Eldbalkh","Lodahr","Thal Mausollem","Toduhr","Batur"
+		]
+	},
+	
+	{
+		"name": "The Obtrar'ri",
+		"leaderName": "Azgaroth",
+		"adjective": ["The Obtrar'ri"],
 		"preferredVictoryType": "Domination",
-
-		"declaringWar": "There is too much weakness in you. Fear not—the children of Zulu shall remove it.",
-		"attacked": "Strong words, but they quaver on your lips. Already I see you weaken in fear.",
-		"defeated": "True, you ended my reign. But I will live on in your nightmares.",
-		"introduction": "You stand before Shaka of the Zulu. Dare you turn your back to my armies? I will make no such mistake.",
-		"neutralHello": "The children of Zulu respect your people.",
-		"hateHello": "Do not mock me.",
-		"tradeRequest": "I sent a ceremonial iklwa.",
-		"outerColor": [120,62,2],
+		"personality": "Crimson Conqueror",
+		"style": "Demonic",
+		
+		"startIntroPart1": "The Obtrar'ri were descendants of the Lonyriths, born with greater pride and ambition. Together with the Red Elves, they conquered countless kingdoms and asserted their dominance over more than half of the Earth. Their fall marked the end of the Age of Demons, after which they were cast into the Netherworld.",
+		"startIntroPart2": "Azgaroth the Conqueror, your people wish for an empire of their own once more and require a leader of unparalleled greatness! Will you accept the challenge? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "The weak shall serve the strong. Prepare for war!"
+		"attacked": "You will face the wrath of the Obtrar'ri!",
+		"denounced": "This insult shall cost you thousandfold.",
+		"defeated": "Curses! This is not the end! Azgaroth will back! The Obtrar'ri will back! Mark my words.",
+		"introduction": "You stand before Azgaroth the Conqueror. Will you stand beside me ... or beneath me?",
+		
+		"neutralHello": "What?",
+		"hateHello": "So, out with it!",
+		"tradeRequest": "Accept this or suffer the consequences.",
+		
+		"outerColor": [ 81,  0,  9],
+		"innerColor": [255,120,  0],
+		
+		"uniqueName": "Crimson World"
+		"uniques": [
+			"Demon",
+			"Cannot build [Portal] buildings",
+			"[+1 Happiness] from every [Barracks]",
+			"[+1 Happiness] from every [Armory]",
+			"[+1] population in a random city <upon conquering a city>",
+			"Comment [+1 population more in capital upon capturing enemy capital]",
+			
+			"[+1] population [in capital] <upon constructing [capturedCapital]> <hidden from users>"
+		],
+		"cities": [
+			"Meg'thath","Agruk","Zonnol","Volvellath","Azrarad","Xolmonach","Zoz'guleth","Eg'thuth","Mir'gumoth","Barthrolloz",
+			"Ath'tannuth","Thul'gog","Kil'ganath","Dalvoloch","Gannoros"
+		]
+	},
+	
+	{
+		"name": "The Red Elves",
+		"leaderName": "Raveael",
+		"adjective": ["Red Elves"],
+		"personality": "Passionate Emperor",
+		"style": "Red Elves",
+		
+		"startIntroPart1": "The Red Elves were the ancestral civilization from which the Dark Elves eventually emerged. The were born from the crossbreed of the Old Demon, the Lonyriths, and the Elunara Elves.",
+		"startIntroPart2": "Oh King Raveael, your reign was the zenith of the Red Elves' greatness. Will you, once again, seize the mantle of leadership and mold its destiny anew? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Our victory is guaranteed, you are already defeated!",
+		"attacked": "Very well, prepare to be utterly destroyed!",
+		"denounced": "How amusing.",
+		"defeated": "The Red Elves will survive.",
+		"introduction": "Hello stranger, I am the Miracle King himself, Raveael. You may speak with me.",
+		
+		"neutralHello": "Hello, again.",
+		"hateHello": "Move away!",
+		"tradeRequest": "We are interested in a trade agreement with your people.",
+		
+		"outerColor": [109,  2,  0],
 		"innerColor": [255,255,255],
-		"uniqueName": "Isibongo",
-		"uniques": ["[-33]% maintenance costs <for [All] units>", "[+3 Happiness] in all cities with a garrison"],
-		"cities": ["Ulundi","Umgungundlovu","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
-			"KwaHlomendlini","Hlobane","eThekwini","Mlambongwenya","Eziqwaqweni","Isiphezi","Masotsheni","Mtunzini","Nyakamubi","Dumazulu",
-			"Hlatikulu","Mthonjaneni","Empangeni","Pongola","Tugela","Kwamashu","Ingwavuma","Hlulhluwe","Matubatuba","Mhlahlandlela",
-			"Mthatha","Maseru","Lobamba","Qunu"]
-	}, 
-
-	//City-States
-	{
-		"name": "Antananarivo",
-		"adjective": ["Antananarivo"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,153,255],
-		"cities": ["Antananarivo"]
-	},
-	{
-		"name": "Kumasi",
-		"adjective": ["Kumasi"],
-		"cityStateType": "Cultured",
-		"startBias": ["Coast"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [194,97,255],
-		"cities": ["Kumasi"]
-	},
-	{
-		"name": "Mohenjo-Daro",
-		"adjective": ["Mohenjo-Daro"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I have failed. May you, at least, know compassion towards our people.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,153,153],
-		"cities": ["Mohenjo-Daro"]
-	},
-	{
-		"name": "Nan Madol",
-		"adjective": ["Nan Madol"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Unacceptable!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [153,10,96],
-		"cities": ["Nan Madol"]
-	},
-	{
-		"name": "Rapa Nui",
-		"adjective": ["Rapa Nui"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "How could we fall to the likes of you?!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [152,0,241],
-		"cities": ["Rapa Nui"]
-	},
-	{
-		"name": "Vilnius",
-		"adjective": ["Tyrian"],
-		"cityStateType": "Cultured",
-		"startBias": ["Vilnius"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,97,255],
-		"cities": ["Vilnius"]
+		
+		"uniqueName": "Children of Two Bloods"
+		"uniques": [
+			"Cross Bloodline",
+			"Comment [Choose one of unique ability below]",
+			"Comment [\n]",
+			"Comment [Wisdom of Elves:]",
+			"Comment [+10% Strength vs Demon Civilization]",
+			"Comment [+10% Great Person generation in all cities]",
+			"Comment [+1 [Science] from all [Science] buildings]"
+			"Comment [\n]",
+			"Comment [Ambition of Demons:]",
+			"Comment [+10% Strength vs Elves Civilization]",
+			"Comment [+10% Strength vs Major Civilization]",
+			"Comment [Upon capturing a city, receive [3] times its [Culture], [Science], and [Gold] production immediately]",
+			//"Comment [\n]",
+			//"Comment [Upon constructing [Raveael Academy] for the first time, may adopt a philosophy (see Civilopedia)]",
+			
+			"Triggers a [Choose Unique Ability] event <upon constructing [Palace]> <hidden from users>",
+			//"Instantly gain [1] [First Something] <upon constructing [Raveael Academy]> <hidden from users>",
+			//"Triggers a [Choose Philosophy] event <upon constructing [Raveael Academy]> <when below [1] [First Something]> <hidden from users>"
+		],
+		"cities": [
+			"Thal'Nyr","Vael'Thara","Vael'Mor","Eryndor","Asthrael","Revelyss","Veyl'Taris","Redland","Ser'rathiel","Farland"
+		]
 	},
 	
 	{
-		"name": "Akkad",
-		"adjective": ["Akkad"],
-		"cityStateType": "Militaristic",
+		"name": "The Night Elves",
+		"leaderName": "Nyxara",
+		"adjective": ["Night Elves"],
+		"startBias": ["Forest","Jungle"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Sanctuary Seeker",
+		"style": "Drow",
+		
+		"startIntroPart1": "Years after the Red Elves were condemned to darkness, the Goddess of Night takes pity on them and granted them the Sight of Moon, allowing them see perfectly in darkness. These Night Elves dwell beneath the Earth and within deep forest. emerging only under the cover of night to roam the vast world.",
+		"startIntroPart2": "Oh Queen Nyxara, your people look to you once more, to make them powerful and wealthy, to keep them supplied with the weapons they need to defeat any foe. Can you save them from destruction, oh Queen? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "I deemed you a threat to my people.",
+		"attacked": "So, we can't understand each other after all?",
+		"denounced": "How amusing.",
+		"defeated": "Please, be merciful to my people.",
+		"introduction": "I am Nyxara, leader of the Night Elves, we wish to build a mutual relationship with your people.",
+		
+		"neutralHello": "Poldorë.",
+		"hateHello": "Don't disturb us!",
+		"tradeRequest": "We are in need for your assistance.",
+		
+		"outerColor": [ 27, 33, 96],
+		"innerColor": [255,  0,  0],
+		
+		"uniqueName": "Children of the Night"
+		"uniques": [
+			"Cross Bloodline",
+			"Comment [Civilian units become invisible on [Forest] and [Jungle]]",
+			"Comment [All units can see invisible units]",
+			"[+15]% Strength <when fighting in [Friendly Land] tiles>",
+			
+			"[{Civilian} {Land}] units gain the [Protected] promotion <hidden from users>",
+			"[All] units gain the [Sight of Moon] promotion <hidden from users>",
+		],
+		"cities": [
+			"Thal'Eryn","Vael'Aron","Sylvarin","Syl'Nareth","Omarryn","Asha Themar","Nethrien","Myr Nareth","Ambarynn","Velanas"
+		]
+	},
+	
+	// City-States
+	
+	// Agricultural
+	{
+		"name": "Andini",
+		"adjective": ["Undines"],
+		"cityStateType": "Agrarian",
+		"startBias": ["Lakes"],
+		"style": "Undine",
 
-		"declaringWar": "Let's have a nice little War, shall we?",
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "You will see you have just bitten off more than you can chew.",
+		"defeated": "We were too weak to protect ourselves...",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [ 51,202,  0],
+		"cities": ["Andini"]
+	},
+	{
+		"name": "Ashua",
+		"adjective": ["Ashuan"],
+		"cityStateType": "Agrarian",
+		"startBias": ["Plains"],
+		"style": "Halfling",
+
+		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "If you need your nose bloodied, we'll happily serve.",
-		"defeated": "The akkaddian guerilla will never stop haunting you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [211,180,113],
-		"cities": ["Akkad"]
+		"defeated": "I have failed. May you, at least, know compassion towards our people.",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [ 51,202,  0],
+		"cities": ["Ashua"]
 	},
 	{
-		"name": "Granada",
-		"adjective": ["Granada"],
-		"cityStateType": "Militaristic",
+		"name": "Irgask",
+		"adjective": ["Irigaski"],
+		"cityStateType": "Food Exporter",
+		"startBias": ["Hill"],
+		"style": "Goblin",
 
 		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,178,102],
-		"cities": ["Granada"]
-	},
-	{
-		"name": "Kabul",
-		"adjective": ["Kabul"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Unacceptable!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [153,0,76],
-		"cities": ["Kabul"]
-	},
-	{
-		"name": "Ngazargamu",
-		"adjective": ["Ngazargamu"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Ah, Gods! Why have you forsaken us?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [96,96,96],
-		"cities": ["Ngazargamu"]
-	},
-	{
-		"name": "Preslav",
-		"adjective": ["Preslav"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,50,50],
-		"cities": ["Preslav"]
-	},
-	{
-		"name": "Valletta",
-		"adjective": ["Valletta"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
-		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of the Sumerians!",
-		"defeated": "What treachery has struck us? No, what evil?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,69,0],
-		"cities": ["Valletta"]
-	},
-	
-	{
-		"name": "Dali",
-		"adjective": ["Dali"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
-		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
-		"defeated": "I regret not defending my country to the last, although it was not of use.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0,255,128],
-		"cities": ["Dali"]
-	},
-	{
-		"name": "Gaochang",
-		"adjective": ["Gaochang"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We were too weak to protect ourselves...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [51,102,0],
-		"cities": ["Gaochang"]
-	},
-	{
-		"name": "Klathen",
-		"adjective": ["Klathen"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [45,255,86],
-		"cities": ["Klathen"]
-	},
-	{
-		"name": "Lamuri",
-		"adjective": ["Lamuri"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I guess you weren't here for the sprouts after all...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [153,255,51],
-		"cities": ["Lamuri"]
-	},
-	{
-		"name": "Temasek",
-		"adjective": ["Temasek"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We were too weak to protect ourselves...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [10,102,60],
-		"cities": ["Temasek"]
-	},
-	{
-		"name": "Tondo",
-		"adjective": ["Tondo"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We were too weak to protect ourselves...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [91,102,20],
-		"cities": ["Tondo"]
-	},
-	
-	{
-		"name": "Bandar Brunei",
-		"adjective": ["Bandar Brunei"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
+		"attacked": "If you need your nose bloodied, we'll happily serve.",
 		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [161,155,51],
-		"cities": ["Bandar Brunei"]
+		"outerColor": [  0,  0,  0],
+		"innerColor": [  0,255,128],
+		"cities": ["Irgask"]
 	},
 	{
-		"name": "Cahokia",
-		"adjective": ["Cahokia"],
-		"cityStateType": "Mercantile",
+		"name": "Tonthon",
+		"adjective": ["Tontoni"],
+		"cityStateType": "Food Exporter",
+		"startBias": ["Marsh"],
+		"style": "Myconids",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "You will see you have just bitten off more than you can chew.",
+		"defeated": "The dark guerilla will never stop haunting you!",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [  0,255,128],
+		"cities": ["Tonthon"]
+	},
+	
+	// Cultural
+	{
+		"name": "Artiza",
+		"adjective": ["Artizan"],
+		"cityStateType": "Ceremonial",
+		"startBias": ["Tundra"],
+		"style": "Kunakad",
+
+		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
+		"attacked": "You can see how fruitless this will be for you... right?",
+		"defeated": "Perhaps now we will find peace in death...",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [125, 24,234],
+		"cities": ["Artiza"]
+	},
+	{
+		"name": "Naluvir",
+		"adjective": ["Naluviri"],
+		"cityStateType": "Cultured",
+		"style": "Drow",
+		
+		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
+		"attacked": "So you have chosen death.",
+		"defeated": "Congratulations, conqueror. This tribe serves you now.",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [194, 97,255],
+		"cities": ["Naluvir"]
+	},
+	{
+		"name": "Verdalia",
+		"adjective": ["Verdalii"],
+		"cityStateType": "Ceremonial",
+		"startBias": ["Coast"],
+		"style": "Elves",
+
+		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
+		"attacked": "You can see how fruitless this will be for you... right?",
+		"defeated": "I regret not defending my country to the last, although it was not of use.",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [125, 24,234],
+		"uniques": ["Elves"],
+		"cities": ["Verdalia"]
+	},
+	{
+		"name": "The Umbral",
+		"adjective": ["Umbral"],
+		"cityStateType": "Cultured",
+		"style": "Draconic",
+
+		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
+		"attacked": "So you have chosen death.",
+		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [194, 97,255],
+		"cities": ["The Umbral"]
+	},
+	
+	// Industrial
+	{
+		"name": "Dunfirr",
+		"adjective": ["Dunfiri"],
+		"cityStateType": "Artisan",
+		"startBias": ["Hill","Mountain"],
+		"style": "Dwarves",
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
-		"attacked": "You can see how fruitless this will be for you... right?",
-		"defeated": "This isn't how it is supposed to be!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [211, 220, 103],
-		"cities": ["Cahokia"]
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The great things we'll about to create are gone.",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [239,169,119],
+		"cities": ["Dunfirr"]
 	},
 	{
-		"name": "Mogadishu",
-		"adjective": ["Mogadishu"],
-		"cityStateType": "Mercantile",
+		"name": "Pid",
+		"adjective": ["Pidian"],
+		"cityStateType": "Artisan",
+		"style": "Demonic",
 
-		"declaringWar": "You leave us no choice. War it must be.",
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Congratulations, conqueror. This tribe serves you now.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,255,0],
-		"cities": ["Mogadishu"]
+		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [239,169,119],
+		"uniques": ["Demon"],
+		"cities": ["Pid"]
 	},
 	{
-		"name": "Samarkand",
-		"adjective": ["Samarkand"],
-		"cityStateType": "Mercantile",
+		"name": "Kov",
+		"adjective": ["Kovs"],
+		"cityStateType": "Industrial",
+		"startBias": ["Mountain"],
+		"style": "Kobolds",
 
-		"declaringWar": "You leave us no choice. War it must be.",
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Congratulations, conqueror. This tribe serves you now.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,255,100],
-		"cities": ["Samarkand"]
+		"defeated": "So what is the meaning of a miner?",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [189, 99,  0],
+		"cities": ["Kov"]
 	},
 	{
-		"name": "Venice",
-		"adjective": ["Venice"],
-		"cityStateType": "Mercantile",
+		"name": "Rog",
+		"adjective": ["Rogs"],
+		"cityStateType": "Industrial",
+		"startBias": ["Tundra","Forest"],
+		"style": "Ogre",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Vile ruler, know that you 'won' this war in name only!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,255,0],
-		"cities": ["Venice"]
+		"declaringWar": "Hungry ... hungry for eternity ...",
+		"attacked": "What a coincidence, I yearns for a fresh flesh myself!",
+		"defeated": "Least spare me your leftover meat.",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [189, 99,  0],
+		"cities": ["Rog"]
+	},
+	
+	// Mercantile
+	{
+		"name": "Angasin",
+		"adjective": ["Angan"],
+		"cityStateType": "Gilded Vault",
+		"style": "Gnomes",
+
+		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
+		"attacked": "Traitorous man! I will not stand for such wanton abuse and slander - I shall have your head!",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [  0,  0, 0],
+		"innerColor": [255,255, 0],
+		"cities": ["Angasin"]
 	},
 	{
-		"name": "Zanzibar",
-		"adjective": ["Zanzibar"],
-		"cityStateType": "Mercantile",
+		"name": "Crotoa",
+		"adjective": ["Crotoan"],
+		"cityStateType": "Middleman Group",
+		"startBias": ["Coast"],
+		"style": "Beastkin",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
+		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
+		"attacked": "Traitorous man! I will not stand for such wanton abuse and slander - I shall have your head!",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [  0,  0, 0],
+		"innerColor": [255,255, 0],
+		"cities": ["Crotoa"]
+	},
+	{
+		"name": "Frostwaste",
+		"adjective": ["Frozen"],
+		"cityStateType": "Icypath Kongsi",
+		"startBias": ["Tundra","Snow"],
+		"style": "Icemen",
+		
+		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
+		"attacked": "Traitorous man! I will not stand for such wanton abuse and slander - I shall have your head!",
 		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [235,235,105],
-		"cities": ["Zanzibar"]
+		"outerColor": [  0,  0, 0],
+		"innerColor": [255,255, 0],
+		"uniques": ["[+2 Food] from every [Snow]"],
+		"cities": ["Frostwaste"]
+	},
+	{
+		"name": "Gahaldur",
+		"adjective": ["Gadari"],
+		"cityStateType": "Smithy Guild",
+		"startBias": ["Hill"],
+		"style": "Dwarves",
+
+		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
+		"attacked": "Traitorous man! I will not stand for such wanton abuse and slander - I shall have your head!",
+		"defeated": "How could we fall to the likes of you?!",
+		"outerColor": [  0,  0, 0],
+		"innerColor": [255,255, 0],
+		"cities": ["Gahaldur"]
 	},
 	
+	// Militaristic
 	{
-		"name": "Chinguetti",
-		"adjective": ["Chinguetti"],
-		"cityStateType": "Religious",
+		"name": "Dreckfang",
+		"adjective": ["Dreckfang"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Desert"],
+		"style": "Gnoll",
 
-		"declaringWar": "I didn't want to do this. We declare war.",
-		"attacked": "I will fear no evil. For god is with me!",
-		"defeated": "Why have you forsaken us my lord?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,255,255],
-		"cities": ["Chinguetti"]
+		"declaringWar": "Witness my power, insignificant ruler! Your armies shall crumble before my might!",
+		"attacked": "How laughable! The world will bear witness to the consequences of your reckless aggression!",
+		"defeated": "So this is how it feels to die...",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [230, 69, 96],
+		"cities": ["Dreckfang"]
 	},
 	{
-		"name": "Jerusalem",
-		"adjective": ["Jerusalem"],
-		"cityStateType": "Religious",
+		"name": "Elunara",
+		"adjective": ["Elunari"],
+		"cityStateType": "Militaristic",
+		"style": "Elves",
 
-		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
-		"attacked": "May god have mercy on your evil soul.",
-		"defeated": "I for one welcome our new conquer overlord!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [198,255,192],
-		"cities": ["Jerusalem"]
+		"declaringWar": "Let's have a nice little War, shall we?",
+		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Elunara!",
+		"defeated": "Vile ruler, know that you 'won' this war in name only!",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [230, 69, 96],
+		"uniques": ["Elves"],
+		"cities": ["Elunara"]
 	},
 	{
-		"name": "La Venta",
-		"adjective": ["La Venta"],
-		"cityStateType": "Religious",
+		"name": "The Lonyriths",
+		"adjective": ["Lonyriths"],
+		"cityStateType": "Militaristic",
+		"style": "Demonic",
 
-		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
-		"attacked": "May god have mercy on your evil soul.",
-		"defeated": "I for one welcome our new conquer overlord!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [200,255,200],
-		"cities": ["La Venta"]
-	},
-	{
-		"name": "Nazca",
-		"adjective": ["Nazca"],
-		"cityStateType": "Religious",
-
-		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
-		"attacked": "May god have mercy on your evil soul.",
-		"defeated": "I for one welcome our new conquer overlord!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [192,192,192],
-		"cities": ["Nazca"]
-	},
-	{
-		"name": "Vatican City",
-		"adjective": ["Vatican City"],
-		"cityStateType": "Religious",
-
-		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
-		"attacked": "Very well, we will kick you back to the ancient era!",
-		"defeated": "This isn't how it is supposed to be!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [203, 253, 232],
-		"cities": ["Vatican"]
-	},
-	{
-		"name": "Yerevan",
-		"adjective": ["Yerevan"],
-		"cityStateType": "Religious",
-
-		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
-		"attacked": "May god have mercy on your evil soul.",
-		"defeated": "I for one welcome our new conquer overlord!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [250,225,192],
-		"cities": ["Yerevan"]
+		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
+		"attacked": "Oh? You must have not heard of our ways of dealing with people like you.",
+		"defeated": "I will remember you. I will remember your children. I will remember your whole descendants for this humiliation!",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [230, 69, 96],
+		"cities": ["The Lonyriths"]
 	},
 	
-
+	// Religious
+	{
+		"name": "Estuary",
+		"adjective": ["Estuarii"],
+		"cityStateType": "Religious",
+		"startBias": ["Jungle"],
+		"style": "Druid",
+		
+		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to my people!",
+		"attacked": "May God have mercy on your evil soul.",
+		"defeated": "Your evil nature are too strong for us to handle.",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [203,253,232],
+		"cities": ["Estuary"]
+	},
+	{
+		"name": "Thalasia",
+		"adjective": ["Thalasii"],
+		"cityStateType": "Religious",
+		"style": "Glomon",
+		
+		"declaringWar": "Everyday you stray further from God. Let me show you the right path!",
+		"attacked": "You think God will permit your abominations?",
+		"defeated": "Ah, Gods! Why have you forsaken us?",
+		"outerColor": [  0,  0,  0],
+		"innerColor": [203,253,232],
+		"cities": ["Thalasia"]
+	},
+	
 	//Barbarian
 	{
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
-		"innerColor": [182,0,0]
+		"innerColor": [185,12,12],
+		"uniques": [
+			"Can only heal by pillaging <for [Ranged] units>",
+			"[+15]% Strength <within [2] tiles of a [Barbarian encampment]>",
+			"[+10]% Strength <in [Barbarian encampment] tiles>"
+		]
 	}
-
 ]
