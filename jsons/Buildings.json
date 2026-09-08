@@ -4,11 +4,11 @@
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
-		"culture": 2,
-		"science": 2,
-		"gold": 2,
-		"production": 2,
-		"cityStrength": 4,
+		"culture": 3,
+		"science": 3,
+		"gold": 3,
+		"production": 3,
+		"cityStrength": 3,
 		"cost": 0,
 		"uniques": ["Indicates the capital city"]
 	},
@@ -58,6 +58,23 @@
 		"cost": 40,
 		"maintenance": 1,
 		"uniques": ["Only available <when religion is enabled>"],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Stone Circle",
+		"uniqueTo": "Chorislavia",
+		"replaces": "Altar",
+		"faith": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"specialistSlots": {"Prayer": 1},
+		"uniques": [
+			"Only available <when religion is enabled>",
+			"Comment [Has 1 specialist slot of Prayer]"
+			"Comment [Prayer specialist does not consume Food]",
+			
+			"[-100]% Food consumption by [Prayer] [in this city] <hidden from users>"
+		],
 		"requiredTech": "Pottery"
 	},
 	
@@ -284,21 +301,6 @@
 		"uniques": [
 			"[+1 Culture] from [Incense] tiles [in this city]",
 			"[+1 Culture] from [Perfume] tiles [in this city]"
-		],
-		"requiredTech": "Theology"
-	},
-	{
-		"name": "Grand Temple",
-		"isNationalWonder": true
-		"culture": 1,
-		"faith": 8,
-		"cost": 150,
-		"uniques": [
-			"Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
-			"Only available <when religion is enabled>"
-			"Cost increases by [25] per owned city",
-			//"[+100]% Natural religion spread [in this city]",
-			//"Can only be built <in [in holy cities] cities>"
 		],
 		"requiredTech": "Theology"
 	},
@@ -543,7 +545,7 @@
 	{
 		"name": "Bank",
 		"requiredBuilding": "Market",
-		"gold": 3,
+		"gold": 4,
 		"percentStatBonus": {"gold": 25},
 		"hurryCostModifier": 15,
 		"specialistSlots": {"Merchant": 2},
@@ -1533,21 +1535,6 @@
 			"Will not be displayed in Civilopedia"
 		],
 		"requiredTech": "Iron Working"
-	},
-	{
-		"name": "Buy Grand Temple",
-		"uniqueTo": "Gaaril",
-		"cost": 0,
-		"uniques": [
-			"Only available <if [Grand Temple] is not constructed>",
-			"NaW Buyer",
-			"Unbuildable",
-			"Unsellable",
-			"Comment [Instantly purchase [Grand Temple] with [Gold]]",
-			"Gain a free [Grand Temple] [in this city] <hidden from users>"
-			"Will not be displayed in Civilopedia"
-		],
-		"requiredTech": "Theology"
 	},
 	{
 		"name": "Buy Colosseum",

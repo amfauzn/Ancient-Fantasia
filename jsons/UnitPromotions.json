@@ -1140,6 +1140,31 @@
 		"uniques": ["[Great Admiral] is earned [100]% faster"]
 	},
 	
+	// Chorislavia
+	{
+		"name": "Devout",
+		"uniques": [
+			"No damage penalty for wounded units",
+			"[This Unit] heals [33] HP <costs [+50 Faith] stats>"
+		]
+	},
+	{
+		"name": "Divine Smite",
+		"uniques": [
+			"Comment [One every 4 turns, deals extra 10 damage]",
+			"Comment [Doubled against Demonic bloodline]",
+			
+			"[Target Unit] takes [10] damage <upon damaging a [All] unit> <for units without [Divine Smite Cooldown]> <hidden from users>",
+			"[Target Unit] takes [10] damage <upon damaging a [The Obtrar'ri] unit> <for units without [Divine Smite Cooldown]> <hidden from users>",
+			"[Target Unit] takes [10] damage <upon damaging a [Cross Bloodline] unit> <for units without [Divine Smite Cooldown]> <hidden from users>",
+			"[This Unit] gains the [Divine Smite Cooldown] status for [4] turn(s) <upon damaging a [All] unit> <for units without [Divine Smite Cooldown]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Divine Smite Cooldown",
+		"uniques": ["Comment [[Divine Smite] is on cooldown]"]
+	},
+	
 	// Landoruel
 	{
 		"name": "[Bowman] ability",
@@ -1187,24 +1212,26 @@
 	
 	// The Obtrar'ri
 	{
-		"name": "Bloodthirst",
+		"name": "Bloodbath",
 		"uniques": ["[This Unit] heals [3] HP <upon damaging a [All] unit>"]
 	},
 	{
 		"name": "Demonic Might",
-		"uniques": [
-			"Comment [Access to unique skills]",
-			"[This Unit] gains [10] XP <upon conquering a city>"
-		]
+		"uniques": ["Comment [Access to unique skills]"]
 	},
 	{
 		"name": "Demonic Resilience",
 		"prerequisites": ["Demonic Might"],
 		"uniques": [
 			"[-1] Movement",
-			"[+33]% Strength <when defending>"
+			"[+33]% Strength <when defending>",
+			"Comment [Immune to [Frightened]]",
+			"[This Unit] loses the [Frightened] status <upon gaining the [Frightened] status> <hidden from users>"
 		],
-		"unitTypes": ["Mounted"]
+		"unitTypes": ["Mounted"],
+		"civilopediaText": [
+			{ "text": "Frightened", "link": "Promotion/Frightened" }
+		]
 	},
 	{
 		"name": "Demon's Wrath",
@@ -1221,14 +1248,24 @@
 	{
 		"name": "Overlord",
 		"prerequisites": ["Demonic Might"],
-		"uniques": ["[+33]% Strength <when attacking> <vs cities>"],
+		"uniques": [
+			"[+33]% Strength <when attacking> <vs cities>",
+			"[This Unit] gains [10] XP <upon conquering a city>"
+		],
 		"unitTypes": ["Mounted"]
 	},
 	{
-		"name": "Soul Devourer",
+		"name": "Flameblood",
 		"prerequisites": ["Demonic Might"],
-		"uniques": ["[This Unit] heals [15] HP <upon defeating a [non-[Barbarian]] unit>"],
-		"unitTypes": ["Mounted"]
+		"uniques": [
+			"Comment [Inflict [Burning] on target]",
+			"[Target Unit] gains the [Burning] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>",
+			"[This Unit] loses the [Burning] status <upon gaining the [Burning] status> <hidden from users>"
+		],
+		"unitTypes": ["Mounted"],
+		"civilopediaText": [
+			{ "text": "Burning", "link": "Promotion/Burning" }
+		]
 	},
 	
 	// The Red Elves
@@ -1408,5 +1445,5 @@
 			"[This Unit] loses the [Webbed] status <for [2] movement> <hidden from users>"
 		],
 		"innerColor": [200, 0, 0]
-	},
+	}
 ]

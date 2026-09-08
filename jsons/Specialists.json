@@ -23,4 +23,11 @@
 		"greatPersonPoints": {"Great Merchant":3},
 		"color": [255,215,0]
 	},
+	
+	{
+		"name": "Prayer",
+		"faith": 2,
+		"greatPersonPoints": {"Devotee":3},
+		"color": [255,255,255]
+	}
 ]

@@ -10,6 +10,7 @@
 		"Cannot build [Settler] units <when below [-10] [Happiness]>",
 		"Rebel units may spawn <when below [-20] [Happiness]>",
 		"[-1] Sight <for [Embarked] units>",
+		"[-15]% maintenance cost for [all] buildings [in capital] <in cities without a [Bank]>",
 		"[-1 Science] per [2] population [in all cities]"
 	],
 	

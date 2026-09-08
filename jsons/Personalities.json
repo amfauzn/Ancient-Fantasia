@@ -1,4 +1,39 @@
 [
+	// Elandriel of Chorislavia
+	{
+		"name": "Divine Queen",
+		
+		"culture": 6,
+		"faith": 7,
+		"food": 4,
+		"gold": 3,
+		"happiness": 4,
+		"production": 5,
+		"science": 5,
+		
+		"military": 6,
+		"aggressive": 3,
+		"denounceWillingness": 7,
+		"declareWar": 6,
+		"commerce": 4,
+		"diplomacy": 5,
+		"loyal": 7,
+		"expansion": 4,
+		
+		"priorities": {
+			"Tradition": 7,
+			"Consolidation": 4,
+			"Honor": 4,
+			"Patronage": 6,
+			"Commerce": 4,
+			"Rationalism": 4
+		},
+		
+		"uniques": [
+			"[+10]% weight to [Stone Circle] for AI decisions",
+			"[+10]% weight to [Temple] for AI decisions"
+		]
+	},
 	
 	// Ithriel of Landoruel
 	{
@@ -249,5 +284,5 @@
 			"[+10]% weight to [Granary] for AI decisions",
 			"[+10]% weight to [Public Bath] for AI decisions"
 		]
-	},
+	}
 ]

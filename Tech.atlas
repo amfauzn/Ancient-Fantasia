@@ -1,125 +1,125 @@
 
 Tech.png
-size: 2048, 512
+size: 2048, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TechIcons/Alchemy
   rotate: false
-  xy: 4, 212
-  size: 200, 200
-  orig: 200, 200
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Apothecaries
   rotate: false
-  xy: 1252, 312
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Circle
   rotate: false
-  xy: 4, 4
-  size: 200, 200
-  orig: 200, 200
+  xy: 220, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Domestication
   rotate: false
-  xy: 212, 212
-  size: 200, 200
-  orig: 200, 200
+  xy: 328, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Enlightenments
   rotate: false
-  xy: 1252, 204
+  xy: 436, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Fly
   rotate: false
-  xy: 212, 4
-  size: 200, 200
-  orig: 200, 200
+  xy: 544, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/God of the Open Sky
   rotate: false
-  xy: 1360, 312
+  xy: 652, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/God of the Sea
   rotate: false
-  xy: 420, 212
-  size: 200, 200
-  orig: 200, 200
+  xy: 760, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/God-Hero
   rotate: false
-  xy: 1252, 96
+  xy: 868, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Goddess of the Hunt
   rotate: false
-  xy: 1360, 204
+  xy: 976, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Hunting
   rotate: false
-  xy: 420, 4
-  size: 200, 200
-  orig: 200, 200
+  xy: 1084, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Magical Warfare
   rotate: false
-  xy: 628, 212
-  size: 200, 200
-  orig: 200, 200
+  xy: 1192, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Manablasting
   rotate: false
-  xy: 628, 4
-  size: 200, 200
-  orig: 200, 200
+  xy: 1300, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Poetry
   rotate: false
-  xy: 836, 212
-  size: 200, 200
-  orig: 200, 200
+  xy: 1408, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Pyromunitions
   rotate: false
-  xy: 836, 4
-  size: 200, 200
-  orig: 200, 200
+  xy: 1516, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Sacred Path
   rotate: false
-  xy: 1044, 212
-  size: 200, 200
-  orig: 200, 200
+  xy: 1624, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Summoning Rites
+TechIcons/Summoning Rituals
   rotate: false
-  xy: 1044, 4
-  size: 200, 200
-  orig: 200, 200
+  xy: 1732, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1

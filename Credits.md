@@ -22,7 +22,7 @@
 * Niter: from Civ 6 Niter
 * Divine Smite: from Epic of Fantasy mod
 
-* reused icons from base game: Opera House, Slinger, Ship of the Line, Terracotta Army, Petra, Polder, Notre Dame, The Louvre, Temple of Artemis, Library, Bradenburg Gate, Cristo Redentor, Kremlin, Observatory, Sistine Chapel
+* reused icons from base game: Opera House, Slinger, Ship of the Line, Terracotta Army, Petra, Polder, Notre Dame, The Louvre, Temple of Artemis, Library, Bradenburg Gate, Cristo Redentor, Kremlin, Observatory, Sistine Chapel, Coal
 
 # Sprites
 * Mount Snowpeak & Phantom Island: Mariana Trench & Retba Island from Inverted World mod

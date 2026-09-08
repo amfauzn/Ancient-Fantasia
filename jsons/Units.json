@@ -143,9 +143,9 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Bloodfiend",
+		"name": "Devotee",
 		"unitType": "Sword",
-		"uniqueTo": "The Obtrar'ri",
+		"uniqueTo": "Chorislavia",
 		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 20,
@@ -154,7 +154,7 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Longswordsman",
-		"promotions": ["Bloodthirst","Demon's Wrath"],
+		"promotions": ["Devout","Divine Smite"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -208,6 +208,20 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Bloodfiend",
+		"unitType": "Spear",
+		"uniqueTo": "The Obtrar'ri",
+		"replaces": "Spearman",
+		"movement": 3,
+		"strength": 16,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"promotions": ["Bloodbath","Demon's Wrath"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -1068,7 +1082,7 @@
 		"replaces": "Great General",
 		"movement": 4,
 		"strength": 18,
-		"promotions": ["Bloodthirst","Demonic Might","Teleportation"],
+		"promotions": ["Bloodbath","Demonic Might","Teleportation"],
 		"uniques": [
 			"Unbuildable",
 			"Uncapturable",

@@ -118,49 +118,56 @@ ImprovementIcons/Forest Hamlet
   index: -1
 ImprovementIcons/Holy Site
   rotate: false
-  xy: 628, 606
+  xy: 836, 814
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Landmark
   rotate: false
-  xy: 628, 398
+  xy: 836, 606
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Manufactory
   rotate: false
-  xy: 836, 606
+  xy: 1044, 814
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Taming
   rotate: false
-  xy: 836, 190
+  xy: 1044, 398
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Trade Hub
   rotate: false
-  xy: 1252, 606
+  xy: 1460, 814
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 OtherIcons/Aircraft
   rotate: false
-  xy: 1044, 290
+  xy: 1460, 706
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Adamantium
+  rotate: false
+  xy: 1252, 498
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Amber
   rotate: false
-  xy: 1252, 498
+  xy: 1668, 914
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -193,72 +200,79 @@ ResourceIcons/Corn
   orig: 200, 200
   offset: 0, 0
   index: -1
-ResourceIcons/Honey
+ResourceIcons/God's Key
   rotate: false
-  xy: 836, 814
+  xy: 628, 606
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ResourceIcons/Jade
+ResourceIcons/Honey
   rotate: false
   xy: 420, 190
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ResourceIcons/Mithril
+ResourceIcons/Jade
   rotate: false
-  xy: 1044, 814
+  xy: 628, 398
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ResourceIcons/Mythical Egg
+ResourceIcons/Mithril
   rotate: false
   xy: 628, 190
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ResourceIcons/Niter
-  rotate: false
-  xy: 1460, 706
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Obsidian
+ResourceIcons/Mythical Egg
   rotate: false
   xy: 836, 398
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ResourceIcons/Perfume
+ResourceIcons/Niter
+  rotate: false
+  xy: 190, 82
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Obsidian
   rotate: false
   xy: 1044, 606
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-ResourceIcons/Rune Stone
+ResourceIcons/Perfume
   rotate: false
   xy: 1252, 814
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+ResourceIcons/Rune Stone
+  rotate: false
+  xy: 836, 190
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 ResourceIcons/Tea
   rotate: false
-  xy: 1044, 398
+  xy: 1252, 606
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Yairmon
   rotate: false
-  xy: 1460, 814
+  xy: 1044, 190
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
