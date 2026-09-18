@@ -1,1755 +1,4016 @@
 
 Tileset.png
-size: 512, 1024
+size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Tiles/Amber
   rotate: false
-  xy: 436, 455
+  xy: 1052, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Arkatore
   rotate: false
-  xy: 476, 455
+  xy: 1332, 268
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Banana+Plantation
   rotate: false
-  xy: 220, 450
+  xy: 1572, 308
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Buffalo
   rotate: false
-  xy: 364, 442
+  xy: 1532, 240
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Buffalo+Pasture
   rotate: false
-  xy: 404, 415
+  xy: 1452, 232
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Chocolate Hills
   rotate: false
-  xy: 444, 417
+  xy: 420, 374
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Citrus+Plantation
   rotate: false
-  xy: 220, 412
+  xy: 460, 370
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Citrus+Rainee Plantation
   rotate: false
-  xy: 220, 412
+  xy: 460, 370
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Age of Zero
   rotate: false
-  xy: 4, 404
+  xy: 500, 368
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Feudal Age
   rotate: false
-  xy: 364, 402
+  xy: 540, 368
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Heroic Age
   rotate: false
-  xy: 260, 388
+  xy: 580, 344
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Coffee
   rotate: false
-  xy: 300, 392
+  xy: 260, 330
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Coffee+Plantation
   rotate: false
-  xy: 44, 388
+  xy: 300, 328
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Corn
   rotate: false
-  xy: 84, 390
+  xy: 884, 300
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Corn+Farm
   rotate: false
-  xy: 124, 388
+  xy: 620, 340
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Cotton+Plantation
   rotate: false
-  xy: 164, 386
+  xy: 660, 338
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Mine
   rotate: false
-  xy: 444, 381
+  xy: 1084, 276
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Desert
   rotate: false
-  xy: 404, 379
+  xy: 1124, 276
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Dyes+Plantation
   rotate: false
-  xy: 300, 354
+  xy: 1812, 173
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Eilifur Gjosa
   rotate: false
-  xy: 84, 350
+  xy: 1772, 135
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Farm
   rotate: false
-  xy: 244, 352
+  xy: 1892, 91
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/FarmD
   rotate: false
-  xy: 44, 350
+  xy: 1932, 91
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/FarmP
   rotate: false
-  xy: 124, 350
+  xy: 1852, 67
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Flood plains+Farm
   rotate: false
-  xy: 164, 350
+  xy: 1892, 55
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Forest Hamlet
   rotate: false
-  xy: 444, 345
+  xy: 1932, 55
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Forest Hamlet2
   rotate: false
-  xy: 380, 343
+  xy: 1244, 224
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Forest HamletT
   rotate: false
-  xy: 204, 340
+  xy: 1284, 232
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/ForestGG
   rotate: false
-  xy: 4, 329
+  xy: 1324, 229
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/ForestPP
   rotate: false
-  xy: 340, 326
+  xy: 1364, 228
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/ForestTT
   rotate: false
-  xy: 284, 314
+  xy: 1572, 267
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Holy Site
   rotate: false
-  xy: 164, 306
+  xy: 1972, 263
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Incense+Plantation
   rotate: false
-  xy: 420, 307
+  xy: 2012, 269
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Incense+Rainee Plantation
   rotate: false
-  xy: 420, 307
+  xy: 2012, 269
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ivory+CampT
   rotate: false
-  xy: 460, 309
+  xy: 2012, 125
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/IvoryT
   rotate: false
-  xy: 380, 307
+  xy: 2012, 89
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Jade
   rotate: false
-  xy: 204, 304
+  xy: 2012, 53
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Kelimutu
   rotate: false
-  xy: 4, 289
+  xy: 1612, 195
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Levitating Rocks
   rotate: false
-  xy: 324, 285
+  xy: 1652, 158
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Man-eating Tree
   rotate: false
-  xy: 244, 280
+  xy: 580, 272
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mount Snowpeak
   rotate: false
-  xy: 284, 263
+  xy: 740, 296
   size: 32, 43
   orig: 32, 43
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mythical Egg
   rotate: false
-  xy: 460, 273
+  xy: 380, 230
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mythical Egg+Taming
   rotate: false
-  xy: 364, 271
+  xy: 420, 230
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Niter
   rotate: false
-  xy: 124, 270
+  xy: 620, 232
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Obsidian
   rotate: false
-  xy: 164, 270
+  xy: 1060, 168
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Overgrowth Rift
   rotate: false
-  xy: 204, 264
+  xy: 116, 136
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Perfume
   rotate: false
-  xy: 124, 234
+  xy: 1852, 31
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Perfume+Plantation
   rotate: false
-  xy: 164, 234
+  xy: 1892, 19
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Phantom Island
   rotate: false
-  xy: 204, 224
+  xy: 1180, 220
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rune Stone
   rotate: false
-  xy: 284, 227
+  xy: 1340, 120
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rune Stone-Desert
   rotate: false
-  xy: 244, 208
+  xy: 1540, 87
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rune Stone2
   rotate: false
-  xy: 4, 217
+  xy: 1540, 123
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rune Stone3
   rotate: false
-  xy: 324, 213
+  xy: 1580, 123
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Silk+Plantation
   rotate: false
-  xy: 324, 139
+  xy: 740, 130
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Spices+Plantation
   rotate: false
-  xy: 364, 125
+  xy: 236, 112
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Sugar+Plantation
   rotate: false
-  xy: 404, 125
+  xy: 196, 4
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tea
   rotate: false
-  xy: 124, 90
+  xy: 820, 84
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tea+Plantation
   rotate: false
-  xy: 164, 88
+  xy: 860, 82
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Towering Reef
   rotate: false
-  xy: 364, 89
+  xy: 900, 64
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Trade Hub
   rotate: false
-  xy: 404, 82
+  xy: 940, 57
   size: 32, 35
   orig: 32, 35
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Zamrud Rocks
   rotate: false
-  xy: 204, 4
+  xy: 1540, 11
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Bloodfiend
+TileSets/FantasyHex/Units/Adamantite Golem
   rotate: false
-  xy: 4, 444
+  xy: 1012, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Devotee
+TileSets/FantasyHex/Units/Ana Nzinga
   rotate: false
-  xy: 204, 376
+  xy: 1092, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Devotee-1
+TileSets/FantasyHex/Units/Ana Nzinga-1
   rotate: false
-  xy: 4, 368
+  xy: 1012, 312
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Devotee-2
+TileSets/FantasyHex/Units/Ana Nzinga-2
   rotate: false
-  xy: 340, 366
+  xy: 1052, 312
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Gargantuan Slime
+TileSets/FantasyHex/Units/Arachne
   rotate: false
-  xy: 244, 316
+  xy: 1092, 312
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Hammerguard
+TileSets/FantasyHex/Units/Arachne2
   rotate: false
-  xy: 44, 314
+  xy: 1132, 340
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Hammerguard-1
+TileSets/FantasyHex/Units/Arcane Archer
   rotate: false
-  xy: 84, 314
+  xy: 1172, 340
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Hammerguard-2
+TileSets/FantasyHex/Units/Arcane Archer-Demonic
   rotate: false
-  xy: 124, 314
+  xy: 1212, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Nightstalker
+TileSets/FantasyHex/Units/Arcane Archer-Demonic-1
   rotate: false
-  xy: 404, 271
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Nightstalker-1
+TileSets/FantasyHex/Units/Arcane Archer-Drow-1
   rotate: false
-  xy: 44, 270
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Nightstalker-2
+TileSets/FantasyHex/Units/Arcane Archer-Red Elves-1
   rotate: false
-  xy: 84, 270
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Pathfinder
+TileSets/FantasyHex/Units/Archer-Drow-1
   rotate: false
-  xy: 4, 253
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Pathfinder-1
+TileSets/FantasyHex/Units/Archer-Elves-1
   rotate: false
-  xy: 324, 249
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Pathfinder-Demonic-1
+TileSets/FantasyHex/Units/Archer-High Elves-1
   rotate: false
-  xy: 324, 249
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Pathfinder-Drow-1
+TileSets/FantasyHex/Units/Archer-Red Elves-1
   rotate: false
-  xy: 324, 249
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Pathfinder-Red Elves-1
+TileSets/FantasyHex/Units/Educated Tamer-1
   rotate: false
-  xy: 324, 249
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Scout-Elves-1
+TileSets/FantasyHex/Units/Educated Tamer-Demonic-1
   rotate: false
-  xy: 324, 249
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Scout-High Elves-1
+TileSets/FantasyHex/Units/Educated Tamer-Drow-1
   rotate: false
-  xy: 324, 249
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Wayfarer-1
+TileSets/FantasyHex/Units/Educated Tamer-Red Elves-1
   rotate: false
-  xy: 324, 249
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Pathfinder-2
+TileSets/FantasyHex/Units/Lightsaberman-Demonic-1
   rotate: false
-  xy: 244, 244
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Pathfinder-Demonic-2
+TileSets/FantasyHex/Units/Lightsaberman-Drow-1
   rotate: false
-  xy: 244, 244
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Pathfinder-Drow-2
+TileSets/FantasyHex/Units/Lightsaberman-Red Elves-1
   rotate: false
-  xy: 244, 244
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Pathfinder-Red Elves-2
+TileSets/FantasyHex/Units/Longswordsman-Demonic-1
   rotate: false
-  xy: 244, 244
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Pathfinder-Demonic
+TileSets/FantasyHex/Units/Longswordsman-Drow-1
   rotate: false
-  xy: 444, 237
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Pathfinder-Red Elves
+TileSets/FantasyHex/Units/Longswordsman-Red Elves-1
   rotate: false
-  xy: 444, 237
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Pathfinder-Drow
-  rotate: false
-  xy: 364, 235
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Pathfinder-Dwarves
-  rotate: false
-  xy: 404, 235
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Pathfinder-Dwarves-1
-  rotate: false
-  xy: 44, 234
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Scout-Dwarves-1
-  rotate: false
-  xy: 44, 234
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Pathfinder-Dwarves-2
-  rotate: false
-  xy: 84, 234
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Scout-Dwarves-2
-  rotate: false
-  xy: 84, 234
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Sandworm
-  rotate: false
-  xy: 444, 201
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Scout-Demonic
-  rotate: false
-  xy: 364, 199
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Demonic-1
   rotate: false
-  xy: 404, 199
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Drow-1
   rotate: false
-  xy: 404, 199
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Red Elves-1
   rotate: false
-  xy: 404, 199
+  xy: 1252, 332
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sorcerer-Demonic-1
+  rotate: false
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Drow-1
   rotate: false
-  xy: 404, 199
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Drow-1
   rotate: false
-  xy: 404, 199
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Elves-1
   rotate: false
-  xy: 404, 199
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-High Elves-1
   rotate: false
-  xy: 404, 199
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Red Elves-1
   rotate: false
-  xy: 404, 199
+  xy: 1252, 332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Scout-Demonic-2
+TileSets/FantasyHex/Units/Arcane Archer-Demonic-2
   rotate: false
-  xy: 44, 198
+  xy: 364, 412
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Warrior-Demonic-2
+TileSets/FantasyHex/Units/Arcane Archer-Drow
   rotate: false
-  xy: 44, 198
+  xy: 404, 412
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Scout-Drow
+TileSets/FantasyHex/Units/Arcane Archer-Dwarves
   rotate: false
-  xy: 84, 198
+  xy: 444, 412
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Scout-Drow-2
+TileSets/FantasyHex/Units/Arcane Archer-Dwarves-1
   rotate: false
-  xy: 124, 198
+  xy: 724, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Scout-Red Elves-2
+TileSets/FantasyHex/Units/Ballista-1
   rotate: false
-  xy: 124, 198
+  xy: 724, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Scout-Dwarves
+TileSets/FantasyHex/Units/Chariot Archer-Dwarves-1
   rotate: false
-  xy: 164, 198
+  xy: 724, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Scout-Elves
+TileSets/FantasyHex/Units/Crossbowman-Dwarves-1
   rotate: false
-  xy: 284, 191
+  xy: 724, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Scout-High Elves
+TileSets/FantasyHex/Units/Ken Arok-1
   rotate: false
-  xy: 284, 191
+  xy: 724, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Scout-Elves-2
+TileSets/FantasyHex/Units/Trireme-Drow-1
   rotate: false
-  xy: 204, 188
+  xy: 724, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Scout-High Elves-2
+TileSets/FantasyHex/Units/Trireme-Elves-1
   rotate: false
-  xy: 204, 188
+  xy: 724, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Scout-Red Elves
+TileSets/FantasyHex/Units/Trireme-High Elves-1
   rotate: false
-  xy: 4, 181
+  xy: 724, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Settler-Demonic
+TileSets/FantasyHex/Units/Arcane Archer-Dwarves-2
   rotate: false
-  xy: 324, 177
+  xy: 764, 347
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-Dwarves-2
+  rotate: false
+  xy: 764, 347
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Arcane Archer-Elves
+  rotate: false
+  xy: 804, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Settler-Demonic-1
+TileSets/FantasyHex/Units/Arcane Archer-High Elves
   rotate: false
-  xy: 244, 172
+  xy: 804, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Settler-Demonic-2
+TileSets/FantasyHex/Units/Arcane Archer-Elves-1
   rotate: false
-  xy: 444, 165
+  xy: 1372, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Settler-Drow
+TileSets/FantasyHex/Units/Arcane Archer-High Elves-1
   rotate: false
-  xy: 364, 163
+  xy: 1372, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Settler-Drow-1
+TileSets/FantasyHex/Units/Arcane Archer-Elves-2
   rotate: false
-  xy: 404, 163
+  xy: 1172, 304
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Settler-Elves-1
+TileSets/FantasyHex/Units/Arcane Archer-High Elves-2
   rotate: false
-  xy: 404, 163
+  xy: 1172, 304
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Settler-High Elves-1
+TileSets/FantasyHex/Units/Arcane Archer-Red Elves
   rotate: false
-  xy: 404, 163
+  xy: 1212, 296
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Settler-Red Elves-1
+TileSets/FantasyHex/Units/Arcane Archer-Red Elves-2
   rotate: false
-  xy: 404, 163
+  xy: 1252, 296
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Settler-Drow-2
+TileSets/FantasyHex/Units/Archdemon
   rotate: false
-  xy: 44, 162
+  xy: 484, 408
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Settler-Elves-2
+TileSets/FantasyHex/Units/Archer-Demonic
   rotate: false
-  xy: 44, 162
+  xy: 524, 408
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Settler-High Elves-2
+TileSets/FantasyHex/Units/Archer-Demonic-1
   rotate: false
-  xy: 44, 162
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Settler-Red Elves-2
-  rotate: false
-  xy: 44, 162
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Settler-Dwarves
-  rotate: false
-  xy: 84, 162
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Settler-Dwarves-1
-  rotate: false
-  xy: 124, 162
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Settler-Dwarves-2
-  rotate: false
-  xy: 164, 162
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Settler-Elves
-  rotate: false
-  xy: 284, 155
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Settler-High Elves
-  rotate: false
-  xy: 204, 152
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Settler-Red Elves
-  rotate: false
-  xy: 4, 145
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Slime
-  rotate: false
-  xy: 244, 136
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Slime2
-  rotate: false
-  xy: 444, 129
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Swordsman-Demonic
-  rotate: false
-  xy: 44, 126
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Swordsman-Demonic-1
-  rotate: false
-  xy: 84, 126
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Swordsman-Demonic-2
-  rotate: false
-  xy: 124, 126
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Swordsman-Drow
-  rotate: false
-  xy: 164, 126
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Swordsman-Drow-2
-  rotate: false
-  xy: 284, 119
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Swordsman-Elves
-  rotate: false
-  xy: 204, 116
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Swordsman-Elves-1
-  rotate: false
-  xy: 4, 109
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Swordsman-High Elves-1
-  rotate: false
-  xy: 4, 109
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Swordsman-Elves-2
-  rotate: false
-  xy: 324, 103
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Swordsman-High Elves-2
-  rotate: false
-  xy: 324, 103
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Swordsman-High Elves
-  rotate: false
-  xy: 244, 100
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Swordsman-Red Elves
-  rotate: false
-  xy: 444, 93
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Swordsman-Red Elves-1
-  rotate: false
-  xy: 44, 90
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Swordsman-Red Elves-2
-  rotate: false
-  xy: 84, 90
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Warrior-Demonic
-  rotate: false
-  xy: 284, 83
+  xy: 1300, 340
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Demonic-1
   rotate: false
-  xy: 204, 80
+  xy: 1300, 340
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Archer-Demonic-2
+  rotate: false
+  xy: 1292, 304
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout-Demonic-2
+  rotate: false
+  xy: 1292, 304
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Warrior-Demonic-2
+  rotate: false
+  xy: 1292, 304
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Archer-Drow
+  rotate: false
+  xy: 1292, 268
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Archer-Drow-2
+  rotate: false
+  xy: 1516, 348
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Archer-Red Elves-2
+  rotate: false
+  xy: 1516, 348
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Archer-Dwarves
+  rotate: false
+  xy: 1556, 348
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Archer-Dwarves-1
+  rotate: false
+  xy: 1596, 348
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman-Dwarves-1
+  rotate: false
+  xy: 1596, 348
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Educated Tamer-Dwarves-1
+  rotate: false
+  xy: 1596, 348
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lightsaberman-Dwarves-1
+  rotate: false
+  xy: 1596, 348
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Musketman-Dwarves-1
+  rotate: false
+  xy: 1596, 348
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman-Dwarves-1
+  rotate: false
+  xy: 1596, 348
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Archer-Dwarves-2
+  rotate: false
+  xy: 1636, 344
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Archer-Elves
+  rotate: false
+  xy: 1676, 344
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Archer-Elves-2
+  rotate: false
+  xy: 1716, 336
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Archer-High Elves-2
+  rotate: false
+  xy: 1716, 336
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Archer-High Elves
+  rotate: false
+  xy: 1756, 336
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Archer-Red Elves
+  rotate: false
+  xy: 1332, 304
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Armoured Frigate
+  rotate: false
+  xy: 1372, 312
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Armoured Frigate-1
+  rotate: false
+  xy: 1372, 276
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Armoured Frigate-2
+  rotate: false
+  xy: 1412, 344
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Askia
+  rotate: false
+  xy: 1412, 308
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Askia-1
+  rotate: false
+  xy: 1452, 344
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Askia-2
+  rotate: false
+  xy: 1452, 308
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ballista
+  rotate: false
+  xy: 1492, 312
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ballista-2
+  rotate: false
+  xy: 1532, 312
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Black Widow
+  rotate: false
+  xy: 1612, 308
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Bladedancer
+  rotate: false
+  xy: 1652, 308
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Bladedancer-1
+  rotate: false
+  xy: 1492, 276
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Blood Mage
+  rotate: false
+  xy: 1532, 276
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Blood Mage-1
+  rotate: false
+  xy: 1452, 272
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Bloodfiend
+  rotate: false
+  xy: 1412, 271
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Bowman
+  rotate: false
+  xy: 1692, 300
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Bowman-1
+  rotate: false
+  xy: 1732, 300
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Bowman-2
+  rotate: false
+  xy: 1492, 240
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Bullworm
+  rotate: false
+  xy: 1412, 235
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Caravel
+  rotate: false
+  xy: 1492, 204
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Caravel-1
+  rotate: false
+  xy: 1532, 204
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Caravel-2
+  rotate: false
+  xy: 804, 312
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chariot Archer-Demonic
+  rotate: false
+  xy: 844, 336
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chariot Archer-Drow
+  rotate: false
+  xy: 884, 336
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chariot Archer-Drow-1
+  rotate: false
+  xy: 220, 404
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chariot Archer-Elves-1
+  rotate: false
+  xy: 220, 404
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chariot Archer-High Elves-1
+  rotate: false
+  xy: 220, 404
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chariot Archer-Red Elves-1
+  rotate: false
+  xy: 220, 404
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chariot Archer-Drow-2
+  rotate: false
+  xy: 260, 402
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chariot Archer-Dwarves
+  rotate: false
+  xy: 300, 402
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chariot Archer-Dwarves-2
+  rotate: false
+  xy: 220, 368
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chariot Archer-Elves
+  rotate: false
+  xy: 260, 366
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chariot Archer-Elves-2
+  rotate: false
+  xy: 300, 366
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chariot Archer-High Elves-2
+  rotate: false
+  xy: 300, 366
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chariot Archer-Red Elves-2
+  rotate: false
+  xy: 300, 366
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chariot Archer-High Elves
+  rotate: false
+  xy: 340, 376
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chariot Archer-Red Elves
+  rotate: false
+  xy: 380, 376
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Clay Golem
+  rotate: false
+  xy: 220, 332
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman-Demonic
+  rotate: false
+  xy: 220, 296
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman-Demonic-1
+  rotate: false
+  xy: 260, 294
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-Demonic-1
+  rotate: false
+  xy: 260, 294
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman-Demonic-2
+  rotate: false
+  xy: 300, 292
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman-Drow
+  rotate: false
+  xy: 1732, 264
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman-Drow-1
+  rotate: false
+  xy: 1772, 283
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman-Drow-2
+  rotate: false
+  xy: 1812, 283
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman-Elves-2
+  rotate: false
+  xy: 1812, 283
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman-High Elves-2
+  rotate: false
+  xy: 1812, 283
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman-Red Elves-2
+  rotate: false
+  xy: 1812, 283
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman-Dwarves
+  rotate: false
+  xy: 1772, 247
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman-Dwarves-2
+  rotate: false
+  xy: 1812, 247
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman-Elves
+  rotate: false
+  xy: 1852, 271
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman-Elves-1
+  rotate: false
+  xy: 1892, 271
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman-High Elves-1
+  rotate: false
+  xy: 1892, 271
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman-Red Elves-1
+  rotate: false
+  xy: 1892, 271
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman-High Elves
+  rotate: false
+  xy: 1932, 271
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Composite Bowman-Red Elves
+  rotate: false
+  xy: 1532, 168
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-Demonic
+  rotate: false
+  xy: 1772, 211
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-Demonic-2
+  rotate: false
+  xy: 1812, 211
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-Drow
+  rotate: false
+  xy: 1892, 235
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-Drow-1
+  rotate: false
+  xy: 1932, 235
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-Drow-2
+  rotate: false
+  xy: 1852, 211
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-Dwarves
+  rotate: false
+  xy: 1892, 199
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-Elves
+  rotate: false
+  xy: 1932, 199
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-Elves-1
+  rotate: false
+  xy: 924, 280
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-High Elves-1
+  rotate: false
+  xy: 924, 280
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-Red Elves-1
+  rotate: false
+  xy: 924, 280
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-Elves-2
+  rotate: false
+  xy: 964, 280
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-High Elves-2
+  rotate: false
+  xy: 964, 280
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-Red Elves-2
+  rotate: false
+  xy: 964, 280
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-High Elves
+  rotate: false
+  xy: 1004, 276
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-Red Elves
+  rotate: false
+  xy: 1044, 276
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Devotee
+  rotate: false
+  xy: 1164, 268
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Devotee-1
+  rotate: false
+  xy: 1204, 260
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Devotee-2
+  rotate: false
+  xy: 1244, 260
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Dragon
+  rotate: false
+  xy: 1772, 175
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Educated Tamer
+  rotate: false
+  xy: 1852, 175
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Educated Tamer-2
+  rotate: false
+  xy: 1892, 163
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Educated Tamer-Demonic-2
+  rotate: false
+  xy: 1892, 163
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Educated Tamer-Drow-2
+  rotate: false
+  xy: 1892, 163
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Educated Tamer-Red Elves-2
+  rotate: false
+  xy: 1892, 163
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Educated Tamer-Demonic
+  rotate: false
+  xy: 1932, 163
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Educated Tamer-Red Elves
+  rotate: false
+  xy: 1932, 163
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Educated Tamer-Drow
+  rotate: false
+  xy: 1852, 139
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Educated Tamer-Dwarves
+  rotate: false
+  xy: 1892, 127
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Educated Tamer-Dwarves-2
+  rotate: false
+  xy: 1932, 127
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Elven Ranger
+  rotate: false
+  xy: 1812, 137
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Elven Ranger-1
+  rotate: false
+  xy: 1852, 103
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Elven Ranger-2
+  rotate: false
+  xy: 1812, 101
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Frigate
+  rotate: false
+  xy: 1572, 231
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Frigate-1
+  rotate: false
+  xy: 1572, 195
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Frigate-2
+  rotate: false
+  xy: 1572, 159
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Galleass
+  rotate: false
+  xy: 1932, 19
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Galleass-1
+  rotate: false
+  xy: 1404, 199
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Galleass-2
+  rotate: false
+  xy: 1444, 196
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Gargantuan Slime
+  rotate: false
+  xy: 1484, 168
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Garuda
+  rotate: false
+  xy: 340, 338
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Giant
+  rotate: false
+  xy: 340, 298
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Admiral
+  rotate: false
+  xy: 340, 259
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Admiral-1
+  rotate: false
+  xy: 76, 281
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Admiral-2
+  rotate: false
+  xy: 76, 242
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great General-Elves
+  rotate: false
+  xy: 76, 203
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great General-High Elves
+  rotate: false
+  xy: 76, 203
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great General-Elves-1
+  rotate: false
+  xy: 76, 164
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great General-High Elves-1
+  rotate: false
+  xy: 76, 164
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great General-Elves-2
+  rotate: false
+  xy: 76, 125
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great General-High Elves-2
+  rotate: false
+  xy: 76, 125
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Hammerguard
+  rotate: false
+  xy: 76, 89
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Hammerguard-1
+  rotate: false
+  xy: 76, 53
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Hammerguard-2
+  rotate: false
+  xy: 76, 17
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ironclad
+  rotate: false
+  xy: 2012, 233
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ironclad-1
+  rotate: false
+  xy: 2012, 197
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ironclad-2
+  rotate: false
+  xy: 2012, 161
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Jeanne d'Arc
+  rotate: false
+  xy: 2012, 17
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Jeanne d'Arc-1
+  rotate: false
+  xy: 1612, 271
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Jeanne d'Arc-2
+  rotate: false
+  xy: 1612, 235
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ken Arok
+  rotate: false
+  xy: 1612, 159
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ken Arok-2
+  rotate: false
+  xy: 1652, 271
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Kraken
+  rotate: false
+  xy: 1692, 264
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Leonidas
+  rotate: false
+  xy: 1652, 235
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Leonidas-1
+  rotate: false
+  xy: 1652, 199
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Leonidas-2
+  rotate: false
+  xy: 1692, 228
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lightsaberman-Demonic
+  rotate: false
+  xy: 380, 338
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lightsaberman-Demonic-2
+  rotate: false
+  xy: 420, 338
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Longswordsman-Demonic-2
+  rotate: false
+  xy: 420, 338
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Novice Tamer-Demonic-2
+  rotate: false
+  xy: 420, 338
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lightsaberman-Drow
+  rotate: false
+  xy: 380, 302
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lightsaberman-Dwarves
+  rotate: false
+  xy: 380, 266
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lightsaberman-Dwarves-2
+  rotate: false
+  xy: 420, 302
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman-Dwarves-2
+  rotate: false
+  xy: 420, 302
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lightsaberman-Elves
+  rotate: false
+  xy: 460, 334
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lightsaberman-Elves-1
+  rotate: false
+  xy: 420, 266
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lightsaberman-High Elves-1
+  rotate: false
+  xy: 420, 266
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Longswordsman-Elves-1
+  rotate: false
+  xy: 420, 266
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Longswordsman-High Elves-1
+  rotate: false
+  xy: 420, 266
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lightsaberman-Elves-2
+  rotate: false
+  xy: 460, 298
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lightsaberman-High Elves-2
+  rotate: false
+  xy: 460, 298
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Longswordsman-Elves-2
+  rotate: false
+  xy: 460, 298
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Longswordsman-High Elves-2
+  rotate: false
+  xy: 460, 298
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lightsaberman-High Elves
+  rotate: false
+  xy: 500, 332
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lightsaberman-Red Elves
+  rotate: false
+  xy: 540, 332
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lightsaberman-Red Elves-2
+  rotate: false
+  xy: 460, 262
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Longswordsman-Red Elves-2
+  rotate: false
+  xy: 460, 262
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Longswordsman-Demonic
+  rotate: false
+  xy: 580, 308
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Longswordsman-Drow
+  rotate: false
+  xy: 620, 304
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Longswordsman-Elves
+  rotate: false
+  xy: 660, 302
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Longswordsman-High Elves
+  rotate: false
+  xy: 660, 302
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Longswordsman-Red Elves
+  rotate: false
+  xy: 540, 296
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Michiel de Ruyter
+  rotate: false
+  xy: 620, 268
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Michiel de Ruyter-1
+  rotate: false
+  xy: 660, 266
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Michiel de Ruyter-2
+  rotate: false
+  xy: 700, 312
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Minotaur
+  rotate: false
+  xy: 700, 276
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Minotaur2
+  rotate: false
+  xy: 500, 276
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Minotaur3
+  rotate: false
+  xy: 500, 240
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Musketman-Demonic
+  rotate: false
+  xy: 740, 260
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Musketman-Demonic-1
+  rotate: false
+  xy: 780, 276
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Musketman-High Elves-1
+  rotate: false
+  xy: 780, 276
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Musketman-Demonic-2
+  rotate: false
+  xy: 820, 276
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Musketman-Drow
+  rotate: false
+  xy: 780, 240
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Musketman-Drow-1
+  rotate: false
+  xy: 820, 240
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Musketman-Drow-2
+  rotate: false
+  xy: 860, 264
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Musketman-Red Elves-2
+  rotate: false
+  xy: 860, 264
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Musketman-Dwarves
+  rotate: false
+  xy: 860, 228
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Musketman-Dwarves-2
+  rotate: false
+  xy: 900, 244
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Musketman-Elves
+  rotate: false
+  xy: 940, 244
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Musketman-Elves-1
+  rotate: false
+  xy: 900, 208
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Musketman-Elves-2
+  rotate: false
+  xy: 940, 208
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Musketman-High Elves
+  rotate: false
+  xy: 980, 240
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Musketman-High Elves-2
+  rotate: false
+  xy: 1020, 240
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Musketman-Red Elves
+  rotate: false
+  xy: 1060, 240
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Musketman-Red Elves-1
+  rotate: false
+  xy: 1100, 240
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Nightstalker
+  rotate: false
+  xy: 460, 226
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Nightstalker-1
+  rotate: false
+  xy: 540, 244
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Nightstalker-2
+  rotate: false
+  xy: 580, 236
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Novice Tamer
+  rotate: false
+  xy: 660, 230
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Novice Tamer-1
+  rotate: false
+  xy: 540, 208
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Novice Tamer-Drow-1
+  rotate: false
+  xy: 540, 208
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Novice Tamer-High Elves-1
+  rotate: false
+  xy: 540, 208
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Novice Tamer-Red Elves-1
+  rotate: false
+  xy: 540, 208
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Novice Tamer-2
+  rotate: false
+  xy: 580, 200
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Novice Tamer-Drow-2
+  rotate: false
+  xy: 580, 200
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Novice Tamer-High Elves-2
+  rotate: false
+  xy: 580, 200
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Novice Tamer-Red Elves-2
+  rotate: false
+  xy: 580, 200
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Novice Tamer-Demonic
+  rotate: false
+  xy: 620, 196
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Novice Tamer-Demonic-1
+  rotate: false
+  xy: 660, 194
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Novice Tamer-Drow
+  rotate: false
+  xy: 700, 230
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Novice Tamer-Dwarves
+  rotate: false
+  xy: 700, 194
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Novice Tamer-Dwarves-1
+  rotate: false
+  xy: 1020, 204
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Novice Tamer-Dwarves-2
+  rotate: false
+  xy: 1060, 204
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Novice Tamer-High Elves
+  rotate: false
+  xy: 1100, 204
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Novice Tamer-Red Elves
+  rotate: false
+  xy: 700, 158
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Oda Nobunaga
+  rotate: false
+  xy: 116, 284
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Oda Nobunaga-1
+  rotate: false
+  xy: 116, 248
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Oda Nobunaga-2
+  rotate: false
+  xy: 116, 212
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Onggo-Inggi
+  rotate: false
+  xy: 116, 176
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pathfinder
+  rotate: false
+  xy: 116, 100
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pathfinder-1
+  rotate: false
+  xy: 116, 64
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pathfinder-Demonic-1
+  rotate: false
+  xy: 116, 64
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pathfinder-Drow-1
+  rotate: false
+  xy: 116, 64
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pathfinder-Red Elves-1
+  rotate: false
+  xy: 116, 64
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout-Elves-1
+  rotate: false
+  xy: 116, 64
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout-High Elves-1
+  rotate: false
+  xy: 116, 64
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wayfarer-1
+  rotate: false
+  xy: 116, 64
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pathfinder-2
+  rotate: false
+  xy: 116, 28
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pathfinder-Demonic-2
+  rotate: false
+  xy: 116, 28
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pathfinder-Drow-2
+  rotate: false
+  xy: 116, 28
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pathfinder-Red Elves-2
+  rotate: false
+  xy: 116, 28
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pathfinder-Demonic
+  rotate: false
+  xy: 1692, 163
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pathfinder-Red Elves
+  rotate: false
+  xy: 1692, 163
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pathfinder-Drow
+  rotate: false
+  xy: 1692, 127
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pathfinder-Dwarves
+  rotate: false
+  xy: 1732, 132
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pathfinder-Dwarves-1
+  rotate: false
+  xy: 1772, 99
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout-Dwarves-1
+  rotate: false
+  xy: 1772, 99
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-Drow-1
+  rotate: false
+  xy: 1772, 99
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pathfinder-Dwarves-2
+  rotate: false
+  xy: 1732, 96
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout-Dwarves-2
+  rotate: false
+  xy: 1732, 96
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pegasus
+  rotate: false
+  xy: 1812, 65
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Peuchen
+  rotate: false
+  xy: 1140, 224
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Peuchen2
+  rotate: false
+  xy: 1140, 188
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman-Demonic
+  rotate: false
+  xy: 1180, 184
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman-Demonic-1
+  rotate: false
+  xy: 1220, 188
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman-Elves-1
+  rotate: false
+  xy: 1220, 188
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman-High Elves-1
+  rotate: false
+  xy: 1220, 188
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman-Demonic-2
+  rotate: false
+  xy: 1260, 188
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman-Drow
+  rotate: false
+  xy: 1300, 193
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman-Drow-1
+  rotate: false
+  xy: 1340, 192
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman-Red Elves-1
+  rotate: false
+  xy: 1340, 192
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman-Drow-2
+  rotate: false
+  xy: 1300, 157
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman-Red Elves-2
+  rotate: false
+  xy: 1300, 157
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman-Dwarves
+  rotate: false
+  xy: 1340, 156
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman-Elves
+  rotate: false
+  xy: 1380, 163
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman-Elves-2
+  rotate: false
+  xy: 1420, 160
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman-High Elves-2
+  rotate: false
+  xy: 1420, 160
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman-High Elves
+  rotate: false
+  xy: 1380, 127
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pikeman-Red Elves
+  rotate: false
+  xy: 1420, 124
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Priest
+  rotate: false
+  xy: 1460, 132
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Priest-1
+  rotate: false
+  xy: 1500, 132
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Priest-2
+  rotate: false
+  xy: 1460, 96
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Privateer
+  rotate: false
+  xy: 1500, 96
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Privateer-1
+  rotate: false
+  xy: 1220, 152
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Privateer-2
+  rotate: false
+  xy: 1260, 152
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Roc
+  rotate: false
+  xy: 1300, 121
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sandworm
+  rotate: false
+  xy: 1580, 87
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout-Demonic
+  rotate: false
+  xy: 1620, 122
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout-Drow
+  rotate: false
+  xy: 1100, 163
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout-Drow-2
+  rotate: false
+  xy: 1140, 152
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout-Red Elves-2
+  rotate: false
+  xy: 1140, 152
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout-Dwarves
+  rotate: false
+  xy: 1180, 148
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout-Elves
+  rotate: false
+  xy: 1100, 127
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout-High Elves
+  rotate: false
+  xy: 1100, 127
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout-Elves-2
+  rotate: false
+  xy: 1220, 116
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout-High Elves-2
+  rotate: false
+  xy: 1220, 116
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout-Red Elves
+  rotate: false
+  xy: 1260, 116
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-Demonic
+  rotate: false
+  xy: 1300, 85
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-Demonic-1
+  rotate: false
+  xy: 1340, 84
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-Demonic-2
+  rotate: false
+  xy: 740, 204
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-Drow
+  rotate: false
+  xy: 740, 168
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-Drow-1
+  rotate: false
+  xy: 780, 204
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-Elves-1
+  rotate: false
+  xy: 780, 204
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-High Elves-1
+  rotate: false
+  xy: 780, 204
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-Red Elves-1
+  rotate: false
+  xy: 780, 204
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-Drow-2
+  rotate: false
+  xy: 820, 204
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-Elves-2
+  rotate: false
+  xy: 820, 204
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-High Elves-2
+  rotate: false
+  xy: 820, 204
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-Red Elves-2
+  rotate: false
+  xy: 820, 204
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-Dwarves
+  rotate: false
+  xy: 860, 192
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-Dwarves-1
+  rotate: false
+  xy: 900, 172
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-Dwarves-2
+  rotate: false
+  xy: 940, 172
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-Elves
+  rotate: false
+  xy: 980, 188
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-High Elves
+  rotate: false
+  xy: 1020, 168
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-Red Elves
+  rotate: false
+  xy: 980, 152
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Siren
+  rotate: false
+  xy: 156, 284
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Slime
+  rotate: false
+  xy: 156, 248
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Slime2
+  rotate: false
+  xy: 156, 212
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sorcerer
+  rotate: false
+  xy: 156, 176
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sorcerer-1
+  rotate: false
+  xy: 156, 140
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sorcerer-2
+  rotate: false
+  xy: 156, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sorcerer-Demonic
+  rotate: false
+  xy: 156, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sorcerer-Demonic-2
+  rotate: false
+  xy: 156, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sorcerer-Dwarves
+  rotate: false
+  xy: 1380, 88
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sorcerer-Dwarves-1
+  rotate: false
+  xy: 1420, 88
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sorcerer-Dwarves-2
+  rotate: false
+  xy: 1420, 52
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-Demonic
+  rotate: false
+  xy: 1380, 51
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-Drow
+  rotate: false
+  xy: 1420, 16
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-Drow-2
+  rotate: false
+  xy: 780, 156
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-Dwarves
+  rotate: false
+  xy: 196, 258
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-Dwarves-1
+  rotate: false
+  xy: 196, 222
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-Dwarves-2
+  rotate: false
+  xy: 196, 186
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-Elves
+  rotate: false
+  xy: 196, 150
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-Elves-1
+  rotate: false
+  xy: 196, 114
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-High Elves-1
+  rotate: false
+  xy: 196, 114
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-Elves-2
+  rotate: false
+  xy: 196, 78
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-High Elves
+  rotate: false
+  xy: 196, 42
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-High Elves-2
+  rotate: false
+  xy: 236, 258
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-Red Elves
+  rotate: false
+  xy: 236, 222
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-Red Elves-1
+  rotate: false
+  xy: 236, 186
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-Red Elves-2
+  rotate: false
+  xy: 236, 150
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Stone Golem
+  rotate: false
+  xy: 276, 256
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Swordsman-Demonic
+  rotate: false
+  xy: 1460, 51
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Swordsman-Demonic-1
+  rotate: false
+  xy: 820, 156
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Swordsman-Demonic-2
+  rotate: false
+  xy: 860, 156
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Swordsman-Drow
+  rotate: false
+  xy: 900, 136
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Swordsman-Drow-2
+  rotate: false
+  xy: 940, 136
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Swordsman-Elves
+  rotate: false
+  xy: 980, 116
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Swordsman-Elves-1
+  rotate: false
+  xy: 820, 120
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Swordsman-High Elves-1
+  rotate: false
+  xy: 820, 120
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Swordsman-Elves-2
+  rotate: false
+  xy: 860, 120
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Swordsman-High Elves-2
+  rotate: false
+  xy: 860, 120
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Swordsman-High Elves
+  rotate: false
+  xy: 900, 100
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Swordsman-Red Elves
+  rotate: false
+  xy: 940, 100
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Swordsman-Red Elves-1
+  rotate: false
+  xy: 980, 80
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Swordsman-Red Elves-2
+  rotate: false
+  xy: 780, 116
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Trireme-Demonic
+  rotate: false
+  xy: 980, 44
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Trireme-Drow
+  rotate: false
+  xy: 1020, 122
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Trireme-Drow-2
+  rotate: false
+  xy: 1020, 86
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Trireme-Elves
+  rotate: false
+  xy: 1020, 50
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Trireme-High Elves
+  rotate: false
+  xy: 1020, 50
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Trireme-Elves-2
+  rotate: false
+  xy: 1060, 122
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Trireme-High Elves-2
+  rotate: false
+  xy: 1060, 122
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Undead Champion
+  rotate: false
+  xy: 1060, 86
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Undead King
+  rotate: false
+  xy: 1100, 91
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Undead Warrior
+  rotate: false
+  xy: 1060, 50
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Unicorn
+  rotate: false
+  xy: 1100, 55
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Warrior-Demonic
+  rotate: false
+  xy: 1020, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Drow
   rotate: false
-  xy: 4, 73
+  xy: 1060, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Drow-2
   rotate: false
-  xy: 324, 67
+  xy: 1100, 19
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Elves-2
   rotate: false
-  xy: 324, 67
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Warrior-High Elves-2
-  rotate: false
-  xy: 324, 67
+  xy: 1100, 19
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Red Elves-2
   rotate: false
-  xy: 324, 67
+  xy: 1100, 19
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Dwarves
   rotate: false
-  xy: 244, 64
+  xy: 1140, 112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Dwarves-1
   rotate: false
-  xy: 444, 57
+  xy: 1180, 112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Dwarves-2
   rotate: false
-  xy: 44, 54
+  xy: 1140, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Elves
   rotate: false
-  xy: 84, 54
+  xy: 1140, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-High Elves
   rotate: false
-  xy: 124, 54
+  xy: 1180, 76
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Warrior-High Elves-2
+  rotate: false
+  xy: 1220, 80
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Red Elves
   rotate: false
-  xy: 364, 53
+  xy: 1260, 80
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wayfarer
   rotate: false
-  xy: 164, 52
+  xy: 1180, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wayfarer-2
   rotate: false
-  xy: 284, 47
+  xy: 1220, 44
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wizard
+  rotate: false
+  xy: 1260, 44
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wizard-Demonic
+  rotate: false
+  xy: 1300, 49
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wizard-Drow
+  rotate: false
+  xy: 1340, 48
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wizard-Dwarves
+  rotate: false
+  xy: 1380, 15
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wizard-Red Elves
+  rotate: false
+  xy: 1140, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats-Demonic
   rotate: false
-  xy: 404, 46
+  xy: 1180, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats-Drow
   rotate: false
-  xy: 404, 46
+  xy: 1180, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats-Dwarves
   rotate: false
-  xy: 204, 44
+  xy: 1220, 8
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats-Elves
   rotate: false
-  xy: 204, 44
+  xy: 1220, 8
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats-High Elves
   rotate: false
-  xy: 204, 44
+  xy: 1220, 8
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats-Red Elves
   rotate: false
-  xy: 204, 44
+  xy: 1220, 8
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Demonic
   rotate: false
-  xy: 4, 37
+  xy: 1260, 8
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Demonic-1
   rotate: false
-  xy: 324, 31
+  xy: 1300, 13
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Drow-1
   rotate: false
-  xy: 324, 31
+  xy: 1300, 13
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Elves-1
   rotate: false
-  xy: 324, 31
+  xy: 1300, 13
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-High Elves-1
   rotate: false
-  xy: 324, 31
+  xy: 1300, 13
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Red Elves-1
   rotate: false
-  xy: 324, 31
+  xy: 1300, 13
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Demonic-2
   rotate: false
-  xy: 244, 28
+  xy: 1340, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Drow
   rotate: false
-  xy: 444, 21
+  xy: 276, 190
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Drow-2
   rotate: false
-  xy: 44, 18
+  xy: 276, 154
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Elves-2
   rotate: false
-  xy: 44, 18
+  xy: 276, 154
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-High Elves-2
   rotate: false
-  xy: 44, 18
+  xy: 276, 154
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Red Elves-2
   rotate: false
-  xy: 44, 18
+  xy: 276, 154
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Dwarves
   rotate: false
-  xy: 84, 18
+  xy: 276, 118
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Dwarves-1
   rotate: false
-  xy: 124, 18
+  xy: 276, 82
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Dwarves-2
   rotate: false
-  xy: 364, 17
+  xy: 236, 49
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Elves
   rotate: false
-  xy: 164, 16
+  xy: 236, 13
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-High Elves
   rotate: false
-  xy: 284, 11
+  xy: 276, 46
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Red Elves
   rotate: false
-  xy: 404, 10
+  xy: 1500, 51
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Yi Sun-Sin
+  rotate: false
+  xy: 1540, 51
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Yi Sun-Sin-1
+  rotate: false
+  xy: 1580, 51
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Yi Sun-Sin-2
+  rotate: false
+  xy: 1500, 15
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Zhuge Liang
+  rotate: false
+  xy: 1580, 15
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Zhuge Liang-1
+  rotate: false
+  xy: 1620, 60
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Zhuge Liang-2
+  rotate: false
+  xy: 1620, 24
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Amber
   rotate: false
-  xy: 4, 960
+  xy: 4, 448
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Arkatore
   rotate: false
-  xy: 76, 960
+  xy: 4, 384
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Buffalo
   rotate: false
-  xy: 148, 960
+  xy: 76, 448
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Buffalo+Pasture
   rotate: false
-  xy: 220, 960
+  xy: 4, 320
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Buffalo+Pasture-Pillaged
   rotate: false
-  xy: 292, 952
+  xy: 76, 376
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Chocolate Hills
   rotate: false
-  xy: 364, 957
+  xy: 148, 445
   size: 64, 59
   orig: 64, 59
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Age of Zero
   rotate: false
-  xy: 436, 952
+  xy: 4, 248
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Feudal Age
   rotate: false
-  xy: 4, 888
+  xy: 4, 176
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Heroic Age
   rotate: false
-  xy: 76, 886
+  xy: 4, 102
   size: 64, 66
   orig: 64, 66
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City centerT-Age of Zero
   rotate: false
-  xy: 148, 888
+  xy: 4, 30
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City centerT-Feudal Age
   rotate: false
-  xy: 220, 888
+  xy: 220, 440
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City centerT-Heroic Age
   rotate: false
-  xy: 364, 883
+  xy: 292, 438
   size: 64, 66
   orig: 64, 66
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Coffee
   rotate: false
-  xy: 292, 888
+  xy: 364, 448
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Coffee+Plantation
   rotate: false
-  xy: 436, 888
+  xy: 436, 448
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Coffee+Plantation-Pillaged
   rotate: false
-  xy: 4, 820
+  xy: 508, 444
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Perfume+Plantation-Pillaged
   rotate: false
-  xy: 4, 820
+  xy: 508, 444
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Tea+Plantation-Pillaged
   rotate: false
-  xy: 4, 820
+  xy: 508, 444
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Corn
   rotate: false
-  xy: 148, 824
+  xy: 580, 448
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Deep Mine
   rotate: false
-  xy: 220, 816
+  xy: 652, 440
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Eilifur Gjosa
   rotate: false
-  xy: 292, 824
+  xy: 724, 448
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/FarmC
   rotate: false
-  xy: 436, 824
+  xy: 796, 448
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/FarmC-Pillaged
   rotate: false
-  xy: 76, 818
+  xy: 868, 444
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Forest HamletG
   rotate: false
-  xy: 364, 819
+  xy: 940, 448
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Forest HamletP
   rotate: false
-  xy: 148, 760
+  xy: 1012, 448
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Forest HamletT
   rotate: false
-  xy: 292, 760
+  xy: 1084, 448
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Holy Site
   rotate: false
-  xy: 4, 748
+  xy: 1156, 440
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Holy Site-Pillaged
   rotate: false
-  xy: 364, 747
+  xy: 1228, 440
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Holy SiteT-Pillaged
   rotate: false
-  xy: 364, 747
+  xy: 1228, 440
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Trade Hub-Pillaged
   rotate: false
-  xy: 364, 747
+  xy: 1228, 440
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Trade HubT-Pillaged
   rotate: false
-  xy: 364, 747
+  xy: 1228, 440
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Holy SiteT
   rotate: false
-  xy: 436, 747
+  xy: 1300, 440
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Ivory+CampT
   rotate: false
-  xy: 76, 754
+  xy: 1372, 448
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Ivory+CampT-Pillaged
   rotate: false
-  xy: 220, 748
+  xy: 1444, 444
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/IvoryT
   rotate: false
-  xy: 148, 696
+  xy: 1516, 448
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Jade
   rotate: false
-  xy: 292, 696
+  xy: 1588, 448
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Kelimutu
   rotate: false
-  xy: 76, 686
+  xy: 1660, 444
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Levitating Rocks
   rotate: false
-  xy: 4, 672
+  xy: 1732, 436
   size: 64, 68
   orig: 64, 68
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Man-eating Tree
   rotate: false
-  xy: 220, 682
+  xy: 1804, 447
   size: 64, 57
   orig: 64, 57
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mount Snowpeak
   rotate: false
-  xy: 364, 614
+  xy: 1876, 379
   size: 64, 125
   orig: 64, 125
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mythical Egg
   rotate: false
-  xy: 436, 683
+  xy: 1804, 383
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mythical Egg+Taming
   rotate: false
-  xy: 148, 632
+  xy: 1948, 448
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mythical Egg+Taming-Pillaged
   rotate: false
-  xy: 292, 628
+  xy: 1948, 380
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mythical Egg+TamingT-Pillaged
   rotate: false
-  xy: 292, 628
+  xy: 1948, 380
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mythical Egg+TamingT
   rotate: false
-  xy: 76, 622
+  xy: 580, 384
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Niter
   rotate: false
-  xy: 436, 619
+  xy: 652, 376
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Obsidian
   rotate: false
-  xy: 220, 618
+  xy: 724, 384
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Obsidian+Quarry
   rotate: false
-  xy: 4, 608
+  xy: 796, 384
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Obsidian+Quarry-Pillaged
   rotate: false
-  xy: 148, 560
+  xy: 868, 372
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Obsidian+QuarryT-Pillaged
   rotate: false
-  xy: 148, 560
+  xy: 868, 372
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Obsidian+QuarryT
   rotate: false
-  xy: 292, 564
+  xy: 940, 384
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Overgrowth Rift
   rotate: false
-  xy: 76, 558
+  xy: 1012, 384
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Perfume
   rotate: false
-  xy: 436, 555
+  xy: 1084, 384
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Perfume+Plantation
   rotate: false
-  xy: 220, 554
+  xy: 1156, 376
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Phantom Island
   rotate: false
-  xy: 364, 542
+  xy: 1228, 368
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/PlantationT
   rotate: false
-  xy: 4, 544
+  xy: 1300, 376
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Rune Stone
   rotate: false
-  xy: 292, 500
+  xy: 1372, 384
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Rune Stone2
   rotate: false
-  xy: 148, 496
+  xy: 1444, 380
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Rune Stone3
   rotate: false
-  xy: 76, 494
+  xy: 1516, 384
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Rune Stone4
   rotate: false
-  xy: 436, 491
+  xy: 1588, 384
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Tea
   rotate: false
-  xy: 220, 490
+  xy: 1660, 380
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Tea+Plantation
   rotate: false
-  xy: 4, 480
+  xy: 1732, 372
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Towering Reef
   rotate: false
-  xy: 364, 478
+  xy: 1804, 319
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Trade Hub
   rotate: false
-  xy: 292, 428
+  xy: 1876, 307
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Trade HubT
   rotate: false
-  xy: 148, 424
+  xy: 1948, 308
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Zamrud Rocks
   rotate: false
-  xy: 76, 426
+  xy: 940, 316
   size: 64, 60
   orig: 64, 60
   offset: 0, 0

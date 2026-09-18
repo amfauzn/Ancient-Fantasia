@@ -15,6 +15,7 @@
 * Garuda: [Eagle](https://thenounproject.com/icon/eagle-1025832/) by m. turan ercan, TH
 * Kraken: [Kraken](https://thenounproject.com/icon/kraken-4135921/) by Amethyst Studio
 * Roc: [hawk](https://thenounproject.com/icon/hawk-2183245/) by ProSymbols, US
+* Siren: [Mermaid](https://thenounproject.com/icon/mermaid-2464419/) by Tina Berrett
 * Wayfarer: from Civ 6 Skirmisher
 * Teleportation: edited from [effect teleport](https://thenounproject.com/icon/effect-teleport-2360029/) by Maxicons,TH
 * Amber: [Crystal](https://thenounproject.com/icon/crystal-1440050/) by Monjin Friends
@@ -27,7 +28,9 @@
 # Sprites
 * Mount Snowpeak & Phantom Island: Mariana Trench & Retba Island from Inverted World mod
 * FantasyHex Plantations by GeneralWadaling (AKA TheBucketeer)
-* reused sprites from base game: Cerro de Potosi,Old Faithful, Towering Reef
+* Dragon from LOTR mod
+* by [rica40](https://github.com/Rica40): Garuda, Slime, Peuchen, Sandworm, Minotaur, Arachne
+* reused sprites from base game: Cerro de Potosi, Old Faithful, Towering Reef, Ballista
 
 # Inspiration
 * Landoruel's Mother Tree: Nature Keeper's Mother Tree (Epic of Fantasy mod)
