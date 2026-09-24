@@ -284,5 +284,76 @@
 			"[+10]% weight to [Granary] for AI decisions",
 			"[+10]% weight to [Public Bath] for AI decisions"
 		]
-	}
+	},
+	
+	// Shurshana of Ilythiir
+	{
+		"name": "Vengeful Empress",
+		
+		"culture": 3,
+		"faith": 4,
+		"food": 5,
+		"gold": 6,
+		"happiness": 4,
+		"production": 6,
+		"science": 6,
+		
+		"military": 7,
+		"aggressive": 6,
+		"denounceWillingness": 5,
+		"declareWar": 7,
+		"commerce": 5,
+		"diplomacy": 3,
+		"loyal": 3,
+		"expansion": 6,
+		
+		"priorities": {
+			"Tradition": 4,
+			"Consolidation": 6,
+			"Honor": 7,
+			"Patronage": 3,
+			"Commerce": 5,
+			"Rationalism": 6
+		},
+		
+		"uniques": [
+			"Will not build [Novice Tamer]"
+		]
+	},
+	
+	// Aellerin of Windemer
+	{
+		"name": "Mother to the People",
+		
+		"culture": 4,
+		"faith": 5,
+		"food": 6,
+		"gold": 5,
+		"happiness": 4,
+		"production": 5,
+		"science": 8,
+		
+		"military": 6,
+		"aggressive": 4,
+		"denounceWillingness": 4,
+		"declareWar": 5,
+		"commerce": 6,
+		"diplomacy": 5,
+		"loyal": 8,
+		"expansion": 7,
+		
+		"priorities": {
+			"Tradition": 5,
+			"Consolidation": 6,
+			"Honor": 5,
+			"Patronage": 6,
+			"Commerce": 5,
+			"Rationalism": 8
+		},
+		
+		"uniques": [
+			"[+5]% weight to [Altar] for AI decisions",
+			"[+15]% weight to [Paper Maker] for AI decisions"
+		]
+	},
 ]

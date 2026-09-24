@@ -297,7 +297,7 @@
 			"Scientific": 5
 		},
 		"uniques": [
-			"[+100]% Gold from Great Merchant trade missions",
+			"[+25]% [Gold] [in capital]",
 			"Comment [Unlocks [Aldaka-Mar]]"
 		],
 		"policies": [
@@ -355,7 +355,7 @@
 			{
 				"name": "Commerce Complete",
 				"uniques": [
-					"Comment [Enables construction [Information Market]]",
+					"[+100]% Gold from Great Merchant trade missions",
 					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Mythical Age]>"
 				]
 			}

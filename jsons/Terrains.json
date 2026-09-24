@@ -127,7 +127,6 @@
 			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
 			"Always Fertility [-1] for Map Generation",
 			"Considered [Undesirable] when determining start locations",
-			//"Becomes [Tundra] when adjacent to [Crater Lake]",
 			"Becomes [Tundra] when adjacent to [River]",
 			"Every [18] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"Never receives any resources <in [Hill] tiles>",

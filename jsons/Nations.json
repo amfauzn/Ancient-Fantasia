@@ -352,6 +352,108 @@
 		]
 	},
 	
+	{
+		"name": "Ilythiir",
+		"leaderName": "Shurshana",
+		"adjective": ["Ilythiiri"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Domination",
+		"personality": "Vengeful Empress",
+		"style": "Drow",
+		
+		"startIntroPart1": "",
+		//"startIntroPart1": "The Ilythiiri Elves are a group of dark elves from the historical region of Underdark, located on today's eastern part of the Sumba Continent. As a highly militaristic society that valued strength and aggression, Ilythiir was known for its fierce warriors and its ruthless expansionism, frequently raiding nearby lands and enslaving their inhabitants. During the reign of matron mother Shurshana, Ilythiir achieved its maximum geographical extent, uniting the drow of Ilythiir, the drow of Themar, and the drow of Edhil.",
+		"startIntroPart2": "Oh Empress Shurshana, once again your people turn their gaze to you, hoping to reclaim the glory of Ilythiir! Will you  set out to conquer the neighboring kingdoms, further expanding the glory of your empire? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"denounced": "Interesting choice.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"introduction": "Poldorë! You must be grateful to witness the greatness of me, Shurshana.",
+		
+		"neutralHello": "Poldorë.",
+		"hateHello": "Speak!"
+		"tradeRequest": "This is better than you deserve, agree?",
+		
+		"outerColor": [114,162,233],
+		"innerColor": [ 61,  0,109],
+		
+		"uniqueName": "Children of the Darkness"
+		"uniques": [
+			"Cross Bloodline",
+			"[+15]% Strength <for [{Land} {non-[Flying]}] units> <for [10] turns> <upon declaring war on [Major] Civilizations>",
+			"Comment [New Military units start with additional 10 XP for every enemy capital cities you capture, up to additional 50 XP (not including City-States)]",
+			"Comment [Unhappiness penalty halved]",
+			
+			"New [Military] units start with [10] XP [in all cities] <when number of [[Original Capital] Buildings] is more than [1]> <hidden from users>",
+			"New [Military] units start with [20] XP [in all cities] <when number of [[Original Capital] Buildings] is more than [2]> <hidden from users>",
+			"New [Military] units start with [30] XP [in all cities] <when number of [[Original Capital] Buildings] is more than [3]> <hidden from users>",
+			"New [Military] units start with [40] XP [in all cities] <when number of [[Original Capital] Buildings] is more than [4]> <hidden from users>",
+			"New [Military] units start with [50] XP [in all cities] <when number of [[Original Capital] Buildings] is more than [5]> <hidden from users>",
+			
+			"[+25]% growth [in all cities] <when between [-5] and [-1] [Happiness]> <hidden from users>",
+			"[+38]% growth [in all cities] <when between [-10] and [-6] [Happiness]> <hidden from users>",
+			"[+18]% [Production] [in all cities] <when below [-10] [Happiness]> <hidden from users>",
+			"[+13]% Strength <for [All] units> <when below [-10] [Happiness]> <hidden from users>"
+		],
+		"cities": [
+			"Shurdriira","Helvion'lyr","Kalankoth","Despt'tar","Yolis","Omarryn","Noquani","Argath","Lashire","Chenlaena",
+			"Ordton","Xaryna","Alerough","Yauntyrr","Chysarae","Zauiryn","Goyln","Vinya Themar","A'el Dorei","Nessa Edhil"
+		]
+	},
+	
+	{
+		"name": "Windemer",
+		"leaderName": "Aellerin",
+		"adjective": ["Windari"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Mother to the People",
+		"style": "High Elves",
+		
+		"startIntroPart1": "The Windari are high elves of Balvaria, founders of Windemer that predates Aeltherion.",
+		"startIntroPart2": "Oh virtuous Aellerin! Your composed demeanor once protected the people from the many conflicts that plague the world, and the kingdom looks to you to assure peace once again. Will you lead the people with courage and authority, moving forward into a new age? Can you build a civilization that stands the test of time?",
+		
+		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
+		"attacked": "Oh, truly you are as cruel as your nicknaame.",
+		"denounced": "Your reckless pride will destroy you if you're not careful.",
+		"defeated": "And so the flower of Windemer falls to barbaric hands...",
+		"introduction": "Suili\u00eb. I am Aellerin of Windemer. Who are you, and why have you come?",
+		
+		"neutralHello": "Suili\u00eb.",
+		"hateHello": "What now?",
+		"tradeRequest": "Trading. It's a fine thing God has bring, don't you agree?",
+		
+        "outerColor": [ 12, 75, 25],
+        "innerColor": [157,172,255],
+		
+		"uniqueName": "Children of the Arcane"
+		"uniques": [
+			"Elves",
+			"Comment [+50% [Science] while researching [Science], [Faith], and Magic related technology]",
+			"[+2 Science] from every specialist [in all cities]",
+			
+			"[+50]% [Science] [in all cities] <while researching [Pottery]> <hidden from users>",
+			"[+50]% [Science] [in all cities] <while researching [Writing]> <hidden from users>",
+			"[+50]% [Science] [in all cities] <while researching [Philosophy]> <hidden from users>",
+			"[+50]% [Science] [in all cities] <while researching [Theology]> <hidden from users>",
+			"[+50]% [Science] [in all cities] <while researching [Education]> <hidden from users>",
+			"[+50]% [Science] [in all cities] <while researching [Chivalry]> <hidden from users>",
+			"[+50]% [Science] [in all cities] <while researching [Astronomy]> <hidden from users>",
+			"[+50]% [Science] [in all cities] <while researching [Acoustics]> <hidden from users>",
+			"[+50]% [Science] [in all cities] <while researching [Summoning Rituals]> <hidden from users>",
+			"[+50]% [Science] [in all cities] <while researching [Mass Media]> <hidden from users>",
+			"[+50]% [Science] [in all cities] <while researching [Alchemy]> <hidden from users>",
+			"[+50]% [Science] [in all cities] <while researching [Scientific Theory]> <hidden from users>",
+			"[+50]% [Science] [in all cities] <while researching [Enlightenments]> <hidden from users>",
+			"[+50]% [Science] [in all cities] <while researching [Manablasting]> <hidden from users>",
+			"[+50]% [Science] [in all cities] <while researching [Sacred Path]> <hidden from users>"
+		],
+		"cities": [
+			"Windemer","Elthar","Vaelaris","Tirion\u00eb","Calinest\u00eb","Sol'Enore","Aurivall","Vaeril","Thalassian-Vael","Aeltherion"
+		]
+	},
+	
 	// City-States
 	
 	// Agricultural
@@ -418,7 +520,7 @@
 		"adjective": ["Artizan"],
 		"cityStateType": "Ceremonial",
 		"startBias": ["Tundra"],
-		"style": "Kunakad",
+		"style": "Human",
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
 		"attacked": "You can see how fruitless this will be for you... right?",
@@ -647,7 +749,7 @@
 		"name": "Thalasia",
 		"adjective": ["Thalasii"],
 		"cityStateType": "Religious",
-		"style": "Glomon",
+		"style": "Human",
 		
 		"declaringWar": "Everyday you stray further from God. Let me show you the right path!",
 		"attacked": "You think God will permit your abominations?",
@@ -664,6 +766,7 @@
 		"innerColor": [185,12,12],
 		"uniques": [
 			"Can only heal by pillaging <for [Ranged] units>",
+			"[-5] HP when healing <for [Melee] units>",
 			"[+15]% Strength <within [2] tiles of a [Barbarian encampment]>",
 			"[+10]% Strength <in [Barbarian encampment] tiles>"
 		]

@@ -1,6 +1,6 @@
 {
 	"useColorAsBaseTerrain": "false",
-	"fallbackTileSet": null,
+	"fallbackTileSet": "FantasyHex",
 	"ruleVariants": {
 	
 		// Forest

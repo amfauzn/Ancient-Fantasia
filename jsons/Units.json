@@ -170,6 +170,21 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Bladedancer",
+		"unitType": "Sword",
+		"uniqueTo": "Ilythiir",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 30,
+		"cost": 160,
+		"requiredResource": "Iron",
+		"requiredTech": "Steel",
+		"obsoleteTech": "Pyromunitions",
+		"upgradesTo": "Musketman",
+		"promotions": ["Elusive","Blade Throwing"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Musketman",
 		"unitType": "Sword",
 		"movement": 2,
@@ -272,7 +287,7 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Scarlet Archon",
+		"name": "Archon",
 		"unitType": "Mounted",
 		"uniqueTo": "The Red Elves",
 		"replaces": "Knight",
@@ -488,6 +503,22 @@
 	},
 	
 	// Mage
+	{
+		"name": "Priest",
+		"unitType": "Mage",
+		"uniqueTo": "Windemer",
+		//"replaces": "Sorcerer",
+		"movement": 2,
+		"strength": 19,
+		"rangedStrength": 23,
+		"cost": 90,
+		"hurryCostModifier": 10,
+		"requiredTech": "Theology",
+		"obsoleteTech": "Mass Media",
+		"upgradesTo": "Sorcerer",
+		"promotions": ["Aura of Protection","Radiant Light"],
+		"attackSound": "cannon"
+	},
 	{
 		"name": "Sorcerer",
 		"unitType": "Mage",
@@ -774,7 +805,7 @@
 		"uniques": [
 			"Uncapturable",
 			"[+12] Strength <after discovering [Civil Service]>",
-			"May capture killed [Monster] units <with [40]% chance>"
+			"May capture killed [Monster] units <with [50]% chance>"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -856,7 +887,23 @@
 		"promotions": ["Hero","Teleportation","Bushido","Great Generals II"],
 		"uniques": [
 			"Hero",
-			"Only available <if [Oda Portal] is constructed>",
+			//"Only available <if [Oda Portal] is constructed>",
+			"Unbuildable",
+			"Uncapturable",
+			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Ken Arok",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 40,
+		"requiredResource": "Hero Limiter",
+		"promotions": ["Hero","Teleportation","Great Generals I"],
+		"uniques": [
+			"Hero",
+			//"Only available <if [Ken Arok Portal] is constructed>",
 			"Unbuildable",
 			"Uncapturable",
 			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
@@ -872,7 +919,7 @@
 		"promotions": ["Hero","Teleportation","Phalanx","Great Generals I"],
 		"uniques": [
 			"Hero",
-			"Only available <if [Leonidas Portal] is constructed>",
+			//"Only available <if [Leonidas Portal] is constructed>",
 			"Unbuildable",
 			"Uncapturable",
 			"[+50]% Strength <vs [Mounted] units>"
@@ -889,7 +936,7 @@
 		"promotions": ["Hero","Teleportation","River Warlord","Great Generals I"],
 		"uniques": [
 			"Hero",
-			"Only available <if [Askia Portal] is constructed>",
+			//"Only available <if [Askia Portal] is constructed>",
 			"Unbuildable",
 			"Uncapturable",
 			"Can move after attacking"
@@ -907,7 +954,7 @@
 		"promotions": ["Hero","Teleportation","Huntress","Great Generals II"],
 		"uniques": [
 			"Hero",
-			"Only available <if [Nzinga Portal] is constructed>",
+			//"Only available <if [Nzinga Portal] is constructed>",
 			"Unbuildable",
 			"Uncapturable",
 			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
@@ -924,7 +971,7 @@
 		"promotions": ["Hero","Teleportation","Rapid Fire","Great Generals II"],
 		"uniques": [
 			"Hero",
-			"Only available <if [Zhuge Portal] is constructed>",
+			//"Only available <if [Zhuge Portal] is constructed>",
 			"Unbuildable",
 			"Uncapturable",
 			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
@@ -941,7 +988,7 @@
 		"promotions": ["Hero","Teleportation","Victory Banner","Great Generals I"],
 		"uniques": [
 			"Hero",
-			"Only available <if [Jeanne Portal] is constructed>",
+			//"Only available <if [Jeanne Portal] is constructed>",
 			"Unbuildable",
 			"Uncapturable",
 			"[+200]% Strength <vs cities> <when attacking>",
@@ -958,7 +1005,7 @@
 		"promotions": ["Hero","Teleportation","Turtling","Great Admirals II"],
 		"uniques": [
 			"Hero",
-			"Only available <if [Sun-Sin Portal] is constructed>",
+			//"Only available <if [Sun-Sin Portal] is constructed>",
 			"Unbuildable",
 			"Uncapturable",
 			"Can see invisible [Water] units",
@@ -976,7 +1023,7 @@
 		"promotions": ["Hero","Teleportation","Sea Wolf","Coastal Raider I","Great Admirals I"],
 		"uniques": [
 			"Hero",
-			"Only available <if [de Ruyter Portal] is constructed>",
+			//"Only available <if [de Ruyter Portal] is constructed>",
 			"Unbuildable",
 			"Uncapturable",
 			"Can see invisible [Water] units",
@@ -1202,7 +1249,7 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Onggo-Inggi",
+		"name": "Siren",
 		"unitType": "Water Monster",
 		"uniqueTo": "Barbarians",
 		"movement": 4,
@@ -1211,8 +1258,7 @@
 		"requiredTech": "Sailing",
 		"obsoleteTech": "Compass",
 		"uniques": [
-			"[+200]% Strength <when attacking>",
-			"Self-destructs when attacking",
+			"[+50]% Strength <when attacking>",
 			"Uncapturable"
 		],
 		"attackSound": "nonmetalhit"
@@ -1316,6 +1362,7 @@
 		"strength": 30,
 		"cost": 160,
 		"requiredTech": "Iron Working",
+		"promotions": ["Call of the Dead"],
 		"uniques": [
 			"Boss",
 			"No damage penalty for wounded units",
@@ -1335,6 +1382,24 @@
 			"Uncapturable"
 		],
 		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Giant",
+		"unitType": "Foot Monster",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 26,
+		"cost": 130,
+		"requiredTech": "Theology",
+		"promotions": ["Intimidation"],
+		"uniques": [
+			"Boss",
+			"[+14] Strength <after discovering [Mass Media]>",
+			"[+20] Strength <after discovering [Manablasting]>",
+			"Limited to [1] per Civilization",
+			"Uncapturable"
+		],
+		"attackSound": "horse"
 	},
 	{
 		"name": "Scorpion Man",

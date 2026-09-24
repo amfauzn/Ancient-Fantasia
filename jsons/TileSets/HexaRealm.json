@@ -6,10 +6,8 @@
 	// Buffalo
 	"Grassland+Forest+Buffalo": ["Grassland","ForestGUp","Buffalo","ForestGLow"],
 	"Plains+Forest+Buffalo": ["Plains","ForestPUp","Buffalo","ForestPLow"],
-	"Grassland+Marsh+Buffalo": ["Grassland","Marsh","Buffalo"],
-	
-	// Fish
-	"Coast+Atoll+Fish": ["Coast","Atoll","FishA"],
+	"Grassland+Hill+Forest+Buffalo": ["Grassland+Hill","ForestGHUp","Buffalo","ForestGHLow"],
+	"Plains+Hill+Forest+Buffalo": ["Plains+Hill","ForestPHUp","Buffalo","ForestPLow"],
 	
 	// Mythical Egg
 	"Grassland+Jungle+Mythical Egg": ["Grassland","JungleGUp","Mythical Egg","JungleGLow"]

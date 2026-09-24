@@ -102,11 +102,6 @@
 		"uniques": [
 			"Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",
 			"Generated on every [10] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>"
-		],
-		"civilopediaText": [
-			{
-				"text": "A remarkably versatile grain, can be ground into flour and fed to livestock."
-			}
 		]
 	},
 	{
@@ -757,12 +752,24 @@
 	
 	// Counter
 	{
-		"name": "First Something",	
+		"name": "First Something",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Stockpiled",
 			"Doesn't generate naturally",
 			"Not shown on world screen",
+			"Cannot be traded", 
+			"Excluded from map editor", 
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Boss Monster Core",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Doesn't generate naturally",
+			"Not shown on world screen <without [Boss Monster Core]>",
 			"Cannot be traded", 
 			"Excluded from map editor", 
 			"Will not be displayed in Civilopedia"

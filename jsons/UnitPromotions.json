@@ -874,6 +874,7 @@
 			"[This Unit] loses the [Rooted] status <upon gaining the [Rooted] status> <hidden from users>",
 			"[This Unit] loses the [Bleeding] status <upon gaining the [Bleeding] status> <hidden from users>",
 			"[This Unit] loses the [Poisoned] status <upon gaining the [Poisoned] status> <hidden from users>",
+			"[This Unit] loses the [Blinded] status <upon gaining the [Blinded] status> <hidden from users>",
 			"[This Unit] loses the [Frightened] status <upon gaining the [Frightened] status> <hidden from users>",
 			"[This Unit] loses the [Webbed] status <upon gaining the [Frightened] status> <hidden from users>",
 			
@@ -1320,7 +1321,7 @@
 			"Comment [Invisible on [Forest] and [Jungle] if not move for the last 2 turns]",
 			"Invisible to others <in [Forest] tiles> <for units without [[Nightstalker] ability Cooldown]> <hidden from users>",
 			"Invisible to others <in [Jungle] tiles> <for units without [[Nightstalker] ability Cooldown]> <hidden from users>",
-			"[This Unit] gains the [[Nightstalker] ability Cooldown] status for [2] turn(s) <upon entering a [All] tile> <hidden from users>"
+			"[This Unit] gains the [[Nightstalker] ability Cooldown] status for [3] turn(s) <upon entering a [All] tile> <hidden from users>"
 		]
 	},
 	{
@@ -1328,6 +1329,52 @@
 		"uniques": [
 			"Comment [[[Nightstalker] ability] is on cooldown]",
 			"Will not be displayed in Civilopedia"
+		]
+	},
+	
+	// Ilythiir
+	{
+		"name": "Elusive",
+		"uniques": ["Withdraws before melee combat <with [50]% chance>"]
+	},
+	{
+		"name": "Blade Throwing",
+		"uniques": ["Before engaging in combat performs an extra ranged attack with [50]% of melee combat strength"]
+	},
+	
+	// Windemer
+	{
+		"name": "Aura of Protection",
+		"uniques": [
+			"Comment [Immune to status ailment for this and adjacent unit]",
+			"[This Unit] gains the [Protection Aura] promotion <hidden from users>",
+		],
+	},
+	{
+		"name": "Protection Aura",
+		"uniques": [
+			"Comment [Immune to status ailment]",
+			
+			"[This Unit] loses the [Burning] status <upon gaining the [Burning] status> <hidden from users>",
+			"[This Unit] loses the [Chilled] status <upon gaining the [Chilled] status> <hidden from users>",
+			"[This Unit] loses the [Rooted] status <upon gaining the [Rooted] status> <hidden from users>",
+			"[This Unit] loses the [Bleeding] status <upon gaining the [Bleeding] status> <hidden from users>",
+			"[This Unit] loses the [Poisoned] status <upon gaining the [Poisoned] status> <hidden from users>",
+			"[This Unit] loses the [Blinded] status <upon gaining the [Blinded] status> <hidden from users>",
+			"[This Unit] loses the [Frightened] status <upon gaining the [Frightened] status> <hidden from users>",
+			"[This Unit] loses the [Webbed] status <upon gaining the [Frightened] status> <hidden from users>",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Radiant Light",
+		"prerequisites": ["Elemental Awakening"],
+		"uniques": [
+			"Comment [Inflict [Blinded] on target]",
+			"[Target Unit] gains the [Blinded] status for [2] turn(s) <upon damaging a [Land] unit> <hidden from users>"
+		],
+		"civilopediaText": [
+			{ "text": "Blinded", "link": "Promotion/Blinded" }
 		]
 	},
 	
@@ -1423,6 +1470,17 @@
 	},
 	
 	
+	{
+		"name": "Blinded",
+		"uniques": [
+			"Ailment",
+			"Cannot attack",
+			"No Sight",
+			
+			"[-1]% Strength <hidden from users>"
+		],
+		"innerColor": [200, 0, 0]
+	},
 	{
 		"name": "Frightened",
 		"uniques": [

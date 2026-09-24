@@ -110,6 +110,27 @@
 		],
 		"requiredTech": "Bronze Working"
 	},
+	{
+		"name": "Arena of Blood",
+		"uniqueTo": "Ilythiir",
+		"replaces": "Barracks",
+		"cost": 50,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"New [Military] units start with [15] XP [in this city]",
+			"Comment [Free strongest available Sword-type unit appears]",
+			"Cost increases by [10] per owned city",
+			"Destroyed when the city is captured",
+			
+			"Free [Warrior] appears <before discovering [Iron Working]> <hidden from users>",
+			"Free [Swordsman] appears <after discovering [Iron Working]> <before discovering [Steel]> <hidden from users>",
+			"Free [Bladedancer] appears <after discovering [Steel]> <before discovering [Pyromunitions]> <hidden from users>",
+			"Free [Musketman] appears <after discovering [Pyromunitions]> <before discovering [Lasers]> <hidden from users>",
+			"Free [Lightsaberman] appears <after discovering [Lasers]> <hidden from users>"
+		],
+		"requiredTech": "Bronze Working"
+	},
 	
 	{
 		"name": "Lighthouse",
@@ -195,6 +216,16 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": ["Only available <when religion is enabled>"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Magic Tower",
+		"uniqueTo": "Windemer",
+		"replaces": "Temple",
+		"faith": 2,
+		"science": 1,
+		"maintenance": 2,
+		"uniques": ["[+2 Science] <after discovering [Scientific Theory]>"],
 		"requiredTech": "Philosophy"
 	},
 	{
@@ -405,7 +436,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"Comment [Unlock at [Iron Working] vs [Metal Casting]]",
+			"Comment [Unlocks at [Iron Working] vs [Metal Casting]]",
 			"Comment [Can be built in any city]",
 			"[+1 Production] from [Strategic resource] tiles [in this city]",
 			"[+15]% Production when constructing [{Land} {non-[Air Terror]}] units [in this city]"
@@ -784,6 +815,7 @@
 		"name": "Sukamerta",
 		"isWonder": true,
 		"science": 3,
+		"culture": 1,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": [
 			"Free Technology",
@@ -882,11 +914,11 @@
 	},
 	{
 		"name": "Anchor Statue",
+		"isWonder": true,
 		"cost": 475,
 		"culture": 1,
 		"gold": 5,
 		"greatPersonPoints": {"Great Merchant": 1},
-		"isWonder": true,
 		"uniques": [
 			"Must be next to [Coast]",
 			"Gain a free [Harbor] [in this city]",
@@ -1144,6 +1176,7 @@
 			"Comment [Unlocks All Hero]",
 			
 			"May buy [Oda Nobunaga] units for [300] [Faith] [in all cities] at an increasing price ([100]) <hidden from users>",
+			"May buy [Ken Arok] units for [300] [Faith] [in all cities] at an increasing price ([100]) <hidden from users>",
 			"May buy [Leonidas] units for [300] [Faith] [in all cities] at an increasing price ([100]) <hidden from users>",
 			"May buy [Askia] units for [300] [Faith] [in all cities] at an increasing price ([100]) <hidden from users>",
 			"May buy [Ana Nzinga] units for [300] [Faith] [in all cities] at an increasing price ([100]) <hidden from users>",
@@ -1207,7 +1240,7 @@
 			"Only available <in cities with a [Palace]> <in cities without a [Portal]>",
 			"Cannot be hurried",
 			"Moves to new capital when capital changes",
-			"Comment [May buy Hero units for 300 [Faith] in all cities at an increasing price 100]",
+			"Comment [May summon Hero units for 300 [Faith] in all cities at an increasing price 100]",
 			"Comment [Free Hero appears]"
 		],
 		"requiredTech": "Summoning Rituals"
@@ -1222,6 +1255,20 @@
 			"Moves to new capital when capital changes",
 			"May buy [Oda Nobunaga] units for [300] [Faith] [in all cities] at an increasing price ([100])",
 			"Free [Oda Nobunaga] appears",
+			"Will not be displayed in Civilopedia"
+		],
+		"requiredTech": "Summoning Rituals"
+	},
+	{
+		"name": "Ken Arok Portal",
+		"cost": 30,
+		"uniques": [
+			"Portal",
+			"Only available <in cities with a [Palace]> <in cities without a [Portal]>",
+			"Cannot be hurried",
+			"Moves to new capital when capital changes",
+			"May buy [Ken Arok] units for [300] [Faith] [in all cities] at an increasing price ([100])",
+			"Free [Ken Arok] appears",
 			"Will not be displayed in Civilopedia"
 		],
 		"requiredTech": "Summoning Rituals"
@@ -1302,6 +1349,7 @@
 		"uniques": [
 			"Portal",
 			"Only available <in cities with a [Palace]> <in cities without a [Portal]>",
+			"Must be next to [Coast]",
 			"Cannot be hurried",
 			"Moves to new capital when capital changes",
 			"May buy [Yi Sun-Sin] units for [300] [Faith] [in all cities] at an increasing price ([100])",
@@ -1316,6 +1364,7 @@
 		"uniques": [
 			"Portal",
 			"Only available <in cities with a [Palace]> <in cities without a [Portal]>",
+			"Must be next to [Coast]",
 			"Cannot be hurried",
 			"Moves to new capital when capital changes",
 			"May buy [Michiel de Ruyter] units for [300] [Faith] [in all cities] at an increasing price ([100])",
@@ -1453,6 +1502,19 @@
 			"Comment [Teaches simple potions and ingredient preparation]"
 		],
 		"requiredTech": "Enlightenments"
+	},
+	
+	{
+		"name": "Boss Gallery",
+		"isNationalWonder": true,
+		"cost": 1500,
+		"uniques": [
+			"Only available <when [Boss Hunting] Victory is enabled>",
+			"Only available <in cities with a [Palace]>",
+			"Only available <when above [6] [Boss Monster Core]>",
+			"Automatically built in all cities where it is buildable",
+			"Cannot be hurried"
+		]
 	},
 	
 	// Unique Mechanics
